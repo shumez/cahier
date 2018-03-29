@@ -1,14 +1,23 @@
-2018-03-07 Avena-Koenigsberger A, 2017
-======================================
-
 <!--
 @Author: shumez
 @Date:   2018-03-07 15:57:97
-@Email:  shumelancholie+dev<at>gmail.com
+@Project: Chaier
 @Filename: 180307_Avena-Koenigsberger_A_2017.md
 @Last modified by:   shumez
-@Last modified time: 2018-03-07 16:53:53
+@Last modified time: 2018-03-29 18:36:17
 -->
+
+2018-03-07 Avena-Koenigsberger A, 2017
+======================================
+
+```
+AU  - Avena-Koenigsberger, Andrea
+AU  - Misic, Bratislav
+AU  - Sporns, Olaf
+TI  - Communication dynamics in complex brain networks
+JO  - Nature Reviews Neuroscience
+UR  - http://dx.doi.org/10.1038/nrn.2017.149
+```
 
 https://www.nature.com/articles/nrn.2017.149
 
