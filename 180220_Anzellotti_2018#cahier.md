@@ -48,7 +48,8 @@ Contents
 ---
 
 
-## 1. Incorporation Multivariate Information into Our Understanding of Brain Networks
+1 Incorporation Multivariate Information into Our Understanding of Brain Networks
+---------------------------------------------------------------------------------
 
 outline:
 
@@ -57,14 +58,20 @@ outline:
 3. significance of the change of perspective
 
 
-## 2. From Univariate to Multivariate Signal
+2 From Univariate to Multivariate Signal
+----------------------------------------
 
 ### 2.1. Multivoxel Pattern Analysis
 
-## 3. Moving beyound Univariate Approaches to Connectivity
+
+3 Moving beyound Univariate Approaches to Connectivity
+------------------------------------------------------
 
 
-## 4. Modeling Regions' Multivariate Responses
+
+
+4 Modeling Regions' Multivariate Responses
+------------------------------------------
 
 ### 4.1. Informational Connectivity
 
