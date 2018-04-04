@@ -11,6 +11,8 @@
 18-02-20 Anzellotti, 2018
 =========================
 
+![cover]
+
 ```
 T1  - Beyond Functional Connectivity: Investigating Networks of Multivariate Representations
 AU  - Anzellotti, Stefano
@@ -87,4 +89,6 @@ outline:
 ---
 [orig]: /./ "..."
 [Mendeley]: https://www.mendeley.com/viewer/?fileId=2308889e-74ec-535f-510a-e84f7db771ab&documentId=3da3e288-289f-30ee-80dd-975003e6aee6 "..."
+
+[cover]: http://www.cell.com/cms/attachment/2119081328/2088929830/cover.tif.jpg
 [r01]: /./ "..."
