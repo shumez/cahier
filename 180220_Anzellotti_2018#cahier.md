@@ -20,38 +20,39 @@ AU  - Coutanche, Marc N.
 JF  - Trends in Cognitive Sciences
 UR  - http://dx.doi.org/10.1016/j.tics.2017.12.002
 ```
-http://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(17)30262-0
 
 
-<!-- [orig...][orig]   -->
-[Mendeley]
+
+- [Origin]
+
+- [Mendeley]
 
 
 Contents
 --------
 
-- 1: Incorporation Multivariate Information into Our Understanding of Brain Networks
-- 2: From Univariate to Multivariate Signal
-    - 1: Multivoxel Pattern Analysis
-- 3: Moving beyound Univariate Approaches to Connectivity
-- 4: Modeling Regions' Multivariate Responses
-    - 1: Informational Connectivity
-    - 2: Multivariate
-    - 3: Multivariate
-- 5: Modeling Interactiona
-    - 1: Informational
-    - 2: Structural
-    - 3: Multivariate Pattern
-    - 4: Nonlinear
-- 6: From Studying
-- 7: Concluding
+- [1]. Incorporation Multivariate Information into Our Understanding of Brain Networks
+- [2]. From Univariate to Multivariate Signal
+    - [2.1]. Multivoxel Pattern Analysis
+- [3]. Moving beyound Univariate Approaches to Connectivity
+- [4]. Modeling Regions' Multivariate Responses
+    - [4.1]. Informational Connectivity
+    - [4.2]. Multivariate
+    - [4.3]. Multivariate
+- [5]. Modeling Interactiona
+    - [5.1]. Informational
+    - [5.2]. Structural
+    - [5.3]. Multivariate Pattern
+    - [5.4]. Nonlinear
+- [6]. From Studying
+- [7]. Concluding
 
 
 ---
 
 
-1 Incorporation Multivariate Information into Our Understanding of Brain Networks
----------------------------------------------------------------------------------
+[1]. Incorporation Multivariate Information into Our Understanding of Brain Networks
+-----------------------------------------------------------------------------------
 
 outline:
 
@@ -60,35 +61,62 @@ outline:
 3. significance of the change of perspective
 
 
-2 From Univariate to Multivariate Signal
-----------------------------------------
+[2]. From Univariate to Multivariate Signal
+-------------------------------------------
 
-### 2.1. Multivoxel Pattern Analysis
-
-
-3 Moving beyound Univariate Approaches to Connectivity
-------------------------------------------------------
+### [2.1]. Multivoxel Pattern Analysis
 
 
+[3]. Moving beyond Univariate Approaches to Connectivity
+---------------------------------------------------------
 
-
-4 Modeling Regions' Multivariate Responses
-------------------------------------------
-
-### 4.1. Informational Connectivity
+- Informational connectivity
+- MVPA
 
 
 
 
 
-[r01...][r01]
+[4]. Modeling Regions' Multivariate Responses
+---------------------------------------------
+
+### [4.1]. Informational Connectivity
+
+**Informational connectivity**
+:
+
+[ref.24]
+
+### [4.2]. Multivariate Pattern Dependence
 
 
 
-
----
-[orig]: /./ "..."
-[Mendeley]: https://www.mendeley.com/viewer/?fileId=2308889e-74ec-535f-510a-e84f7db771ab&documentId=3da3e288-289f-30ee-80dd-975003e6aee6 "..."
 
 [cover]: http://www.cell.com/cms/attachment/2119081328/2088929830/cover.tif.jpg
-[r01]: /./ "..."
+
+[Origin]: http://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(17)30262-0
+[Mendeley]: https://www.mendeley.com/viewer/?fileId=2308889e-74ec-535f-510a-e84f7db771ab&documentId=3da3e288-289f-30ee-80dd-975003e6aee6 "..."
+
+[1]: .
+
+[2]: .
+[2.1]: .
+
+[3]: .
+
+[4]: .
+[4.1]: .
+[ref.24]: https://www.frontiersin.org/articles/10.3389/fnhum.2013.00015/full "Marc N. Coutanche, 2013"
+
+[4.2]: .
+[4.3]: .
+
+[5]: .
+[5.1]: .
+[5.2]: .
+[5.3]: .
+[5.4]: .
+
+[6]: .
+
+[7]: .
