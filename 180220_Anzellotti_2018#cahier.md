@@ -13,6 +13,8 @@
 
 ![cover]
 
+[Anzellotti, Stefano], [Coutanche, Marc N.], 2018
+
 ```
 T1  - Beyond Functional Connectivity: Investigating Networks of Multivariate Representations
 AU  - Anzellotti, Stefano
@@ -20,8 +22,6 @@ AU  - Coutanche, Marc N.
 JF  - Trends in Cognitive Sciences
 UR  - http://dx.doi.org/10.1016/j.tics.2017.12.002
 ```
-
-
 
 - [Origin]
 
@@ -52,19 +52,32 @@ Contents
 
 
 [1]. Incorporation Multivariate Information into Our Understanding of Brain Networks
------------------------------------------------------------------------------------
+-----------------------------------------------
+
+> ? what is the relationship  between teh information encoded in one brain reginon and the information encoded in another
+
+Functional Connectivity -> Multivariate analysis
+
 
 outline:
 
-1. advances / how this information is negledted
+1. advances / how this information is neglected
 2. recent tech
 3. significance of the change of perspective
+
 
 
 [2]. From Univariate to Multivariate Signal
 -------------------------------------------
 
+> univariate diff can reflect a wide variety of neural computations
+
+
 ### [2.1]. Multivoxel Pattern Analysis
+
+MVPA
+: ...
+
 
 
 [3]. Moving beyond Univariate Approaches to Connectivity
@@ -96,6 +109,9 @@ outline:
 
 [Origin]: http://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(17)30262-0
 [Mendeley]: https://www.mendeley.com/viewer/?fileId=2308889e-74ec-535f-510a-e84f7db771ab&documentId=3da3e288-289f-30ee-80dd-975003e6aee6 "..."
+
+[Anzellotti, Stefano]: https://scsb.mit.edu/people/scsb-postdoctoral-fellows/stefano-anzellotti/
+[Coutanche, Marc N.]: http://www.mcoutanche.com
 
 [1]: .
 
