@@ -54,6 +54,10 @@ Contents
 [1]. Incorporation Multivariate Information into Our Understanding of Brain Networks
 -----------------------------------------------
 
+###### ¶01
+
+###### ¶02
+
 > ? what is the relationship  between teh information encoded in one brain reginon and the information encoded in another
 
 Functional Connectivity -> Multivariate analysis
@@ -70,23 +74,47 @@ outline:
 [2]. From Univariate to Multivariate Signal
 -------------------------------------------
 
+###### ¶03
+
 > univariate diff can reflect a wide variety of neural computations
 
 
 ### [2.1]. Multivoxel Pattern Analysis
 
+###### ¶04
+
 MVPA
 : ...
 
-
+###### ¶05
 
 [3]. Moving beyond Univariate Approaches to Connectivity
 ---------------------------------------------------------
 
-- Informational connectivity
-- MVPA
+###### ¶06
+
+> traditional FC **NOT** measure fluctuations in info that is represented in multivox pattern
 
 
+###### ¶07
+
+2 approaches:
+1. Informational connectivity
+2. MVPA
+
+> they examine **the relationship between patterns of multiple brain regions**, such as using the patterns from one region to predict patterns in another region
+
+
+###### ¶08
+
+diff multivariate connectivity techs vary in:
+- how describe multivariate signal
+    - **classifier**
+    - points in multidim
+- model regional interaction
+    - correlation
+    - linear regression
+    - nonlinear model
 
 
 
@@ -94,6 +122,8 @@ MVPA
 ---------------------------------------------
 
 ### [4.1]. Informational Connectivity
+
+###### ¶09
 
 **Informational connectivity**
 :
