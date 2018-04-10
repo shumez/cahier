@@ -51,7 +51,7 @@ Contents
 ---
 
 
-[1]. Incorporation Multivariate Information into Our Understanding of Brain Networks
+[1] Incorporation Multivariate Information into Our Understanding of Brain Networks
 -----------------------------------------------
 
 ###### ¶01
@@ -71,15 +71,15 @@ outline:
 
 
 
-[2]. From Univariate to Multivariate Signal
--------------------------------------------
+[2] From Univariate to Multivariate Signal
+------------------------------------------
 
 ###### ¶03
 
 > univariate diff can reflect a wide variety of neural computations
 
 
-### [2.1]. Multivoxel Pattern Analysis
+### [2.1] Multivoxel Pattern Analysis
 
 ###### ¶04
 
@@ -88,13 +88,15 @@ MVPA
 
 ###### ¶05
 
-[3]. Moving beyond Univariate Approaches to Connectivity
----------------------------------------------------------
+[3] Moving beyond Univariate Approaches to Connectivity
+-------------------------------------------------------
 
 ###### ¶06
 
 > traditional FC **NOT** measure fluctuations in info that is represented in multivox pattern
 
+###### fig1
+![fig1]
 
 ###### ¶07
 
@@ -118,10 +120,10 @@ diff multivariate connectivity techs vary in:
 
 
 
-[4]. Modeling Regions' Multivariate Responses
----------------------------------------------
+[4] Modeling Regions' Multivariate Responses
 
-### [4.1]. Informational Connectivity
+
+### [4.1] Informational Connectivity
 
 ###### ¶09
 
