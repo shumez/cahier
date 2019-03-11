@@ -19,7 +19,7 @@
 
 
 <style type="text/css">
-	img{width: 400px; float: right;}
+	img{width: 50%; float: right;}
 </style>
 
 <!-- -------------------------------------------- -->
