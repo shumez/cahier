@@ -22,7 +22,7 @@ His Boss:
 - [Q-network](https://www.google.co.jp/search?q=q-network&oq=q-net&aqs=chrome.1.69i57j0l5.2750j0j7&sourceid=chrome&ie=UTF-8)
 
 
-- [DQN¤ÎÉú¤¤Á¢¤Á¡¡£«¡¡Deep Q-Network¤òChainer¤Ç•ø¤¤¤¿](http://qiita.com/Ugo-Nama/items/08c6a5f6a571335972d5)
+- [DQNÂ¤ÃÃ‰ÃºÂ¤Â¤ÃÂ¢Â¤ÃÂ¡Â¡Â£Â«Â¡Â¡Deep Q-NetworkÂ¤Ã²ChainerÂ¤Ã‡Â•Ã¸Â¤Â¤Â¤Â¿](http://qiita.com/Ugo-Nama/items/08c6a5f6a571335972d5)
 
 
 ### Convolutional neural network
