@@ -1,9 +1,9 @@
 <!--
-Filename: 	190311_BassettD2017.md
+Filename: 	190311_BassettDS_BullmoreET2017.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-03-11 20:23:9
-Modified: 	2019-03-14 21:47:51
+Modified: 	2019-03-15 13:55:43
 -----
 Copyright (c) 2019 shumez
 -->
