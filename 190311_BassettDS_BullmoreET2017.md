@@ -3,18 +3,14 @@ Filename: 	190311_BassettDS_BullmoreET2017.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-03-11 20:23:9
-Modified: 	2019-03-15 13:55:43
+Modified: 	2019-03-15 15:07:35
 -----
 Copyright (c) 2019 shumez
 -->
 
 # 19-03-11 Small-World Brain Networks Revisited
 
->
-
-<!-- ```tex
-
-``` -->
+Bassett, D.S. and Bullmore, E.T., 2017. Small-world brain networks revisited. The Neuroscientist, 23(5), pp.499-516.
 
 [Original][orig] | [Mendeley][mend]
 
@@ -104,7 +100,7 @@ Copyright (c) 2019 shumez
 
 ### Small-Worldness Is Not the Whole Story
 
-> Before getting further into the details of small-worldness, as we do below in relation to recent tract-tracing results, it is important to acknowledge that the specific metrics of path length ![][\Lambda] and clustering ![][\Gamma] introduced by Watts and Strogatz (1998), and the small-worldness scalar derived from them ![][\sigma=\frac{\Gamma}{\Lambda}] (Humphries and others 2006), are a few global topological metrics that have been of central importance to the growth of complex network science generally. But more than 15 years after the first discovery of small-world properties in brain networks, the field of connectomics now extends into many other areas of topological analysis. There is much important recent work on topological properties like degree distribution and hubness (Achard and others 2006), modularity (Bassett and others 2011b; Chen and others 2008; Mattar and others 2015; Meunier and others 2009; Simon 1962; Sporns and Betzel 2016; Stoop and others 2013), core/periphery organization (Bassett and others 2013; Senden and others 2014; van den Heuvel and Sporns 2011), controllability (Betzel and others 2016b; Gu and others 2015; Muldoon and others 2016b) and navigability (Gulyás and others 2015) that are not simply related to small-worldness. It is nothing like a complete description of the brain to say it is small world; we now turn to a more technical discussion of the evidence for small-worldness as a common property of nervous systems.
+> Before getting further into the details of small-worldness, as we do below in relation to recent tract-tracing results, it is important to acknowledge that the specific metrics of **path length ![][\Lambda]** and **clustering ![][\Gamma]** introduced by [Watts and Strogatz (1998)][1998StrogatzSH_WattsDJ], and the **small-worldness scalar** derived from them ![][\sigma=\frac{\Gamma}{\Lambda}] ([Humphries and others 2006][2006PrescottTJ_HumphriesMD]), are a few global topological metrics that have been of central importance to the growth of complex network science generally. But more than 15 years after the first discovery of small-world properties in brain networks, the field of connectomics now extends into many other areas of topological analysis. There is much important recent work on topological properties like **degree distribution** and **hubness** ([Achard and others 2006][2006BullmoreE_AchardS]), **modularity** ([Bassett and others 2011b][2011GraftonST_BassettDS]; [Chen and others 2008][2008EvansAC_ChenZJ]; [Mattar and others 2015][2015BassettDS_MattarMG]; [Meunier and others 2009][2009BullmoreE_MeunierD]; [Simon 1962][1962SimonH]; [Sporns and Betzel 2016][2016BetzelRF_SpornsO]; [Stoop and others 2013][2013StoopR_StoopR]), **core/periphery** organization ([Bassett and others 2013][2013GraftonST_BassettDS]; [Senden and others 2014][2014VanDenHeuvelMP_SendenM]; [van den Heuvel and Sporns 2011][2011SpornsO_VanDenHeuvelMP]), **controllability** ([Betzel and others 2016b][2016BassettDS_BetzelRF]; [Gu and others 2015][2015KahnAE_GuS]; [Muldoon and others 2016b][2016BassettDS_MuldoonSF]) and **navigability** ([Gulyás and others 2015][2015KrioulovD_GulyásA]) that are not simply related to small-worldness. It is nothing like a complete description of the brain to say it is small world; we now turn to a more technical discussion of the evidence for small-worldness as a common property of nervous systems.
 
 
 ## 3. Challenges to Small-Worldness
@@ -403,3 +399,13 @@ and
 [2013SiebenhuhnerF_BassettDS]: https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527671632.ch07 "Bassett, D.S. and Siebenhühner, F., 2013. Multiscale network organization in the human brain. Multiscale Analysis and Nonlinear Dynamics, pp.179-204."
 
 [2016SpornsO_BetzelRF]: https://www.sciencedirect.com/science/article/pii/S1053811915008563 "Betzel, R.F., Avena-Koenigsberger, A., Goñi, J., He, Y., De Reus, M.A., Griffa, A., Vértes, P.E., Mišic, B., Thiran, J.P., Hagmann, P. and Van Den Heuvel, M., 2016. Generative models of the human connectome. Neuroimage, 124, pp.1054-1064."
+
+[2015BassettDS_MattarMG]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004533 "Mattar, M.G., Cole, M.W., Thompson-Schill, S.L. and Bassett, D.S., 2015. A functional cartography of cognitive systems. PLoS computational biology, 11(12), p.e1004533."
+
+[2016BetzelRF_SpornsO]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782188/ "Sporns, O. and Betzel, R.F., 2016. Modular brain networks. Annual review of psychology, 67, pp.613-640."
+
+[2014VanDenHeuvelMP_SendenM]: https://repositori.upf.edu/bitstream/handle/10230/23126/Senden_Neuroimage.pdf?sequence=1&isAllowed=y "Senden, M., Deco, G., de Reus, M.A., Goebel, R. and van den Heuvel, M.P., 2014. Rich club organization supports a diverse set of functional network configurations. Neuroimage, 96, pp.174-182."
+
+[2016BassettDS_MuldoonSF]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005076 "Muldoon, S.F., Pasqualetti, F., Gu, S., Cieslak, M., Grafton, S.T., Vettel, J.M. and Bassett, D.S., 2016. Stimulation-based control of dynamic brain networks. PLoS computational biology, 12(9), p.e1005076."
+
+[2015KrioulovD_GulyásA]: https://www.nature.com/articles/ncomms8651?origin=ppub "Gulyás, A., Bíró, J.J., Kőrösi, A., Rétvári, G. and Krioukov, D., 2015. Navigable networks as Nash equilibria of navigation games. Nature communications, 6, p.7651."
