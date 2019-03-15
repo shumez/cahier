@@ -3,7 +3,7 @@ Filename: 	190311_BassettDS_BullmoreET2017.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-03-11 20:23:9
-Modified: 	2019-03-15 16:56:48
+Modified: 	2019-03-15 21:01:17
 -----
 Copyright (c) 2019 shumez
 -->
@@ -162,28 +162,24 @@ Bassett, D.S. and Bullmore, E.T., 2017. Small-world brain networks revisited. Th
 
 ### Weighted Graphs
 
-> Although binary graph analysis has predominated to date in analysis of brain networks, this certainly does not represent the methodological limit of graph theory for connectomics. For example, provided the data are of sufficient quality, there is no need to threshold the weight matrix to estimate topological properties like clustering, path length, and small-worldness. Indeed, while the binarization procedure was common in early applications of graph theory to neural data (van Wijk and others 2010), it remains fundamentally agnostic to architectural principles that may be encoded in edge weights (Rubinov and Sporns 2011). This realization has more generally motivated the field to develop methods that remain sensitive to the patterns of weights on the edges (Ginestet and others 2011), and to the topologies present in weak versus strong weights (Rubinov and Sporns 2011). These efforts have included the development of alternative thresholding schemes (Bassett and others 2012a; Lohse and others 2014) and fully weighted graph analysis (Bassett and others 2011b; Rubinov and Sporns 2011).
+> Although binary graph analysis has predominated to date in analysis of brain networks, this certainly does not represent the methodological limit of graph theory for connectomics. For example, provided the data are of sufficient quality, there is no need to threshold the weight matrix to estimate topological properties like clustering, path length, and small-worldness. Indeed, while the binarization procedure was common in early applications of graph theory to neural data ([van Wijk and others 2010][2010DaffertshoferA_vanWijkBC]), it remains fundamentally [agnostic](. "曖昧な, はっきりしない") to architectural principles that may be encoded in edge weights ([Rubinov and Sporns 2011][2011SpornsO_RubinovM]). This realization has more generally motivated the field to develop methods that remain sensitive to the patterns of weights on the edges ([Ginestet and others 2011][2011SimmonsA_GinestetCE]), and to the topologies present in weak versus strong weights ([Rubinov and Sporns 2011][2011SpornsO_RubinovM]). These efforts have included the development of alternative thresholding schemes ([Bassett and others 2012a][2012LimKO_BassettDS]; [Lohse and others 2014][2014CarlsonJM_LohseC]) and fully weighted graph analysis ([Bassett and others 2011b][2011GraftonST_BassettDS]; [Rubinov and Sporns 2011][2011SpornsO_RubinovM]).
 
-> The mathematical tools exist to estimate and simulate the topological properties of weighted networks, and analysis of weighted networks is akin to studying the geometry of the graph, rather than simply its topology (Bassett and others 2012b; Bassett and others 2013). For example, weighted analogues of binary metrics of clustering, path length and small-worldness can be defined formally (Fig. 2B). First, the weighted clustering coefficient of node \(i\) can be defined as 
+> The mathematical tools exist to estimate and simulate the topological properties of weighted networks, and analysis of weighted networks is akin to studying the geometry of the graph, rather than simply its topology ([Bassett and others 2012b][2012PorterMA_BassettDS]; [Bassett and others 2013][2013GraftonST_BassettDS]). For example, weighted analogues of binary metrics of clustering, path length and small-worldness can be defined formally ([Fig. 2B][fig02]). First, the weighted **clustering coefficient** of node ![][i] can be defined as 
 
 <!-- \[C_{\text{weighted}} = \frac{1}{k_i(k_i−1)} \sum_{j,k}(\hat{w}_{ij}\hat{w}_{jk}\hat{w}_{ik})^{\frac{1}{3}}\] -->
 ![][C_{\text{weighted}}=\frac{1}{k_i(k_i-1)}\sum_{j,k}(\hat{w}_{ij}\hat{w}_{jk}\hat{w}_{ik})^{\frac{1}{3}}],
 
-> where \(k_i\) is the number of edges connected to node \(i\), or degree of node \(i\) (Onnela and others 2005) (but see also Barrat and others 2004; Zhang and Horvath 2005 for other similar definitions). The weighted path length can be defined as
+> where ![][k_i] is the number of edges connected to node ![][i], or degree of node ![][i] ([Onnela and others 2005][2005KaskiK_OnnelaJP]) (but see also [Barrat and others 2004][2004VespignaniA_BarratA]; [Zhang and Horvath 2005][2005HorvathS_ZhangB] for other similar definitions). The weighted path length can be defined as
 
 <!-- \[L_{\text{weighted}} = \frac{1}{N(N−1)} \sum_{i≠j}δ_{ij}\] -->
 ![][L_{\text{weighted}}=\frac{1}{N(N-1)}\sum_{i\neq&space;j}\delta_{ij}],
 
-> where the topological distance between two nodes is given by \(δ_{ij}=\frac{1}{w_{ij}}\) (Newman 2001). These two statistics can be combined to construct a weighted metric of small-worldness (Bolaños and others 2013):
+> where the topological distance between two nodes is given by ![][\delta_{ij}=\frac{1}{w_{ij}}] ([Newman 2001][2001NewmanMEJ]). These two statistics can be combined to construct a weighted metric of small-worldness ([Bolaños and others 2013][2013AviyenteS_BolañosM]):
 
 <!-- \[σ_{\text{weighted}}=\frac{Γ_{\text{weighted}}}{Λ_{\text{weighted}}}\] -->
 ![][\sigma_{\text{weighted}}=\frac{\Gamma_{\text{weighted}}}{\Lambda_{\text{weighted}}}].
 
-> With these definitions, small-world networks will have \(Γ_{\text{weighted}}>1\), \(Λ_{\text{weighted}}~1\), and \(σ_{\text{weighted}}>1\) (Humphries and others 2006).
-
-[C_{\text{weighted}}=\frac{1}{k_i(k_i-1)}\sum_{j,k}(\hat{w}_{ij}\hat{w}_{jk}\hat{w}_{ik})^{\frac{1}{3}}]: https://latex.codecogs.com/gif.latex?C_{\text{weighted}}=\frac{1}{k_i(k_i-1)}\sum_{j,k}(\hat{w}_{ij}\hat{w}_{jk}\hat{w}_{ik})^{\frac{1}{3}}
-[L_{\text{weighted}}=\frac{1}{N(N-1)}\sum_{i\neq&space;j}\delta_{ij}]: https://latex.codecogs.com/gif.latex?L_{\text{weighted}}=\frac{1}{N(N-1)}\sum_{i\neq&space;j}\delta_{ij}
-[\sigma_{\text{weighted}}=\frac{\Gamma_{\text{weighted}}}{\Lambda_{\text{weighted}}}]: https://latex.codecogs.com/gif.latex?\sigma_{\text{weighted}}=\frac{\Gamma_{\text{weighted}}}{\Lambda_{\text{weighted}}}
+> With these definitions, small-world networks will have ![][\Gamma_{\text{weighted}}>1], ![][\Lambda_{\text{weighted}}\sim1], and ![][\sigma_{\text{weighted}}>1] ([Humphries and others 2006][2006PrescottTJ_HumphriesMD]).
 
 
 ### The Small-World Propensity
@@ -362,6 +358,17 @@ and
 [\sigma=\frac{\Gamma}{\Lambda}]: https://latex.codecogs.com/gif.latex?\sigma=\frac{\Gamma}{\Lambda}
 [\Gamma>1]: https://latex.codecogs.com/gif.latex?\Gamma>1
 [\Lambda\sim1]: https://latex.codecogs.com/gif.latex?\Lambda\sim1
+[C_{\text{weighted}}=\frac{1}{k_i(k_i-1)}\sum_{j,k}(\hat{w}_{ij}\hat{w}_{jk}\hat{w}_{ik})^{\frac{1}{3}}]: https://latex.codecogs.com/gif.latex?C_{\text{weighted}}=\frac{1}{k_i(k_i-1)}\sum_{j,k}(\hat{w}_{ij}\hat{w}_{jk}\hat{w}_{ik})^{\frac{1}{3}}
+[k_i]: https://latex.codecogs.com/gif.latex?k_i
+[L_{\text{weighted}}=\frac{1}{N(N-1)}\sum_{i\neq&space;j}\delta_{ij}]: https://latex.codecogs.com/gif.latex?L_{\text{weighted}}=\frac{1}{N(N-1)}\sum_{i\neq&space;j}\delta_{ij}
+[\delta_{ij}=\frac{1}{w_{ij}}]: https://latex.codecogs.com/gif.latex?\delta_{ij}=\frac{1}{w_{ij}}
+[\sigma_{\text{weighted}}=\frac{\Gamma_{\text{weighted}}}{\Lambda_{\text{weighted}}}]: https://latex.codecogs.com/gif.latex?\sigma_{\text{weighted}}=\frac{\Gamma_{\text{weighted}}}{\Lambda_{\text{weighted}}}
+[\Gamma_{\text{weighted}}>1]: https://latex.codecogs.com/gif.latex?\Gamma_{\text{weighted}}>1
+[\Lambda_{\text{weighted}}\sim1]: https://latex.codecogs.com/gif.latex?\Lambda_{\text{weighted}}\sim1
+[\sigma_{\text{weighted}}>1]: https://latex.codecogs.com/gif.latex?\sigma_{\text{weighted}}>1
+
+
+
 
 
 [c_i:=\frac{L_i}{\frac{k_i(k_i-1)}{2}}]: https://latex.codecogs.com/gif.latex?c_i:=\frac{L_i}{\frac{k_i(k_i-1)}{2}}
@@ -383,40 +390,30 @@ and
 [fig08]: https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/nroa/2017/nroa_23_5/1073858416667720/20170913/images/medium/10.1177_1073858416667720-fig8.gif ""
 
 [ref01]: .
-<!-- 01 -->
+
+
 [1967MilgramS]: http://files.diario-de-bordo-redes-conecti.webnode.com/200000013-211982212c/AN%20EXPERIMENTAL%20STUDY%20by%20Travers%20and%20Milgram.pdf "Milgram, S., 1967. The small world problem. Psychology today, 2(1), pp.60-67."
+[1979BollobásB]: .
+[1985BollobásB]: .
+[1986WhiteJG]: https://pdfs.semanticscholar.org/62d3/6f23580ae0c822ebc7de69ae603d85441bfc.pdf?_ga=2.198902187.568766748.1552464667-1255646428.1552464667 "White, J.G., Southgate, E., Thomson, J.N. and Brenner, S., 1986. The structure of the nervous system of the nematode Caenorhabditis elegans. Philos Trans R Soc Lond B Biol Sci, 314(1165), pp.1-340."
 [1998StrogatzSH_WattsDJ]: http://leonidzhukov.net/hse/2014/socialnetworks/papers/watts-collective_dynamics-nature_1998.pdf "Watts, D.J. and Strogatz, S.H., 1998. Collective dynamics of ‘small-world’networks. nature, 393(6684), p.440."
 [2004KötterR_SpornsO]: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020369 "Sporns, O. and Kötter, R., 2004. Motifs in brain networks. PLoS biology, 2(11), p.e369."
-<!-- fig.3 -->
-[2009CaoL_LiX]: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.066101 "Li, X. and Cao, L., 2009. Largest Laplacian eigenvalue predicts the emergence of costly punishment in the evolutionary ultimatum game on networks. Physical Review E, 80(6), p.066101."
-[2011HaraN_KonishiK]: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.036204 "Konishi, K. and Hara, N., 2011. Topology-free stability of a steady state in network systems with dynamic connections. Physical Review E, 83(3), p.036204."
-[2006PrescottTJ_HumphriesMD]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1560205/ "Humphries, M.D., Gurney, K. and Prescott, T.J., 2005. The brainstem reticular formation is a small-world, not scale-free, network. Proceedings of the Royal Society B: Biological Sciences, 273(1585), pp.503-511."
-[2011LaurientiPJ_TelesfordQK]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3604768/ "Telesford, Q.K., Joyce, K.E., Hayasaka, S., Burdette, J.H. and Laurienti, P.J., 2011. The ubiquity of small-world networks. Brain connectivity, 1(5), pp.367-375."
-[2012AstolfiL_ToppiJ]: https://www.hindawi.com/journals/cmmm/2012/130985/abs/ "Toppi, J., de Vico Fallani, F., Vecchiato, G., Maglione, A.G., Cincotti, F., Mattia, D., Salinari, S., Babiloni, F. and Astolfi, L., 2012. How the statistical validation of functional connectivity patterns can prevent erroneous definition of small-world properties of a brain connectivity network. Computational and mathematical methods in medicine, 2012."
-
-
-[1986WhiteJG]: https://pdfs.semanticscholar.org/62d3/6f23580ae0c822ebc7de69ae603d85441bfc.pdf?_ga=2.198902187.568766748.1552464667-1255646428.1552464667 "White, J.G., Southgate, E., Thomson, J.N. and Brenner, S., 1986. The structure of the nervous system of the nematode Caenorhabditis elegans. Philos Trans R Soc Lond B Biol Sci, 314(1165), pp.1-340."
-
-[2016FornitoA]: https://books.google.co.jp/books?hl=en&lr=&id=Hc-cBAAAQBAJ&oi=fnd&pg=PP1&dq=Fornito+2016&ots=AMBCDkYY6b&sig=6alKVgYUMXmOd7cRxkTn-8KCLQ8#v=onepage&q&f=false "Fornito, A., Zalesky, A. and Bullmore, E., 2016. Fundamentals of brain network analysis. Academic Press."
-
-[2011SpornsO]: https://mitpress.mit.edu/books/networks-brain "Sporns, O., 2010. Networks of the Brain. MIT press."
-
-[2013SiebenhuhnerF_BassettDS]: https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527671632.ch07 "Bassett, D.S. and Siebenhühner, F., 2013. Multiscale network organization in the human brain. Multiscale Analysis and Nonlinear Dynamics, pp.179-204."
-
-[2016SpornsO_BetzelRF]: https://www.sciencedirect.com/science/article/pii/S1053811915008563 "Betzel, R.F., Avena-Koenigsberger, A., Goñi, J., He, Y., De Reus, M.A., Griffa, A., Vértes, P.E., Mišic, B., Thiran, J.P., Hagmann, P. and Van Den Heuvel, M., 2016. Generative models of the human connectome. Neuroimage, 124, pp.1054-1064."
-
 [2006BullmoreE_AchardS]: http://www.jneurosci.org/content/jneuro/26/1/63.full.pdf "Achard, S., Salvador, R., Whitcher, B., Suckling, J. and Bullmore, E.D., 2006. A resilient, low-frequency, small-world human brain functional network with highly connected association cortical hubs. Journal of Neuroscience, 26(1), pp.63-72."
-
-[2015BassettDS_MattarMG]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004533 "Mattar, M.G., Cole, M.W., Thompson-Schill, S.L. and Bassett, D.S., 2015. A functional cartography of cognitive systems. PLoS computational biology, 11(12), p.e1004533."
-
-[2016BetzelRF_SpornsO]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782188/ "Sporns, O. and Betzel, R.F., 2016. Modular brain networks. Annual review of psychology, 67, pp.613-640."
-
-[2014VanDenHeuvelMP_SendenM]: https://repositori.upf.edu/bitstream/handle/10230/23126/Senden_Neuroimage.pdf?sequence=1&isAllowed=y "Senden, M., Deco, G., de Reus, M.A., Goebel, R. and van den Heuvel, M.P., 2014. Rich club organization supports a diverse set of functional network configurations. Neuroimage, 96, pp.174-182."
-
-[2016BassettDS_MuldoonSF]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005076 "Muldoon, S.F., Pasqualetti, F., Gu, S., Cieslak, M., Grafton, S.T., Vettel, J.M. and Bassett, D.S., 2016. Stimulation-based control of dynamic brain networks. PLoS computational biology, 12(9), p.e1005076."
-
-[2015KrioulovD_GulyásA]: https://www.nature.com/articles/ncomms8651?origin=ppub "Gulyás, A., Bíró, J.J., Kőrösi, A., Rétvári, G. and Krioukov, D., 2015. Navigable networks as Nash equilibria of navigation games. Nature communications, 6, p.7651."
-
-[2013KennedyH_MarkovNT]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3905047/ "Markov, N.T., Ercsey-Ravasz, M., Van Essen, D.C., Knoblauch, K., Toroczkai, Z. and Kennedy, H., 2013. Cortical high-density counterstream architectures. Science, 342(6158), p.1238406."
-
+[2006PrescottTJ_HumphriesMD]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1560205/ "Humphries, M.D., Gurney, K. and Prescott, T.J., 2005. The brainstem reticular formation is a small-world, not scale-free, network. Proceedings of the Royal Society B: Biological Sciences, 273(1585), pp.503-511."
+[2009CaoL_LiX]: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.066101 "Li, X. and Cao, L., 2009. Largest Laplacian eigenvalue predicts the emergence of costly punishment in the evolutionary ultimatum game on networks. Physical Review E, 80(6), p.066101."
 [2010BullmoreE_LynallME]: http://www.jneurosci.org/content/jneuro/30/28/9477.full.pdf "Lynall, M.E., Bassett, D.S., Kerwin, R., McKenna, P.J., Kitzbichler, M., Muller, U. and Bullmore, E., 2010. Functional connectivity and brain networks in schizophrenia. Journal of Neuroscience, 30(28), pp.9477-9487."
+[2010DaffertshoferA_vanWijkBC]: .
+[2011HaraN_KonishiK]: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.036204 "Konishi, K. and Hara, N., 2011. Topology-free stability of a steady state in network systems with dynamic connections. Physical Review E, 83(3), p.036204."
+[2011LaurientiPJ_TelesfordQK]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3604768/ "Telesford, Q.K., Joyce, K.E., Hayasaka, S., Burdette, J.H. and Laurienti, P.J., 2011. The ubiquity of small-world networks. Brain connectivity, 1(5), pp.367-375."
+[2011SpornsO]: https://mitpress.mit.edu/books/networks-brain "Sporns, O., 2010. Networks of the Brain. MIT press."
+[2011SpornsO_RubinovM]: .
+[2012AstolfiL_ToppiJ]: https://www.hindawi.com/journals/cmmm/2012/130985/abs/ "Toppi, J., de Vico Fallani, F., Vecchiato, G., Maglione, A.G., Cincotti, F., Mattia, D., Salinari, S., Babiloni, F. and Astolfi, L., 2012. How the statistical validation of functional connectivity patterns can prevent erroneous definition of small-world properties of a brain connectivity network. Computational and mathematical methods in medicine, 2012."
+[2013KennedyH_MarkovNT]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3905047/ "Markov, N.T., Ercsey-Ravasz, M., Van Essen, D.C., Knoblauch, K., Toroczkai, Z. and Kennedy, H., 2013. Cortical high-density counterstream architectures. Science, 342(6158), p.1238406."
+[2013SiebenhuhnerF_BassettDS]: https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527671632.ch07 "Bassett, D.S. and Siebenhühner, F., 2013. Multiscale network organization in the human brain. Multiscale Analysis and Nonlinear Dynamics, pp.179-204."
+[2014VanDenHeuvelMP_SendenM]: https://repositori.upf.edu/bitstream/handle/10230/23126/Senden_Neuroimage.pdf?sequence=1&isAllowed=y "Senden, M., Deco, G., de Reus, M.A., Goebel, R. and van den Heuvel, M.P., 2014. Rich club organization supports a diverse set of functional network configurations. Neuroimage, 96, pp.174-182."
+[2015BassettDS_MattarMG]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004533 "Mattar, M.G., Cole, M.W., Thompson-Schill, S.L. and Bassett, D.S., 2015. A functional cartography of cognitive systems. PLoS computational biology, 11(12), p.e1004533."
+[2015KrioulovD_GulyásA]: https://www.nature.com/articles/ncomms8651?origin=ppub "Gulyás, A., Bíró, J.J., Kőrösi, A., Rétvári, G. and Krioukov, D., 2015. Navigable networks as Nash equilibria of navigation games. Nature communications, 6, p.7651."
+[2016BassettDS_MuldoonSF]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005076 "Muldoon, S.F., Pasqualetti, F., Gu, S., Cieslak, M., Grafton, S.T., Vettel, J.M. and Bassett, D.S., 2016. Stimulation-based control of dynamic brain networks. PLoS computational biology, 12(9), p.e1005076."
+[2016BetzelRF_SpornsO]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782188/ "Sporns, O. and Betzel, R.F., 2016. Modular brain networks. Annual review of psychology, 67, pp.613-640."
+[2016FornitoA]: https://books.google.co.jp/books?hl=en&lr=&id=Hc-cBAAAQBAJ&oi=fnd&pg=PP1&dq=Fornito+2016&ots=AMBCDkYY6b&sig=6alKVgYUMXmOd7cRxkTn-8KCLQ8#v=onepage&q&f=false "Fornito, A., Zalesky, A. and Bullmore, E., 2016. Fundamentals of brain network analysis. Academic Press."
+[2016SpornsO_BetzelRF]: https://www.sciencedirect.com/science/article/pii/S1053811915008563 "Betzel, R.F., Avena-Koenigsberger, A., Goñi, J., He, Y., De Reus, M.A., Griffa, A., Vértes, P.E., Mišic, B., Thiran, J.P., Hagmann, P. and Van Den Heuvel, M., 2016. Generative models of the human connectome. Neuroimage, 124, pp.1054-1064."
