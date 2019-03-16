@@ -3,7 +3,7 @@ Filename: 	190311_BassettDS_BullmoreET2017.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-03-11 20:23:9
-Modified: 	2019-03-15 21:40:44
+Modified: 	2019-03-16 15:08:28
 -----
 Copyright (c) 2019 shumez
 -->
@@ -184,7 +184,7 @@ Bassett, D.S. and Bullmore, E.T., 2017. Small-world brain networks revisited. Th
 
 ### The Small-World Propensity
 
-> There are several important limitations to the definitions of small-worldness described in the previous sections. First, the small-world scalar ![][\sigma] (whether binary or weighted) can be greater than 1 even in cases when the normalized path length is much greater than one; because it is defined as a ratio, if ![][\gamma>>1] and ![][\lambda>1], the scalar ![][\sigma>1] This means that a small-world network will always have ![][\sigma>1], but not all networks with ![][\sigma>1] will be small-world (some of them may have greater path length than random graphs). Second, the measure is strongly driven by the density of the graph, and denser networks will naturally have smaller values of ![][\sigma] even if they are in fact generated from an identical small-world model. To address these and other limitations, Muldoon and colleagues recently developed a metric called the **small-world [propensity](. "傾向")**. Specifically, the small-world propensity, ![][\phi], reflects the deviation of a network’s clustering coefficient, ![][C_{\text{brain}}], and characteristic path length, ![][L_{\text{brain}}], from both lattice (![][C_{\text{lattice}}], ![][L_{\text{lattice}}]) and random (![][C_{\text{random}}], ![][L_{\text{random}}]) networks constructed with the same number of nodes and the same degree distribution:
+> There are several important limitations to the definitions of small-worldness described in the previous sections. First, the small-world scalar ![][\sigma] (whether binary or weighted) can be greater than 1 even in cases when the normalized path length is much greater than one; because it is defined as a ratio, if ![][\gamma\gg1] and ![][\lambda>1], the scalar ![][\sigma>1] This means that a small-world network will always have ![][\sigma>1], but not all networks with ![][\sigma>1] will be small-world (some of them may have greater path length than random graphs). Second, the measure is strongly driven by the density of the graph, and denser networks will naturally have smaller values of ![][\sigma] even if they are in fact generated from an identical small-world model. To address these and other limitations, Muldoon and colleagues recently developed a metric called the **small-world [propensity](. "傾向")**. Specifically, the small-world propensity, ![][\phi], reflects the deviation of a network’s clustering coefficient, ![][C_{\text{brain}}], and characteristic path length, ![][L_{\text{brain}}], from both lattice (![][C_{\text{lattice}}], ![][L_{\text{lattice}}]) and random (![][C_{\text{random}}], ![][L_{\text{random}}]) networks constructed with the same number of nodes and the same degree distribution:
 
 <!-- \[ϕ=1−\sqrt{\frac{Δ^2_C+Δ^2_L}{2}}\] -->
 ![][\phi=1-\sqrt{\frac{\Delta^2_C+\Delta^2_L}{2}}],
@@ -199,7 +199,7 @@ and
 <!-- \[ΔL=\frac{L_{\text{brain}}−L_{\text{random}}}{L_{\text{lattice}}−L_{\text{random}}}\] -->
 ![][\Delta&space;L=\frac{L_{\text{brain}}-L_{\text{random}}}{L_{\text{lattice}}-L_{\text{random}}}].
 
-> The ratio ![][\Delta_{C/L}] represents the fractional deviation of the metric ![][C_{\text{brain}}] or ![][L_{\text{brain}}]) from its respective null model (a lattice or random network). This quantity can be calculated for binary networks (using binary definitions of clustering and path length) or for weighted networks (using weighted definitions of clustering and path length). Networks are considered small-world if they have small-world propensity \(0.4<ϕ≤1\). However, this metric should be viewed as a continuous metric of small-worldness rather than a hard threshold (Muldoon and others 2016a).
+> The ratio ![][\Delta_{C/L}] represents the fractional deviation of the metric ![][C_{\text{brain}}] or ![][L_{\text{brain}}]) from its respective null model (a lattice or random network). This quantity can be calculated for binary networks (using binary definitions of clustering and path length) or for weighted networks (using weighted definitions of clustering and path length). Networks are considered small-world if they have small-world propensity ![][0.4<\phi\leq1]. However, this metric should be viewed as a continuous metric of small-worldness rather than a hard threshold (Muldoon and others 2016a).
 
 > Importantly, the small-world propensity overcomes several limitations of previous scalar definitions of small-worldness (Muldoon and others 2016a). First, it can incorporate weighted estimates of both the clustering coefficient and path-length, thus being generally applicable to any neural data that can be represented as a weighted network. Second, it is density independent, meaning that it can be used to compare the relative small-worldness between two networks that have very different densities from one another. Third, the metric is informed by spatially-constrained null models (Bassett and others 2015; Expert and others 2011; Papadopoulus and others 2016) in which nodes have physical locations and the edges that correspond to the smallest Euclidean distance between nodes are assigned the highest weights (Barthélemy 2011) (Fig. 5).
 
@@ -366,13 +366,14 @@ and
 [\sigma_{\text{weighted}}>1]: https://latex.codecogs.com/gif.latex?\sigma_{\text{weighted}}>1
 
 <!-- The Small-World Propensity -->
-[\gamma>>1]: https://latex.codecogs.com/gif.latex?\gamma>>1
+[\gamma\gg1]: https://latex.codecogs.com/gif.latex?\gamma\gg1
 [\lambda>1]: https://latex.codecogs.com/gif.latex?\lambda>1
 [\phi]: https://latex.codecogs.com/gif.latex?\phi
 [L_{\text{brain}}]: https://latex.codecogs.com/gif.latex?L_{\text{brain}}
 [C_{\text{lattice}}]: https://latex.codecogs.com/gif.latex?C_{\text{lattice}}
 [L_{\text{lattice}}]: https://latex.codecogs.com/gif.latex?L_{\text{lattice}}
-[L_{\text{random}}: https://latex.codecogs.com/gif.latex?L_{\text{random}}
+[L_{\text{random}}]: https://latex.codecogs.com/gif.latex?L_{\text{random}}
+[0.4<\phi\leq1]: https://latex.codecogs.com/gif.latex?0.4<\phi\leq1
 
 [\phi=1-\sqrt{\frac{\Delta^2_C+\Delta^2_L}{2}}]: https://latex.codecogs.com/gif.latex?\phi=1-\sqrt{\frac{\Delta^2_C+\Delta^2_L}{2}}
 [\Delta&space;C=\frac{C_{\text{lattice}}-C_{\text{brain}}}{C_{\text{lattice}}-C_{\text{random}}}]: https://latex.codecogs.com/gif.latex?\Delta&space;C=\frac{C_{\text{lattice}}-C_{\text{brain}}}{C_{\text{lattice}}-C_{\text{random}}}
