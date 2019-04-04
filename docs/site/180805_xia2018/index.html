@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>180805 Xia 2018 - Cahier</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "180805 Xia 2018";
+    var mkdocs_page_input_path = "180805_xia2018.md";
+    var mkdocs_page_url = "/Cahier/180805_xia2018/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Cahier</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">2019</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../190311_BassettDS_BullmoreET2017/">190311 Bassett, D. S., Bullmore, E.T. 2017</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">2018</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../180904/">180904</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">180805 Xia 2018</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#overview">Overview</a></li>
+    
+
+    <li class="toctree-l3"><a href="#1_intro">1. Intro</a></li>
+    
+
+    <li class="toctree-l3"><a href="#2_result">2. Result</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#21_linked_dimensions_of_psychopathology_and_connectivity">2.1 Linked dimensions of psychopathology and connectivity</a></li>
+        
+            <li><a class="toctree-l4" href="#22_brain-guided_dimensions_of_psychopathology_cross_clinical_diagnostic_categories">2.2 Brain-guided dimensions of psychopathology cross clinical diagnostic categories</a></li>
+        
+            <li><a class="toctree-l4" href="#23_common_and_dissociable_patterns_of_connectivity">2.3 Common and dissociable patterns of connectivity</a></li>
+        
+            <li><a class="toctree-l4" href="#24_developmental_effects_and_sex_differences">2.4 Developmental effects and sex differences</a></li>
+        
+            <li><a class="toctree-l4" href="#25_linked_dimensions_are_replicated_in_an_independent_sample">2.5 Linked dimensions are replicated in an independent sample</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#3_discussion">3. Discussion</a></li>
+    
+
+    <li class="toctree-l3"><a href="#4_online_methods">4. Online methods</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#41_participants">4.1 Participants</a></li>
+        
+            <li><a class="toctree-l4" href="#42_psychiatric_assessment">4.2 Psychiatric assessment</a></li>
+        
+            <li><a class="toctree-l4" href="#43_image_acq">4.3 Image acq</a></li>
+        
+            <li><a class="toctree-l4" href="#44_structural_prep">4.4 Structural prep</a></li>
+        
+            <li><a class="toctree-l4" href="#45_functional_prep">4.5 Functional prep</a></li>
+        
+            <li><a class="toctree-l4" href="#46_network_construction">4.6 Network construction</a></li>
+        
+            <li><a class="toctree-l4" href="#47_dimensinality_reduction">4.7 Dimensinality reduction</a></li>
+        
+            <li><a class="toctree-l4" href="#48_scca">4.8 sCCA</a></li>
+        
+            <li><a class="toctree-l4" href="#49_grid_search_for_regularization_parameters">4.9 Grid search for regularization parameters</a></li>
+        
+            <li><a class="toctree-l4" href="#410_permutation_testing">4.10 Permutation testing</a></li>
+        
+            <li><a class="toctree-l4" href="#411_resampling_procedure">4.11 Resampling procedure</a></li>
+        
+            <li><a class="toctree-l4" href="#412_network_module_analysis">4.12 Network module analysis</a></li>
+        
+            <li><a class="toctree-l4" href="#413_analysis_of_common_connectivity_features_across_dimensions">4.13 Analysis of common connectivity features across dimensions</a></li>
+        
+            <li><a class="toctree-l4" href="#414_analysis_of_age_effects_and_sex_differences">4.14 Analysis of age effects and sex differences</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../180728_schellekens2018/">180728 Schellekens 2018</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../180719_betzel2017/">180719 Betzel 2017</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../180326_harari_2011/">180326 Harari 2011</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../180307_avena-koenigsberger_2017/">180307 Avena Koenigsberger 2017</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../180220_anzellotti_2018/">180220 Anzellotti 2018</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">2017</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../171125_NIPS/">171125 NIPS</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../171124_NIPS/">171124 NIPS</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../170704_logan_cross/">170704 Logan Cross</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../170616_cogmtg_hamamoto/">170616 CogMTG Hamamoto</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../170329_bassett_2017/">170329 Bassett 2017</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../170319_tni_v88n11/">170319 TNI v88n11</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../170317_bassett_d_s_2017/">170317 Bassett, D.S. 2017</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../170314_yoshimori_t/">170314 Yoshimori, T.</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../170216_hasegawa_t/">170216 Hasegawa, T.</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">2016</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../160604_kano_m/">160604 Kano, M.</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../160526_osumi_semi/">160526 Osumi semi</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../160523_okada_y/">160523 Okada, Y.</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Cahier</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>2018 &raquo;</li>
+        
+      
+    
+    <li>180805 Xia 2018</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="18-08-05">18-08-05<a class="headerlink" href="#18-08-05" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Linked dimensions of psychopathology and connectivity in functional brain networks</p>
+</blockquote>
+<p><a href="https://www.nature.com/articles/s41467-018-05317-y">Xia, C. H., Ma, Z., Ciric, R., Gu, S., Betzel, R. F., Kaczkurkin, A. N., ... &amp; Cui, Z. (2018). Linked dimensions of psychopathology and connectivity in functional brain networks. Nature Communications, 9(1), 3003.</a></p>
+<pre><code class="tex">
+</code></pre>
+
+<p><a href="https://www.nature.com/articles/s41467-018-05317-y">Original</a> | <a href="https://www.mendeley.com/viewer/?fileId=5369c4d7-5910-bdb9-0c00-ce11cdb9f6cf&amp;documentId=33a140b7-7ec0-3d3a-92d1-416bd646d92b">Mendeley</a> | <a href="https://github.com/cedricx/sCCA/tree/master/sCCA/code/final">Github</a></p>
+<h5 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Intro</li>
+<li>Results<ul>
+<li>2.1 Linked dimensions of psychopathology and connectivity</li>
+<li>2.2 Brain-guided dimensions of psychopathology cross clinical diagnostic categories</li>
+<li>2.3 Common and dissociable patterns of connectivity</li>
+<li>2.4 Developmental effects and sex differences</li>
+<li>2.5 Linked dimensions are replicated in an independent sample</li>
+</ul>
+</li>
+<li>Discussion</li>
+<li>Methods<ul>
+<li>4.1 Participants</li>
+<li>4.2 Psychiatric assessment</li>
+<li>4.3 Image acquisition</li>
+<li>4.4 Structural preprocessing</li>
+<li>4.5 Functional preprocessing</li>
+<li>4.6 Network construction</li>
+<li>4.7 Dimensionality reduction</li>
+<li>4.8 Sparse canonical correlation analysis</li>
+<li>4.9 Grid search for regularization parameters</li>
+<li>4.10 Permutation testing</li>
+<li>4.11 Resampling procedure</li>
+<li>4.12 Network module analysis</li>
+<li>4.13 Analysis of common connectivity features across dimensions</li>
+<li>4.14 Analysis of age effects and sex differences</li>
+</ul>
+</li>
+</ol>
+<h2 id="1_intro">1. Intro<a class="headerlink" href="#1_intro" title="Permanent link">&para;</a></h2>
+<p><a href="http://science.sciencemag.org/content/348/6234/499" title="Ref.2: Insel, T. R., &amp; Cuthbert, B. N. (2015). Brain disorders? Precisely. Science, 348(6234), 499-500.">Insel 2015</a></p>
+<p><a href="https://www.mendeley.com/viewer/?fileId=1ca3a9ac-887f-7b89-7d37-eee587838567&amp;documentId=ea17b3db-5b67-3b33-a929-51563f471342" title="Ref.9: Bassett, D. S., &amp; Sporns, O. (2017). Network neuroscience. Nature neuroscience, 20(3), 353.">Bassett 2017</a></p>
+<p>module-specific: </p>
+<p><a href="https://academic.oup.com/cercor/article/26/1/288/2367115" title="Ref.12: Gordon, E. M., Laumann, T. O., Adeyemo, B., Huckins, J. F., Kelley, W. M., &amp; Petersen, S. E. (2014). Generation and evaluation of a cortical area parcellation from resting-state correlations. Cerebral cortex, 26(1), 288-303.">Gordon 2014</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S245190221830079X?via%3Dihub" title="Ref.16: Bassett, D. S., Xia, C. H., &amp; Satterthwaite, T. D. (2018). Understanding the Emergence of Neuropsychiatric Disorders with Network Neuroscience. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging.">Bassett 2018</a></p>
+<p>between modules</p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3874413/" title="Ref.23: Satterthwaite, T. D., Wolf, D. H., Ruparel, K., Erus, G., Elliott, M. A., Eickhoff, S. B., ... &amp; Hakonarson, H. (2013). Heterogeneous impact of motion on fundamental patterns of developmental changes in functional connectivity during youth. Neuroimage, 83, 45-57.">Satterthwaite 2013</a></p>
+<p>"neurodeve-lopmental  connectopathies" <a href="https://www.sciencedirect.com/science/article/pii/S1364661304003201" title="Ref.25: Paus, T. (2005). Mapping brain maturation and cognitive development during adolescence. Trends in cognitive sciences, 9(2), 60-68.">Paus 2005</a></p>
+<p>limitations:
+1. case-ctrl approach
+2. driven by cov in the clinical symptomatolgy, rather than brain &amp; behavior feat
+3. youth studies: small samples <a href="https://www.sciencedirect.com/science/article/pii/S1053811917303816?via%3Dihub" title="Ref.31: Bzdok, D., &amp; Yeo, B. T. (2017). Inference in the age of big data: Future perspectives on neuroscience. Neuroimage, 155, 549-564.">Bzdok 2017</a></p>
+<p><strong>sCCA</strong> <a href="https://academic.oup.com/biostatistics/article/10/3/515/293026" title="Ref.33: Witten, D. M., Tibshirani, R., &amp; Hastie, T. (2009). A penalized matrix decomposition, with applications to sparse principal components and canonical correlation analysis. Biostatistics, 10(3), 515-534.">Witten 2009</a></p>
+<p><a href="http://www.tmslab.org/publications/610.pdf" title="Ref.36: Drysdale, A. T., Grosenick, L., Downar, J., Dunlop, K., Mansouri, F., Meng, Y., ... &amp; Schatzberg, A. F. (2017). Resting-state connectivity biomarkers define neurophysiological subtypes of depression. Nature medicine, 23(1), 28.">Drysdale 2017</a></p>
+<h2 id="2_result">2. Result<a class="headerlink" href="#2_result" title="Permanent link">&para;</a></h2>
+<h3 id="21_linked_dimensions_of_psychopathology_and_connectivity">2.1 Linked dimensions of psychopathology and connectivity<a class="headerlink" href="#21_linked_dimensions_of_psychopathology_and_connectivity" title="Permanent link">&para;</a></h3>
+<h3 id="22_brain-guided_dimensions_of_psychopathology_cross_clinical_diagnostic_categories">2.2 Brain-guided dimensions of psychopathology cross clinical diagnostic categories<a class="headerlink" href="#22_brain-guided_dimensions_of_psychopathology_cross_clinical_diagnostic_categories" title="Permanent link">&para;</a></h3>
+<h3 id="23_common_and_dissociable_patterns_of_connectivity">2.3 Common and dissociable patterns of connectivity<a class="headerlink" href="#23_common_and_dissociable_patterns_of_connectivity" title="Permanent link">&para;</a></h3>
+<h3 id="24_developmental_effects_and_sex_differences">2.4 Developmental effects and sex differences<a class="headerlink" href="#24_developmental_effects_and_sex_differences" title="Permanent link">&para;</a></h3>
+<h3 id="25_linked_dimensions_are_replicated_in_an_independent_sample">2.5 Linked dimensions are replicated in an independent sample<a class="headerlink" href="#25_linked_dimensions_are_replicated_in_an_independent_sample" title="Permanent link">&para;</a></h3>
+<h2 id="3_discussion">3. Discussion<a class="headerlink" href="#3_discussion" title="Permanent link">&para;</a></h2>
+<h2 id="4_online_methods">4. Online methods<a class="headerlink" href="#4_online_methods" title="Permanent link">&para;</a></h2>
+<h3 id="41_participants">4.1 Participants<a class="headerlink" href="#41_participants" title="Permanent link">&para;</a></h3>
+<h3 id="42_psychiatric_assessment">4.2 Psychiatric assessment<a class="headerlink" href="#42_psychiatric_assessment" title="Permanent link">&para;</a></h3>
+<h3 id="43_image_acq">4.3 Image acq<a class="headerlink" href="#43_image_acq" title="Permanent link">&para;</a></h3>
+<h3 id="44_structural_prep">4.4 Structural prep<a class="headerlink" href="#44_structural_prep" title="Permanent link">&para;</a></h3>
+<h3 id="45_functional_prep">4.5 Functional prep<a class="headerlink" href="#45_functional_prep" title="Permanent link">&para;</a></h3>
+<ol>
+<li>magnetic field inhomogeneities</li>
+<li>4 initial vol</li>
+<li>realignmnet</li>
+<li>intensity outliers</li>
+<li>demeaning &amp; removal of any linear / quatdric trends</li>
+<li></li>
+</ol>
+<h3 id="46_network_construction">4.6 Network construction<a class="headerlink" href="#46_network_construction" title="Permanent link">&para;</a></h3>
+<h3 id="47_dimensinality_reduction">4.7 Dimensinality reduction<a class="headerlink" href="#47_dimensinality_reduction" title="Permanent link">&para;</a></h3>
+<p><strong>MAD</strong> (Median Absolute Deviation)</p>
+<p>Def: MAD</p>
+<p>
+<script type="math/tex">(| \mathbf{X}_i - \text{median}(\mathbf{X})|)</script>
+</p>
+<h3 id="48_scca">4.8 sCCA<a class="headerlink" href="#48_scca" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<script type="math/tex">\mathbf{X}_{n \times p}</script>, <script type="math/tex">\mathbf{Y}_{n \times q}</script>: mat</li>
+<li>
+<script type="math/tex">n</script>: num of obs (participants)</li>
+<li>
+<script type="math/tex">p</script>, <script type="math/tex">q</script>: num of var (feat)</li>
+<li>
+<script type="math/tex">\mathbf{u}</script>, <script type="math/tex">\mathbf{v}</script>
+</li>
+<li>
+<script type="math/tex">c_1</script>, <script type="math/tex">c_2</script>: constant</li>
+</ul>
+<p>
+<script type="math/tex; mode=display">\begin{align*}
+\tag{1}
+\text{maximize } \mathbf{u}^T\mathbf{X}^T\mathbf{Yv}, \\
+\text{subject to } ||\mathbf{u}||^2_2 ≤ 1, ||\mathbf{v}||^2_2 ≤ 1, \\
+||\mathbf{u}||_1 ≤ c_1, ||\mathbf{v}||_1 ≤ c_2
+\end{align*}</script>
+</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Vector_norms.svg/140px-Vector_norms.svg.png" width="30%"></p>
+<p>
+<script type="math/tex; mode=display">\begin{align*}
+L_1\text{-norm:} \quad ||\mathbf{x}||_1 &:= \sum_{i=1}^n |x_i| \\
+L_2\text{-norm:} \quad ||\mathbf{x}||_2 &:= \sqrt{ \sum_{i=1}^n{x_i^2}} 
+\end{align*}</script>
+</p>
+<h3 id="49_grid_search_for_regularization_parameters">4.9 Grid search for regularization parameters<a class="headerlink" href="#49_grid_search_for_regularization_parameters" title="Permanent link">&para;</a></h3>
+<h3 id="410_permutation_testing">4.10 Permutation testing<a class="headerlink" href="#410_permutation_testing" title="Permanent link">&para;</a></h3>
+<h3 id="411_resampling_procedure">4.11 Resampling procedure<a class="headerlink" href="#411_resampling_procedure" title="Permanent link">&para;</a></h3>
+<h3 id="412_network_module_analysis">4.12 Network module analysis<a class="headerlink" href="#412_network_module_analysis" title="Permanent link">&para;</a></h3>
+<h3 id="413_analysis_of_common_connectivity_features_across_dimensions">4.13 Analysis of common connectivity features across dimensions<a class="headerlink" href="#413_analysis_of_common_connectivity_features_across_dimensions" title="Permanent link">&para;</a></h3>
+<h3 id="414_analysis_of_age_effects_and_sex_differences">4.14 Analysis of age effects and sex differences<a class="headerlink" href="#414_analysis_of_age_effects_and_sex_differences" title="Permanent link">&para;</a></h3>
+<!-- [![fig01][fig01]][figs] -->
+
+<!-- [![fig02][fig02]][figs] -->
+
+<!-- [![fig03][fig03]][figs] -->
+
+<!-- [![fig04][fig04]][figs] -->
+
+<!-- [![fig05][fig05]][figs] -->
+
+<!-- [![fig06][fig06]][figs] -->
+
+<!-- [![fig07][fig07]][figs] -->
+
+<!-- [![fig08][fig08]][figs] -->
+
+<style type="text/css">
+    img{width: 50%; float: right;}
+</style>
+
+<!-- -------------------------------------------- -->
+
+<!-- https://www.nature.com/articles/nm.4246 -->
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../180728_schellekens2018/" class="btn btn-neutral float-right" title="180728 Schellekens 2018">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../180904/" class="btn btn-neutral" title="180904"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../180904/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../180728_schellekens2018/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
