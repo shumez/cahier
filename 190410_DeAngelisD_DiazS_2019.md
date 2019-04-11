@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-11 09:34:38
+Modified: 	2019-04-11 11:03:48
 -----
 Copyright (c) 2019 shumez
 -->
@@ -26,10 +26,41 @@ Copyright (c) 2019 shumez
 * [06. Social Interactions in Populations](#06_social_interactions_in_populations)
 * [07. Developments in the Modeling of Decisions in Population Models](#07_developments_in_the_modeling_of_decisions_in_population Models)
 * [08. Prospectus](08_prospectus)
+* [Original](#original)
+	* [Abstract](#abstract)
+	* [Introduction](#introduction)
+	* [Decisions in Classical Population Models](#decisions_in_classical_population_models)
 
 
 ## 00. Abstract
+
+**Individual- / Agent-based model** (IBM / ABM)
+
+
 ## 01. Introduction
+
+###### 01.P01
+classical models:
+
+* randomly moving 
+* w/ growth, reproducitin, mortality, interaction w/ env & other organisms
+* e.g.,
+	* **logistric population model**
+	* **Lotka-Volterra predator-prey and competition model**
+	* **reaction-diffusion partial differential equation (PDE) model**
+
+decision-making by individuals is unimportant?
+
+decision continually made
+
+e.g., 
+
+	* single-celled animals (paramecia) ([2009_Wagner])
+	* social ants ([2006_Deneubourg_Detrain])
+
+###### 01.P02
+
+
 
 ## 02. Decisions in Classical Population Models
 
@@ -70,9 +101,9 @@ How important these decisions are at the population level and above is therefore
 
 The use of modeling to address the question of the effect of individual decisions on population level dynamics developed more slowly than modeling of the converse question of how ecological context influences the effects of decisions on individual fitness. The latter has been explored by behavioral ecologists using classical population models for several decades, focusing especially on decisions regarding foraging movement and its effects on the fitness of individuals. Additionally, some models have been able to incorporate decision-making when modeling collections of individuals, whole populations, and even multiple populations.
 
-Movement of animals toward favorable conditions could be decomposed into simple decisions on directed movement, or taxis, in relation to light, temperature, or resource gradients. Because it may be difficult for organisms to detect gradients, but possible to assess conditions at a current location, many models focused on kinesis, which involves decisions on when to speed up, slow down, or turn in response to detected local conditions (e.g., Gunn and Fraenkel, 1961; Schöne, 1984; Bell, 1991; Grünbaum, 1999; Gautestad, 2016). Other models used “restricted area search” in which organisms evaluate conditions within a limited area before making a movement choice (e.g., Humston et al., 2004). Movement decisions can be combined with decisions on settling at a place or leaving it, for which a variety of modeling approaches are used (Lima and Zollner, 1996). At one extreme, animals may simply move in one direction until they find a spot to settle, or they may use spatial memory and learning to gain knowledge of the landscape such that they can choose the nearest detectable habitat patch (Fahrig, 1988). Decisions on leaving a patch may increase as the level of resources is depleted. Mathematical theory has been applied to predict the optimal time to leave a patch, depending on its resource level relative to other patches and travel costs (Charnov, 1976), or to predict what succession of patches, with varying risks and rewards, to choose in order to maximize fitness over longer times (Mangel and Clark, 1988; Houston and McNamara, 1999; Clark and Mangel, 2000), an approach referred to as Dynamic State Variable Modeling (DSVM).
+Movement of animals toward favorable conditions could be decomposed into simple decisions on directed movement, or taxis, in relation to light, temperature, or resource gradients. Because it may be difficult for organisms to detect gradients, but possible to assess conditions at a current location, many models focused on kinesis, which involves decisions on when to speed up, slow down, or turn in response to detected local conditions (e.g., [Gunn and Fraenkel, 1961][1961_Fraenkel_Gunn]; [Schöne, 1984][1984_Schöne]; [Bell, 1991][1991_Bell]; [Grünbaum, 1999][1999_Grünbaum]; [Gautestad, 2016][2016_Gautestad]). Other models used “restricted area search” in which organisms evaluate conditions within a limited area before making a movement choice (e.g., [Humston et al., 2004][2004_Humston]). Movement decisions can be combined with decisions on settling at a place or leaving it, for which a variety of modeling approaches are used ([Lima and Zollner, 1996][1996_Zollner_Lima]). At one extreme, animals may simply move in one direction until they find a spot to settle, or they may use spatial memory and learning to gain knowledge of the landscape such that they can choose the nearest detectable habitat patch ([Fahrig, 1988][1988_Fahrig]). Decisions on leaving a patch may increase as the level of resources is depleted. Mathematical theory has been applied to predict the optimal time to leave a patch, depending on its resource level relative to other patches and travel costs ([Charnov, 1976][1976_Charnov]), or to predict what succession of patches, with varying risks and rewards, to choose in order to maximize fitness over longer times ([Mangel and Clark, 1988][1988_Clark_Mangel]; [Houston and McNamara, 1999][1999_McNamara_Houston]; [Clark and Mangel, 2000][2000_Mangel_Clark]), an approach referred to as **Dynamic State Variable Modeling (DSVM)**.
 
-The step from modeling individuals to modeling collections of individuals could in some cases be done using mathematical models, in which all individuals follow the same basic rules that could be incorporated into PDEs. For example, Skalski and Gilliam (2000) used an advective-diffusion model to simulate patterns of fish formation in which the only decisions involved swimming fast or slow and having an upstream directional bias rather than pure random movement. However, many observed movement patterns of collectives, such as of flocks of birds, schools of fish, swarms of insects, and patterns formed by herding mammals, are more complex. Modeling these patterns requires more than movement decisions based on abiotic conditions, but they can be approximated when the PDEs also incorporate terms that represent decisions to move up or down population density gradients. Such individual movement behavior differs from random walk and can result in various patterns of collections of organisms (Patterson et al., 2008). “Purposeful kinesis” can alter diffusive patterns (Gorban and Çabukoglu, 2018), leading to positive density-dependent diffusion, or “super-diffusion,” and other variations on diffusion through dependence on population density (Topaz and Bertozzi, 2004; Lutscher, 2008; Almeida et al., 2015; Tilles and Petrovskii, 2016). For example, the phenomenon of clustering, in insect swarms and fish shoals, can occur when individuals accelerate in the direction of a positive density gradient (Tyutyunov et al., 2004). Flierl et al. (1999) provide a general review of mathematical modeling of collective behavior.
+The step from modeling individuals to modeling collections of individuals could in some cases be done using mathematical models, in which all individuals follow the same basic rules that could be incorporated into PDEs. For example, [Skalski and Gilliam (2000)][2000_Gilliam_Skalski] used an advective-diffusion model to simulate patterns of fish formation in which the only decisions involved swimming fast or slow and having an upstream directional bias rather than pure random movement. However, many observed movement patterns of collectives, such as of flocks of birds, schools of fish, swarms of insects, and patterns formed by herding mammals, are more complex. Modeling these patterns requires more than movement decisions based on abiotic conditions, but they can be approximated when the PDEs also incorporate terms that represent decisions to move up or down population density gradients. Such individual movement behavior differs from random walk and can result in various patterns of collections of organisms (Patterson et al., 2008). “Purposeful kinesis” can alter diffusive patterns (Gorban and Çabukoglu, 2018), leading to positive density-dependent diffusion, or “super-diffusion,” and other variations on diffusion through dependence on population density (Topaz and Bertozzi, 2004; Lutscher, 2008; Almeida et al., 2015; Tilles and Petrovskii, 2016). For example, the phenomenon of clustering, in insect swarms and fish shoals, can occur when individuals accelerate in the direction of a positive density gradient (Tyutyunov et al., 2004). Flierl et al. (1999) provide a general review of mathematical modeling of collective behavior.
 
 The influence of individual decisions on the level of whole populations and multi-population systems can also be studied when decision-making is incorporated into models of classical ecology, if the decisions are limited to simple rules, such as optimization of fitness in foraging (MacArthur and Pianka, 1966; Charnov, 1976), or in diet selection (Pulliam, 1974) and life history (Roff, 1992). For example, if all individuals foraging on a spatial environment of habitat patches with different resource levels are assumed to move among them until no further movement would increase their fitness, the population would reach what is called an Ideal Free Distribution (IFD) (Fretwell and Lucas, 1969). The IFD concept applies to a wider range of decisions, such as the choice that organisms in a population have in allocating resources in different proportions to foraging, defense, reproduction, etc. A particular example is that of predator-induced defenses, which are known to exist in many ecological systems and may involve changes in both morphology and behavior. The defended individuals are still edible but less so than undefended prey and, as a tradeoff, have lower resource intake rates than undefended prey. Recently it has been shown that the existence of inducible defenses in species at the bottom or middle of the food chain can affect the stability of the food chain, as well as the ability of the top predator to exert top-down control on the system (Vos et al., 2004). In DeAngelis et al. (2007), a system containing a predator, a prey with an inducible defense, and a resource of the prey, was studied using a differential equation model, with Holling type 2 functional responses describing the trophic interactions. The prey could choose between allocation to induced defense, with the tradeoff of lower resource uptake. The prey population evolved to switching between defense and non-defense, leading to a balance in which certain proportions of prey were in the undefended state and the rest in the defended state, the proportions depending on predator density. The prey in each state had equal fitness, so this was an IFD. This strategy of the prey influenced the populations of the whole food chain.
 
