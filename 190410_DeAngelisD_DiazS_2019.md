@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-15 21:10:39
+Modified: 	2019-04-16 11:32:51
 -----
 Copyright (c) 2019 shumez
 -->
@@ -14,8 +14,8 @@ Copyright (c) 2019 shumez
 
 ## ToC
 
-* [00. Abstract](00_abstract)
-* [01. Introduction](01_introduction)
+* [00. Abstract](#00_abstract)
+* [01. Introduction](#01_introduction)
 * [02. Decisions in Classical Population Models](#02_decisions_in_classical_population_models)
 * [03. Agent-based Modeling in Ecology](#03_agent-based_modeling_in_ecology)
 * [04. Movement Decisions and Their Consequences](#04_movement_decisions_and_their_consequences)
@@ -24,8 +24,8 @@ Copyright (c) 2019 shumez
 	* [04.03. Collective Movement Behavior](#0403_collective_movement_behavior)
 * [05. Foraging Decisions and Population Interactions](#05_foraging_decisions_and_population_interactions)
 * [06. Social Interactions in Populations](#06_social_interactions_in_populations)
-* [07. Developments in the Modeling of Decisions in Population Models](#07_developments_in_the_modeling_of_decisions_in_population Models)
-* [08. Prospectus](08_prospectus)
+* [07. Developments in the Modeling of Decisions in Population Models](#07_developments_in_the_modeling_of_decisions_in_population_models)
+* [08. Prospectus](#08_prospectus)
 * [Original](#original)
 	* [Abstract](#abstract)
 	* [Introduction](#introduction)
@@ -46,6 +46,7 @@ Copyright (c) 2019 shumez
 ## 01. Introduction
 
 ###### 01.P01
+
 classical models:
 
 * randomly moving 
@@ -67,6 +68,7 @@ e.g.,
 > The role of decision-making by individual organisms is largely ignored in the classical mathematical models of ecology, such as the **logistic population models**, **Lotka-Volterra predator-prey and competition models**, and their many variations. These models, as well as their extensions to space, as **reaction-diffusion partial differential equation (PDE) models**, treat organisms as randomly moving atoms, with added features of growth, reproduction, mortality, and interactions with their environment and other organisms. Because the classical models of ecological populations have been successful in revealing much about ecological systems, one might ask if decision-making by individuals is unimportant enough that it can be ignored at the population level, at least for simple organisms. But something like decisions are continually made, even by organisms perceived as simple. [Bray (2009)][2009_Bray] notes that single-celled animals, like swimming paramecia, “continually encounter different situations… and have to evaluate their options and assign priorities.” [Wagner (2009)][2009_Wagner] asks “Does the bacterium choose to change direction?” and concludes that this may be a matter of perspective. In more complex organisms, such as social ants, “each individual is a sensitive unit which can process a lot of information” ([Detrain and Deneubourg, 2006][2006_Deneubourg_Detrain]). These actions are programmed into the organism's DNA, and are unconscious, but clearly decisions are being made, and we will follow [Ydenberg (2010)][2010_Ydenberg] (cited in [Rypstra et al., 2015][2015_Rypstra]) in calling a decision **“wherever one or two (or more) options is/are selected**.”
 
 ###### 01.P02
+
 > How important these decisions are at the population level and above is therefore an important question, even for organisms of low cognitive ability. Our perspective in this review is from that of population and community ecology and how modeling helps link individual behaviors to phenomena at the level of collections of individuals. We begin with a brief overview of how decisions have been incorporated in some classical analytic models of ecology. Then we introduce agent-based modeling (ABM) and describe how it has been used to simulate decision-making in individual movement, [foraging](. "(食べ物を)探し求める") behavior, population interactions, and social interactions within populations. This is not intended to be comprehensive, but to touch on a variety of ways ABM is used. Finally, we discuss more recent developments in modeling decisions within population models and present a prospectus for future directions.
 
 ## 02. Decisions in Classical Population Models
@@ -332,3 +334,4 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [2008_MatthiopoulosJ_ThomasL_PattersonTA]: http://fics.hiit.fi/files/Patterson%20et%20al%202008%20TREE.pdf "Patterson, T.A., Thomas, L., Wilcox, C., Ovaskainen, O. and Matthiopoulos, J., 2008. State–space models of individual animal movement. Trends in ecology & evolution, 23(2), pp.87-94."
 [2018_Çabukoglu_Gorban]: https://arxiv.org/pdf/1804.01342.pdf "Gorban, A.N. and Çabukoǧlu, N., 2018. Mobility cost and degenerated diffusion in kinesis models. Ecological complexity, 36, pp.16-21."
 [1999_OlsonDonald_GrünbaumD_FlierlG]: https://www.sciencedirect.com/science/article/pii/S0022519398908426 "Flierl, G., Grünbaum, D., Levins, S. and Olson, D., 1999. From individuals to aggregations: the interplay between behavior and physics. Journal of Theoretical biology, 196(4), pp.397-454."
+[1983_Hammerstein_Richert]: https://www.annualreviews.org/doi/pdf/10.1146/annurev.es.14.110183.002113 "Riechert, S.E. and Hammerstein, P., 1983. Game theory in the ecological context. Annual Review of Ecology and Systematics, 14(1), pp.377-409."
