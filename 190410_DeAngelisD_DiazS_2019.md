@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-16 16:13:55
+Modified: 	2019-04-18 15:10:52
 -----
 Copyright (c) 2019 shumez
 -->
@@ -117,9 +117,11 @@ models
 
 ###### 03.P01
 
+<!-- simple decision model &larr;  -->
+
 2 trends:
 
-1. variability w/i populations
+1. variability w/i populations in behaviors
 	* e.g., behavioral tendencies, personality
 2. ABM (Agent-based modeling)
 
@@ -127,7 +129,11 @@ models
 
 ###### 03.P02
 
-> ABMs are ideally suited to accounting for individual differences in organisms. First applied to tree communities (Botkin et al., 1972), in the last few decades ABMs have become well established in all areas of ecology. ABMs simulate the interactions of autonomous “agents,” generally representing individual organisms or other real-world entities, with other agents and with the external environment (DeAngelis and Mooij, 2005). In ABMs, every individual of a population can, in principle, be simulated to almost any level of detail. Each agent may have state variables representing internal states, including behavioral states, and each can have a unique history of interactions with its environment and other agents (DeAngelis and Grimm, 2014). Agent-based modeling attempts to capture the variation among individuals that is relevant to the questions being addressed. In particular, it can incorporate what is known about individual decision-making to explore the consequences in population and community models (Parunak et al., 1998; Railsback, 2001; Vincenot, 2018).
+autonomous agents
+
+
+
+> ABMs are ideally suited to accounting for individual differences in organisms. First applied to tree communities ([Botkin et al., 1972][1972_Botkin]), in the last few decades ABMs have become well established in all areas of ecology. ABMs simulate the interactions of autonomous “agents,” generally representing individual organisms or other real-world entities, with other agents and with the external environment ([DeAngelis and Mooij, 2005][2005_Mooij_DeAngelis]). In ABMs, every individual of a population can, in principle, be simulated to almost any level of detail. Each agent may have state variables representing internal states, including behavioral states, and each can have a unique history of interactions with its environment and other agents (DeAngelis and Grimm, 2014). Agent-based modeling attempts to capture the variation among individuals that is relevant to the questions being addressed. In particular, it can incorporate what is known about individual decision-making to explore the consequences in population and community models (Parunak et al., 1998; Railsback, 2001; Vincenot, 2018).
 
 ###### 03.P03
 
@@ -442,12 +448,19 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [fig_02]: https://www.frontiersin.org/files/Articles/428465/fevo-06-00237-HTML/image_m/fevo-06-00237-g002.jpg
 
 <!-- ref -->
+
+<!-- 01p01 -->
 [2009_Bray]: .
 [2009_Wagner]: .
 [2006_Deneubourg_Detrain]: .
 [2010_Ydenberg]: .
 [2015_Rypstra]: .
 
+<!-- 01p02 -->
+
+<!-- 02p01 -->
+
+<!-- 02p02 -->
 [1961_Fraenkel_Gunn]: .
 [1984_Schöne]: .
 [1991_Bell]: .
@@ -461,9 +474,26 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [1999_McNamara_Houston]: .
 [2000_Mangel_Clark]: .
 
+<!-- 02p03 -->
 [2000_Gilliam_Skalski]: https://pdfs.semanticscholar.org/3b3b/39b3456e3854ade5b74f5a763304e8710565.pdf "Skalski, G.T. and Gilliam, J.F., 2000. Modeling diffusive spread in a heterogeneous population: a movement study with stream fish. Ecology, 81(6), pp.1685-1700."
 [2008_MatthiopoulosJ_ThomasL_PattersonTA]: http://fics.hiit.fi/files/Patterson%20et%20al%202008%20TREE.pdf "Patterson, T.A., Thomas, L., Wilcox, C., Ovaskainen, O. and Matthiopoulos, J., 2008. State–space models of individual animal movement. Trends in ecology & evolution, 23(2), pp.87-94."
 [2018_Çabukoglu_Gorban]: https://arxiv.org/pdf/1804.01342.pdf "Gorban, A.N. and Çabukoǧlu, N., 2018. Mobility cost and degenerated diffusion in kinesis models. Ecological complexity, 36, pp.16-21."
 [1999_OlsonDonald_GrünbaumD_FlierlG]: https://www.sciencedirect.com/science/article/pii/S0022519398908426 "Flierl, G., Grünbaum, D., Levins, S. and Olson, D., 1999. From individuals to aggregations: the interplay between behavior and physics. Journal of Theoretical biology, 196(4), pp.397-454."
+
+<!-- 02p04 -->
+
+<!-- 02p05 -->
 [1983_Hammerstein_Richert]: https://www.annualreviews.org/doi/pdf/10.1146/annurev.es.14.110183.002113 "Riechert, S.E. and Hammerstein, P., 1983. Game theory in the ecological context. Annual Review of Ecology and Systematics, 14(1), pp.377-409."
+
+<!-- 03p01 -->
+[1987_Dill]: . ""
+[2008_Stamps_Biro]: . ""
+[2017_Jordan_Beekman]: . ""
+[2003_Bolnick]: . ""
+[2018_Blake]: . ""
+[2011_Araújo]: . ""
+[2012_Dall]: . ""
+[2011_Wolf]: . ""
+
+
 [2011_VasseurDavid_AmarasekarePriyanga_BolnickDanielI]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3088364/ "Bolnick, D.I., Amarasekare, P., Araújo, M.S., Bürger, R., Levine, J.M., Novak, M., Rudolf, V.H., Schreiber, S.J., Urban, M.C. and Vasseur, D.A., 2011. Why intraspecific trait variation matters in community ecology. Trends in ecology & evolution, 26(4), pp.183-192."
