@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-18 15:10:52
+Modified: 	2019-04-18 15:31:54
 -----
 Copyright (c) 2019 shumez
 -->
@@ -129,11 +129,14 @@ models
 
 ###### 03.P02
 
-autonomous agents
+ABM
+
+* simulate autonomous "agents" 
+* state var representing internal states (behavioral states)
+* unique history of interactions w/ env & other agents
 
 
-
-> ABMs are ideally suited to accounting for individual differences in organisms. First applied to tree communities ([Botkin et al., 1972][1972_Botkin]), in the last few decades ABMs have become well established in all areas of ecology. ABMs simulate the interactions of autonomous “agents,” generally representing individual organisms or other real-world entities, with other agents and with the external environment ([DeAngelis and Mooij, 2005][2005_Mooij_DeAngelis]). In ABMs, every individual of a population can, in principle, be simulated to almost any level of detail. Each agent may have state variables representing internal states, including behavioral states, and each can have a unique history of interactions with its environment and other agents (DeAngelis and Grimm, 2014). Agent-based modeling attempts to capture the variation among individuals that is relevant to the questions being addressed. In particular, it can incorporate what is known about individual decision-making to explore the consequences in population and community models (Parunak et al., 1998; Railsback, 2001; Vincenot, 2018).
+> ABMs are ideally suited to accounting for individual differences in organisms. First applied to tree communities ([Botkin et al., 1972][1972_Botkin]), in the last few decades ABMs have become well established in all areas of ecology. ABMs simulate the interactions of autonomous “agents,” generally representing individual organisms or other real-world entities, with other agents and with the external environment ([DeAngelis and Mooij, 2005][2005_Mooij_DeAngelis]). In ABMs, every individual of a population can, in principle, be simulated to almost any level of detail. Each agent may have state variables representing internal states, including behavioral states, and each can have a unique history of interactions with its environment and other agents ([DeAngelis and Grimm, 2014][2014_GrimmV_DeAngelisDL]). Agent-based modeling attempts to capture the variation among individuals that is relevant to the questions being addressed. In particular, it can incorporate what is known about individual decision-making to explore the consequences in population and community models ([Parunak et al., 1998][1998_Parunak]; [Railsback, 2001][2001_Railsback]; [Vincenot, 2018][2018_Vincenot]).
 
 ###### 03.P03
 
@@ -494,6 +497,12 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [2011_Araújo]: . ""
 [2012_Dall]: . ""
 [2011_Wolf]: . ""
-
-
 [2011_VasseurDavid_AmarasekarePriyanga_BolnickDanielI]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3088364/ "Bolnick, D.I., Amarasekare, P., Araújo, M.S., Bürger, R., Levine, J.M., Novak, M., Rudolf, V.H., Schreiber, S.J., Urban, M.C. and Vasseur, D.A., 2011. Why intraspecific trait variation matters in community ecology. Trends in ecology & evolution, 26(4), pp.183-192."
+
+<!-- 03p02 -->
+[1972_Botkin]: . ""
+[2005_Mooij_DeAngelis]: . ""
+[2014_GrimmV_DeAngelisDL]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4047944/  "DeAngelis, D.L. and Grimm, V., 2014. Individual-based models in ecology after four decades. F1000prime reports, 6."
+[1998_Parunak]: . ""
+[2001_Railsback]: . ""
+[2018_Vincenot]: . ""
