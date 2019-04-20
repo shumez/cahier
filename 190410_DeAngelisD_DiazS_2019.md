@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-20 20:56:24
+Modified: 	2019-04-20 20:59:2
 -----
 Copyright (c) 2019 shumez
 -->
@@ -200,7 +200,7 @@ e.g., trout, bear
 
 ###### 04.01.P02
 
-> An individual's decision on when to move may be influenced by the individual's life cycle and social factors. ABMs can track important biological changes of many individuals through time and be utilized to explore how these changes influence movement when placed within a social context. For example, Neuert et al. (1995) developed a model of the territorial group-living green woodhoopoe (Phoeniculus purpureus) to address the question of when a subdominant (and thus non-breeding) individual should decide to leave the group and scout for a territory on which it could breed, vs. waiting around to become high enough in status to breed at its natal site. In the model, the decision was based on its own age and rank, where the rank is correlated with age. The simple decision trait of higher propensity to go on scouting forays with increasing age provided the best agreement with empirical data.
+> An individual's decision on when to move may be influenced by the individual's life cycle and social factors. ABMs can track important biological changes of many individuals through time and be utilized to explore how these changes influence movement when placed within a social context. For example, [Neuert et al. (1995)][1995_Neuert] developed a model of the territorial group-living green woodhoopoe (Phoeniculus purpureus) to address the question of when a subdominant (and thus non-breeding) individual should decide to leave the group and scout for a territory on which it could breed, vs. waiting around to become high enough in status to breed at its natal site. In the model, the decision was based on its own age and rank, where the rank is correlated with age. The simple decision trait of higher propensity to go on scouting forays with increasing age provided the best agreement with empirical data.
 
 ###### 04.01.P03
 
@@ -601,3 +601,6 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [2017_Driscoll_Doherty]: . ""
 [1998_VanWinkle]: . ""
 [2017_Marley]: . ""
+
+<!-- 0401p02 -->
+[1995_Neuert]: . ""
