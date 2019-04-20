@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-20 20:30:28
+Modified: 	2019-04-20 20:32:47
 -----
 Copyright (c) 2019 shumez
 -->
@@ -186,6 +186,24 @@ compoponents:
 > By portraying an individual's dynamic environment and internal state in detail, ABMs can capture the two important decisions that an individual in motion must continually make: **when to move**, and **where to move**. The models can also be used to [derive](. "...から引き出す") the consequences of many organisms moving and interacting with each other at the same time, which gives rise to spatial patterns.
 
 ### 04.01. When to Move?
+
+###### 04.01.P01
+
+> ABMs for movement generally incorporate rules that dictate when an individual agent decides to move from its current location. For real-world organisms, the onset of movement at fine scales may depend on the individual's current internal state, including its physiological and psychological conditions, the condition of the current area that the individual is in, and the presence of competition and predation (Semeniuk et al., 2011; Martin et al., 2013; Doherty and Driscoll, 2017). As such, ABMs simulating the fine-scale movement of individuals often keep track of temporal changes in the individual agent's internal state and its local surroundings. These changes generally prompt agent movement if they somehow increase (or at the very least, not decrease) the agent's fitness. For example, brown and rainbow trout agents decide to move from their position if the previous day's calculated ratio of mortality risk to growth is greater than expected. Thus, at a given time step, fish agents might move to maximize the ratio of growth to risk of mortality (Van Winkle et al., 1998). Bear agents in an ABM simulating human-bear interactions decide to move to a new location if their current location has a low amount of food, or if they are threatened by human activity (Marley et al., 2017).
+
+###### 04.01.P02
+
+> An individual's decision on when to move may be influenced by the individual's life cycle and social factors. ABMs can track important biological changes of many individuals through time and be utilized to explore how these changes influence movement when placed within a social context. For example, Neuert et al. (1995) developed a model of the territorial group-living green woodhoopoe (Phoeniculus purpureus) to address the question of when a subdominant (and thus non-breeding) individual should decide to leave the group and scout for a territory on which it could breed, vs. waiting around to become high enough in status to breed at its natal site. In the model, the decision was based on its own age and rank, where the rank is correlated with age. The simple decision trait of higher propensity to go on scouting forays with increasing age provided the best agreement with empirical data.
+
+###### 04.01.P03
+
+> Large scale movement, such as migration, may be triggered by temporal changes in resource availability (Van Moorter et al., 2013) along with a number of other factors, and ABMs have been utilized to explore the potential decision-rules that may dictate the timing of such behavior for various species. For example, (Duriez et al., 2009) assumed the following factors to be important for the timing of pink-footed geese migration; (1) having minimal body stores, (2) having maximal stores, (3) date, (4) temperature, (5) plant phenology, and (6) fixed duration of stay. The authors found that decision-rules related to food resources were important for dictating the onset of migration, but later in the season, decision-rules related to the geese agents' internal clocks and date are likely used.
+
+###### 04.01.P04
+
+> Movement is also involved in the range expansion of a population, and Bocedi et al. (2014) modeled range expansion by considering three phases. Within the ABM, there is an initial probability of offspring dispersing from a natal cell, which can depend on population density. Then there is “transfer probability,” the direction of which is weighted by the costs of moving to each adjacent cell, which depends on landscape composition of the cell and neighboring animals. In the final phase, four alternative strategies were compared to determine which best described settlement probability, and each of which was based on a combination of several factors, including habitat suitability, presence of a potential mate, and density of conspecifics.
+
+
 
 ### 04.02. Where to Move?
 
