@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-20 19:52:25
+Modified: 	2019-04-20 19:58:16
 -----
 Copyright (c) 2019 shumez
 -->
@@ -155,6 +155,15 @@ ABM
 > Figure 1. Schematic representation of the models and methodologies utilized to model decision-making in ecology. Along the horizontal axis, these models and methodologies are able to introduce greater **individual complexity** and represent more complex interactions. Along the vertical axis, the models' entities can be characterized by more **proximate decision-making**. There is more uncertainty introduced along this axis, but also a greater level of **emergence**, or higher-level behaviors resulting from lower-level interactions.
 
 ## 04. Movement Decisions and Their Consequences
+
+###### 04.P01
+
+2 important decisions:
+
+* when to move
+* where to move
+
+> By portraying an individual's dynamic environment and internal state in detail, ABMs can capture the two important decisions that an individual in motion must continually make: **when to move**, and **where to move**. The models can also be used to [derive](. "...から引き出す") the consequences of many organisms moving and interacting with each other at the same time, which gives rise to spatial patterns.
 
 ### 04.01. When to Move?
 
