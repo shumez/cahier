@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-20 19:46:25
+Modified: 	2019-04-20 19:52:25
 -----
 Copyright (c) 2019 shumez
 -->
@@ -145,11 +145,14 @@ ABM
 
 > An ABM can be used where decisions are complex and/or are in a setting of populations or communities. The simplest and most straightforward way to represent individual decision-making in an ABM is to utilize logical rules following the “if-then” structure. The behavior of an individual can be modeled when the “if” part contains a condition, and the proceeding “then” part presents the individual's response. The rules governing decision-making processes can be set up in various ways. Strictly logical, deterministic rules would assign only one possible behavior to an individual in a particular circumstance ([Grimm and Railsback, 2005][2005_Railsback_Grimm]). Alternatively, a rule may be **probabilistic**, with a different probability for each choice in an array of possible actions in response to some stimulus. Rules may also be a combination of probabilistic and deterministic. For many animals, however, decision-making processes may be more complex, and can be influenced by many variables including the internal state of the individual, that may vary among individuals. As will be discussed later, ABMs are increasingly being used in situations where organisms are assumed to have incomplete knowledge of the surrounding environment, and differences in perception and navigation capacities, but are able to employ cognitive skills to make choices that are good proximate decisions, [albeit](. "although") less than optimal. In this way, ABMs are able to [encapsulate](. "要約する") the basic underlying principles of the decision-making process in a more realistic way than classical models, and may more effectively represent the way individuals actually decide on actions and how the resulting behaviors shape population-level processes ([Figure 1](#figure_1)).
 
-###### FIGURE 1
+###### Figure 1
+
+* individual complexity
+* proximate decision-making, uncerteainty, emergence
 
 ![fig.1][fig_01]
 
-> Figure 1. Schematic representation of the models and methodologies utilized to model decision-making in ecology. Along the horizontal axis, these models and methodologies are able to introduce greater individual complexity and represent more complex interactions. Along the vertical axis, the models' entities can be characterized by more proximate decision-making. There is more uncertainty introduced along this axis, but also a greater level of emergence, or higher-level behaviors resulting from lower-level interactions.
+> Figure 1. Schematic representation of the models and methodologies utilized to model decision-making in ecology. Along the horizontal axis, these models and methodologies are able to introduce greater **individual complexity** and represent more complex interactions. Along the vertical axis, the models' entities can be characterized by more **proximate decision-making**. There is more uncertainty introduced along this axis, but also a greater level of **emergence**, or higher-level behaviors resulting from lower-level interactions.
 
 ## 04. Movement Decisions and Their Consequences
 
