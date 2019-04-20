@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-20 20:22:51
+Modified: 	2019-04-20 20:28:30
 -----
 Copyright (c) 2019 shumez
 -->
@@ -168,6 +168,12 @@ compoponents:
 * navigational & motion capabilities
 
 > ABMs have been used extensively to simulate the movement behavior of both terrestrial and marine organisms, due in large part to their flexibility in incorporating the various components that influence an individual's movement through space. These components include an individual's internal state, external environment, and navigational and motion capabilities ([Tang and Bennett, 2010][2010_Bennett_Tang]; [Figure 2](#figure_02)). ABMs can represent a variety of dynamic physiological and psychological state variables comprising an organism's internal state, including commonly used [bioenergetic](. "transformation of energy in organism, 生体エネルギー論") variables (Tang and Bennett, 2010). When simulating movement through space, the external environment is generally **spatially-explicit**, often represented as grid cells, such that **the location of agents and environmental attributes and the spatial relationship between them is explicitly defined** ([Duning, 1995][1995_Duning]; [Bauer and Klaassen, 2013][2013_Klaassen_Bauer]). 
+
+###### Figure 2
+
+[![Fig.2][fig_02]][fig_02]
+
+> Figure 2. Schematic illustrating the major components influencing animal movement, all of which can be represented within an ABM (Baguette et al., 2014).
 
 ###### 04.P02
 
