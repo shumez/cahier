@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-20 20:32:47
+Modified: 	2019-04-20 20:56:24
 -----
 Copyright (c) 2019 shumez
 -->
@@ -189,7 +189,14 @@ compoponents:
 
 ###### 04.01.P01
 
-> ABMs for movement generally incorporate rules that dictate when an individual agent decides to move from its current location. For real-world organisms, the onset of movement at fine scales may depend on the individual's current internal state, including its physiological and psychological conditions, the condition of the current area that the individual is in, and the presence of competition and predation (Semeniuk et al., 2011; Martin et al., 2013; Doherty and Driscoll, 2017). As such, ABMs simulating the fine-scale movement of individuals often keep track of temporal changes in the individual agent's internal state and its local surroundings. These changes generally prompt agent movement if they somehow increase (or at the very least, not decrease) the agent's fitness. For example, brown and rainbow trout agents decide to move from their position if the previous day's calculated ratio of mortality risk to growth is greater than expected. Thus, at a given time step, fish agents might move to maximize the ratio of growth to risk of mortality (Van Winkle et al., 1998). Bear agents in an ABM simulating human-bear interactions decide to move to a new location if their current location has a low amount of food, or if they are threatened by human activity (Marley et al., 2017).
+* internal state
+* cond of the current area
+* presence of competition & predation
+
+temporal changes prompt agents moement  
+e.g., trout, bear 
+
+> ABMs for movement generally incorporate rules that dictate when an individual agent decides to move from its current location. For real-world organisms, the onset of movement at fine scales may depend on the individual's current internal state, including its physiological and psychological conditions, the condition of the current area that the individual is in, and the presence of competition and predation ([Semeniuk et al., 2011][2011_Semeniuk]; [Martin et al., 2013][2013_Martin]; [Doherty and Driscoll, 2017][2017_Driscoll_Doherty]). As such, ABMs simulating the fine-scale movement of individuals often keep track of **temporal changes in the individual agent's internal state and its local surroundings**. These changes generally prompt agent movement if they somehow increase (or at the very least, not decrease) the agent's fitness. For example, brown and rainbow [trout](. "マス") agents decide to move from their position if the previous day's calculated ratio of mortality risk to growth is greater than expected. Thus, at a given time step, fish agents might move to maximize the ratio of growth to risk of mortality ([Van Winkle et al., 1998][1998_VanWinkle]). Bear agents in an ABM simulating human-bear interactions decide to move to a new location if their current location has a low amount of food, or if they are threatened by human activity ([Marley et al., 2017][2017_Marley]).
 
 ###### 04.01.P02
 
@@ -587,3 +594,10 @@ The above are all areas in which ABM incorporating decision-making has room to e
 
 <!-- figure 2 -->
 [2014_Baguette]: . ""
+
+<!-- 0401p01 -->
+[2011_Semeniuk]: . ""
+[2013_Martin]: . ""
+[2017_Driscoll_Doherty]: . ""
+[1998_VanWinkle]: . ""
+[2017_Marley]: . ""
