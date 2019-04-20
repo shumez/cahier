@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-20 20:28:30
+Modified: 	2019-04-20 20:29:48
 -----
 Copyright (c) 2019 shumez
 -->
@@ -173,7 +173,7 @@ compoponents:
 
 [![Fig.2][fig_02]][fig_02]
 
-> Figure 2. Schematic illustrating the major components influencing animal movement, all of which can be represented within an ABM (Baguette et al., 2014).
+> Figure 2. Schematic illustrating the major components influencing animal movement, all of which can be represented within an ABM ([Baguette et al., 2014][2014_Baguette]).
 
 ###### 04.P02
 
@@ -565,3 +565,6 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [2010_Bennett_Tang]: . ""
 [1995_Duning]: . ""
 [2013_Klaassen_Bauer]: . ""
+
+<!-- figure 2 -->
+[2014_Baguette]: . ""
