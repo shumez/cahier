@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-18 15:31:54
+Modified: 	2019-04-20 19:46:25
 -----
 Copyright (c) 2019 shumez
 -->
@@ -105,7 +105,7 @@ models
 * e.g., **predator-induced defenses**
 	* **Holling type 2 functional responses**
 
-> The influence of individual decisions on the level of whole populations and multi-population systems can also be studied when decision-making is incorporated into models of classical ecology, if the decisions are limited to simple rules, such as optimization of fitness in foraging ([MacArthur and Pianka, 1966][1966_Pianka_MacArthur]; [Charnov, 1976][1976_Charnov]), or in diet selection ([Pulliam, 1974][1974_Pulliam]) and life history ([Roff, 1992][1992_Roff]). For example, if all individuals foraging on a spatial environment of habitat patches with different resource levels are assumed to move among them until no further movement would increase their fitness, the population would reach what is called an **Ideal Free Distribution (IFD)** ([Fretwell and Lucas, 1969][1969_Lucas_Fretwell]). The IFD concept applies to a wider range of decisions, such as the choice that organisms in a population have in allocating resources in different proportions to foraging, defense, reproduction, etc. A particular example is that of **predator-induced defenses**, which are known to exist in many ecological systems and may involve changes in both morphology and behavior. The defended individuals are still [edible](. "食用になる") but less so than undefended prey and, as a tradeoff, have lower resource intake rates than undefended prey. Recently it has been shown that the existence of inducible defenses in species at the bottom or middle of the food chain can affect the stability of the food chain, as well as the ability of the top predator to exert top-down control on the system ([Vos et al., 2004][2004_Vos]). In [DeAngelis et al. (2007)[2007_DeAngelis]], a system containing a predator, a prey with an inducible defense, and a resource of the prey, was studied using a differential equation model, with **Holling type 2 functional responses** describing the trophic interactions. The prey could choose between [allocation](. "割り当て, 配分") to induced defense, with the tradeoff of lower resource uptake. The prey population evolved to switching between defense and non-defense, leading to a balance in which certain proportions of prey were in the undefended state and the rest in the defended state, the proportions depending on predator density. The prey in each state had equal fitness, so this was an IFD. This strategy of the prey influenced the populations of the whole food chain.
+> The influence of individual decisions on the level of whole populations and multi-population systems can also be studied when decision-making is incorporated into models of classical ecology, if the decisions are limited to simple rules, such as optimization of fitness in foraging ([MacArthur and Pianka, 1966][1966_Pianka_MacArthur]; [Charnov, 1976][1976_Charnov]), or in diet selection ([Pulliam, 1974][1974_Pulliam]) and life history ([Roff, 1992][1992_Roff]). For example, if all individuals foraging on a spatial environment of habitat patches with different resource levels are assumed to move among them until no further movement would increase their fitness, the population would reach what is called an **Ideal Free Distribution (IFD)** ([Fretwell and Lucas, 1969][1969_Lucas_Fretwell]). The IFD concept applies to a wider range of decisions, such as the choice that organisms in a population have in allocating resources in different proportions to foraging, defense, reproduction, etc. A particular example is that of **predator-induced defenses**, which are known to exist in many ecological systems and may involve changes in both morphology and behavior. The defended individuals are still [edible](. "食用になる") but less so than undefended prey and, as a tradeoff, have lower resource intake rates than undefended prey. Recently it has been shown that the existence of inducible defenses in species at the bottom or middle of the food chain can affect the stability of the food chain, as well as the ability of the top predator to exert top-down control on the system ([Vos et al., 2004][2004_Vos]). In [DeAngelis et al. (2007)][2007_DeAngelis], a system containing a predator, a prey with an inducible defense, and a resource of the prey, was studied using a differential equation model, with **Holling type 2 functional responses** describing the trophic interactions. The prey could choose between [allocation](. "割り当て, 配分") to induced defense, with the tradeoff of lower resource uptake. The prey population evolved to switching between defense and non-defense, leading to a balance in which certain proportions of prey were in the undefended state and the rest in the defended state, the proportions depending on predator density. The prey in each state had equal fitness, so this was an IFD. This strategy of the prey influenced the populations of the whole food chain.
 
 ###### 02.P05
 
@@ -140,7 +140,10 @@ ABM
 
 ###### 03.P03
 
-> An ABM can be used where decisions are complex and/or are in a setting of populations or communities. The simplest and most straightforward way to represent individual decision-making in an ABM is to utilize logical rules following the “if-then” structure. The behavior of an individual can be modeled when the “if” part contains a condition, and the proceeding “then” part presents the individual's response. The rules governing decision-making processes can be set up in various ways. Strictly logical, deterministic rules would assign only one possible behavior to an individual in a particular circumstance (Grimm and Railsback, 2005). Alternatively, a rule may be probabilistic, with a different probability for each choice in an array of possible actions in response to some stimulus. Rules may also be a combination of probabilistic and deterministic. For many animals, however, decision-making processes may be more complex, and can be influenced by many variables including the internal state of the individual, that may vary among individuals. As will be discussed later, ABMs are increasingly being used in situations where organisms are assumed to have incomplete knowledge of the surrounding environment, and differences in perception and navigation capacities, but are able to employ cognitive skills to make choices that are good proximate decisions, albeit less than optimal. In this way, ABMs are able to encapsulate the basic underlying principles of the decision-making process in a more realistic way than classical models, and may more effectively represent the way individuals actually decide on actions and how the resulting behaviors shape population-level processes (Figure 1).
+* deterministic
+* probabilistic
+
+> An ABM can be used where decisions are complex and/or are in a setting of populations or communities. The simplest and most straightforward way to represent individual decision-making in an ABM is to utilize logical rules following the “if-then” structure. The behavior of an individual can be modeled when the “if” part contains a condition, and the proceeding “then” part presents the individual's response. The rules governing decision-making processes can be set up in various ways. Strictly logical, deterministic rules would assign only one possible behavior to an individual in a particular circumstance ([Grimm and Railsback, 2005][2005_Railsback_Grimm]). Alternatively, a rule may be **probabilistic**, with a different probability for each choice in an array of possible actions in response to some stimulus. Rules may also be a combination of probabilistic and deterministic. For many animals, however, decision-making processes may be more complex, and can be influenced by many variables including the internal state of the individual, that may vary among individuals. As will be discussed later, ABMs are increasingly being used in situations where organisms are assumed to have incomplete knowledge of the surrounding environment, and differences in perception and navigation capacities, but are able to employ cognitive skills to make choices that are good proximate decisions, [albeit](. "although") less than optimal. In this way, ABMs are able to [encapsulate](. "要約する") the basic underlying principles of the decision-making process in a more realistic way than classical models, and may more effectively represent the way individuals actually decide on actions and how the resulting behaviors shape population-level processes ([Figure 1](#figure_1)).
 
 ###### FIGURE 1
 
@@ -453,39 +456,56 @@ The above are all areas in which ABM incorporating decision-making has room to e
 <!-- ref -->
 
 <!-- 01p01 -->
-[2009_Bray]: .
-[2009_Wagner]: .
-[2006_Deneubourg_Detrain]: .
-[2010_Ydenberg]: .
-[2015_Rypstra]: .
+[2009_Bray]: . ""
+[2009_Wagner]: . ""
+[2006_Deneubourg_Detrain]: . ""
+[2010_Ydenberg]: . ""
+[2015_Rypstra]: . ""
 
 <!-- 01p02 -->
 
 <!-- 02p01 -->
 
 <!-- 02p02 -->
-[1961_Fraenkel_Gunn]: .
-[1984_Schöne]: .
-[1991_Bell]: .
-[1999_Grünbaum]: .
-[2016_Gautestad]: .
-[2004_Humston]: .
-[1996_Zollner_Lima]: .
-[1988_Fahrig]: .
-[1976_Charnov]: .
-[1988_Clark_Mangel]: .
-[1999_McNamara_Houston]: .
-[2000_Mangel_Clark]: .
+[1961_Fraenkel_Gunn]: . ""
+[1984_Schöne]: . ""
+[1991_Bell]: . ""
+[1999_Grünbaum]: . ""
+[2016_Gautestad]: . ""
+[2004_Humston]: . ""
+[1996_Zollner_Lima]: . ""
+[1988_Fahrig]: . ""
+[1976_Charnov]: . ""
+[1988_Clark_Mangel]: . ""
+[1999_McNamara_Houston]: . ""
+[2000_Mangel_Clark]: . ""
 
 <!-- 02p03 -->
 [2000_Gilliam_Skalski]: https://pdfs.semanticscholar.org/3b3b/39b3456e3854ade5b74f5a763304e8710565.pdf "Skalski, G.T. and Gilliam, J.F., 2000. Modeling diffusive spread in a heterogeneous population: a movement study with stream fish. Ecology, 81(6), pp.1685-1700."
 [2008_MatthiopoulosJ_ThomasL_PattersonTA]: http://fics.hiit.fi/files/Patterson%20et%20al%202008%20TREE.pdf "Patterson, T.A., Thomas, L., Wilcox, C., Ovaskainen, O. and Matthiopoulos, J., 2008. State–space models of individual animal movement. Trends in ecology & evolution, 23(2), pp.87-94."
 [2018_Çabukoglu_Gorban]: https://arxiv.org/pdf/1804.01342.pdf "Gorban, A.N. and Çabukoǧlu, N., 2018. Mobility cost and degenerated diffusion in kinesis models. Ecological complexity, 36, pp.16-21."
+[2004_Bertozzi_Topaz]: . ""
+[2008_Lutscher]: . ""
+[2015_Almeida]: . ""
+[2016_Petrovskii_Tilles]: . ""
+[2004_Tyutyunov]: . ""
 [1999_OlsonDonald_GrünbaumD_FlierlG]: https://www.sciencedirect.com/science/article/pii/S0022519398908426 "Flierl, G., Grünbaum, D., Levins, S. and Olson, D., 1999. From individuals to aggregations: the interplay between behavior and physics. Journal of Theoretical biology, 196(4), pp.397-454."
 
 <!-- 02p04 -->
+[1966_Pianka_MacArthur]: . ""
+[1974_Pulliam]: . ""
+[1992_Roff]: . ""
+[1969_Lucas_Fretwell]: . ""
+[2004_Vos]: . ""
+[2007_DeAngelis]: . ""
 
 <!-- 02p05 -->
+[1982_Abrams]: . ""
+[1993_Abrams]: . ""
+[1990_Dill_Lima]: . ""
+[1993_Matsuda_Abrams]: . ""
+[2003_Peacor_Werner]: . ""
+[2009_Feng]: . ""
 [1983_Hammerstein_Richert]: https://www.annualreviews.org/doi/pdf/10.1146/annurev.es.14.110183.002113 "Riechert, S.E. and Hammerstein, P., 1983. Game theory in the ecological context. Annual Review of Ecology and Systematics, 14(1), pp.377-409."
 
 <!-- 03p01 -->
@@ -506,3 +526,6 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [1998_Parunak]: . ""
 [2001_Railsback]: . ""
 [2018_Vincenot]: . ""
+
+<!-- 03p03 -->
+[2005_Railsback_Grimm]: . ""
