@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-21 14:49:4
+Modified: 	2019-04-21 14:51:36
 -----
 Copyright (c) 2019 shumez
 -->
@@ -242,6 +242,18 @@ e.g., timing of pink-footed geese migration are influenced by factors:
 
 
 ### 04.02. Where to Move?
+
+###### 04.02.P01
+
+> Many organisms can process information about their environment and make movement decisions to satisfy internal desires. Changes in the internal state of an organism may result in changes in the organism's goals, movement decisions, and subsequent movement behavior (Tang and Bennett, 2010). When deciding where to move, mobile animals rely on their navigation capacity, which links the animals' internal states and external variables and manifests itself as either non-oriented, oriented, or memory-driven movement (Nathan et al., 2008; Doherty and Driscoll, 2017). The ABM framework lends itself to representing dynamic environmental cues, particularly when the spatiotemporal relationships between the agent and the environment is explicitly represented, as in spatially explicit ABMs. The internal states of individuals can be represented as dynamic state variables and integrated with the cognitive capabilities of individuals, which allows model agents to assess various movement decisions within complex landscapes and ultimately decide on their next destination (Tang and Bennett, 2010). Additionally, some stochasticity in selecting an area to move to is incorporated within many ABMs by using a combination of probabilistic and logical rules, reflecting imperfect knowledge of the environment and perception capabilities.
+
+###### 04.02.P02
+
+> Many ABMs simulating animal movement explicitly represent and track various components of an individual agent's internal state in detail, often resulting in movement characteristics that closely mimic those of real-world organisms. For example, Semeniuk et al. (2012) explored potential habitat-selection strategies employed by woodland caribou in response to industrial features in the landscape and represented the caribou's internal states by primarily tracking an individual's energy gain and loss. The caribou's decision on selecting a destination cell was influenced by its daily energetic state, reproductive energy requirement, and predation risk. The way that the internal state of the agent influenced movement varied for each alternative habitat-selection strategy. The authors found that the behavioral strategy concerned with balancing daily energy intake, conserving energy for reproduction, and minimizing predation risk agreed with real-world data better than the other strategies (Semeniuk et al., 2012). Watkins et al. (2015) kept track of energy reserves of jaguar agents within a model landscape representing central Belize. The landscape cells were characterized by attributes including food availability, the presence of marks from other jaguars, and the presence of roads. When agents decide to move, their decision-making process concerning cell selection depends on the habitat attributes underlying a specific cell and the agent's internal state, namely, energy reserves. The individual jaguar's energy reserve levels modulate the preference of different attributes; consequently, agents with high energy reserve levels may decide to move to a cell that does not necessarily have high food availability; see also Lewison and Carter (2004) for an ABM simulating hippopotamus foraging behavior.
+
+###### 04.02.P03
+
+> When information on the dynamics of an individual's internal state is lacking, it may be appropriate to simulate movement by using simple decision rules based on empirical observations of the resistance that different habitat types may confer to the movement of real-world individuals. For example, Aben et al. (2014) developed and explored the effectiveness of an ABM in simulating forest bird movement, in which a bird agent's selection of a cell (habitat area) to move to at any given time step was partially determined by the land-cover class that characterized a given cell. Land-cover classes conferring more resistance to movement were given higher “cost” values. Spatial cells characterized as having a low cost to birds that are moving through the cells had a higher probability of being selected than cells characterized as having a high cost. Similarly, simple decisions rules governing the selection of destination cells may be based on the quality of the surrounding environment, such that agents generally move toward preferred or favorable areas. In an ABM developed to estimate landscape connectivity for bighorn sheep, each cell in the landscape is represented by landscape attributes including its proximity to escape terrain and the presence of roads (Allen et al., 2016). Bighorn sheep agents have a higher probability of moving to cells closer to escape terrain and away from roads as these cells represent more favorable habitats to real-world bighorn sheep. The characteristics of the surrounding environment also played a major role for agents deciding on a destination in ABMs simulating movement for tiger (Kanagaraj et al., 2013), tortoise (Anadón et al., 2012), and capercaillie (Graf et al., 2007).
 
 ### 04.03. Collective Movement Behavior
 
