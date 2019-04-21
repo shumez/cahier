@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-21 16:09:8
+Modified: 	2019-04-21 16:34:5
 -----
 Copyright (c) 2019 shumez
 -->
@@ -253,24 +253,27 @@ links internal state and ecternal var
 
 ###### 04.02.P02
 
-e.g., caribous
+e.g., 
 
-* destination cell influenced by
-	* daily energetic state
-	* reproductive energy requirement
-	* predation risk
-
-e.g., jaguars
-
-* energy reserves (internal state)
-
-e.g., hippopotamus
+* caribous
+	* destination cell influenced by
+		* daily energetic state
+		* reproductive energy requirement
+		* predation risk
+* jaguars
+	* energy reserves (internal state)
+* hippopotamus
 
 > Many ABMs simulating animal movement explicitly represent and track various components of an individual agent's internal state in detail, often resulting in movement characteristics that closely mimic those of real-world organisms. For example, [Semeniuk et al. (2012)][2012_Semeniuk] explored potential habitat-selection strategies employed by woodland [caribou](. "トナカイ") in response to industrial features in the landscape and represented the caribou's internal states by primarily tracking an individual's energy gain and loss. The caribou's decision on selecting a destination cell was influenced by its daily energetic state, reproductive energy requirement, and predation risk. The way that the internal state of the agent influenced movement varied for each alternative habitat-selection strategy. The authors found that the behavioral strategy concerned with balancing daily energy intake, conserving energy for reproduction, and minimizing predation risk agreed with real-world data better than the other strategies ([Semeniuk et al., 2012][2012_Semeniuk]). [Watkins et al. (2015)][2015_Watkins] kept track of energy reserves of jaguar agents within a model landscape representing central [Belize](https://en.wikipedia.org/wiki/Belize "ベリーズ"). The landscape cells were characterized by attributes including food availability, the presence of marks from other jaguars, and the presence of roads. When agents decide to move, their decision-making process concerning cell selection depends on the habitat attributes underlying a specific cell *and* the agent's internal state, namely, **energy reserves**. The individual jaguar's energy reserve levels modulate the preference of different attributes; consequently, agents with high energy reserve levels may decide to move to a cell that does not necessarily have high food availability; see also [Lewison and Carter (2004)][2004_Carter_Lewison] for an ABM simulating hippopotamus foraging behavior.
 
 ###### 04.02.P03
 
-> When information on the dynamics of an individual's internal state is lacking, it may be appropriate to simulate movement by using simple decision rules based on empirical observations of the resistance that different habitat types may confer to the movement of real-world individuals. For example, Aben et al. (2014) developed and explored the effectiveness of an ABM in simulating forest bird movement, in which a bird agent's selection of a cell (habitat area) to move to at any given time step was partially determined by the land-cover class that characterized a given cell. Land-cover classes conferring more resistance to movement were given higher “cost” values. Spatial cells characterized as having a low cost to birds that are moving through the cells had a higher probability of being selected than cells characterized as having a high cost. Similarly, simple decisions rules governing the selection of destination cells may be based on the quality of the surrounding environment, such that agents generally move toward preferred or favorable areas. In an ABM developed to estimate landscape connectivity for bighorn sheep, each cell in the landscape is represented by landscape attributes including its proximity to escape terrain and the presence of roads (Allen et al., 2016). Bighorn sheep agents have a higher probability of moving to cells closer to escape terrain and away from roads as these cells represent more favorable habitats to real-world bighorn sheep. The characteristics of the surrounding environment also played a major role for agents deciding on a destination in ABMs simulating movement for tiger (Kanagaraj et al., 2013), tortoise (Anadón et al., 2012), and capercaillie (Graf et al., 2007).
+resistance 
+
+**cost**
+
+
+> When information on the dynamics of an individual's internal state is lacking, it may be appropriate to simulate movement by using simple decision rules based on empirical observations of the resistance that different habitat types may [confer](. "参照する") to the movement of real-world individuals. For example, [Aben et al. (2014)][2014_Aben] developed and explored the effectiveness of an ABM in simulating forest bird movement, in which a bird agent's selection of a cell (habitat area) to move to at any given time step was partially determined by the **land-cover class** that characterized a given cell. Land-cover classes conferring more resistance to movement were given higher **“cost” values**. Spatial cells characterized as having a low cost to birds that are moving through the cells had a higher probability of being selected than cells characterized as having a high cost. Similarly, simple decisions rules governing the selection of destination cells may be based on the quality of the surrounding environment, such that agents generally move toward preferred or favorable areas. In an ABM developed to estimate landscape connectivity for bighorn sheep, each cell in the landscape is represented by landscape attributes including its proximity to escape terrain and the presence of roads ([Allen et al., 2016][2016_Allen]). Bighorn sheep agents have a higher probability of moving to cells closer to escape terrain and away from roads as these cells represent more favorable habitats to real-world bighorn sheep. The characteristics of the surrounding environment also played a major role for agents deciding on a destination in ABMs simulating movement for tiger ([Kanagaraj et al., 2013][2013_Kanagaraj]), tortoise ([Anadón et al., 2012][2012_Anadón]), and capercaillie ([Graf et al., 2007][2007_Graf]).
 
 ### 04.03. Collective Movement Behavior
 
@@ -679,3 +682,10 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [2012_Semeniuk]: . ""
 [2015_Watkins]: . ""
 [2004_Carter_Lewison]: . ""
+
+<!-- 0402p03 -->
+[2014_Aben]: . ""
+[2016_Allen]: . ""
+[2013_Kanagaraj]: . ""
+[2012_Anadón]: . ""
+[2007_Graf]: . ""
