@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-21 14:08:39
+Modified: 	2019-04-21 14:37:51
 -----
 Copyright (c) 2019 shumez
 -->
@@ -208,7 +208,21 @@ e.g., green woodhoopoe
 
 ###### 04.01.P03
 
-> Large scale movement, such as migration, may be triggered by temporal changes in resource availability (Van Moorter et al., 2013) along with a number of other factors, and ABMs have been utilized to explore the potential decision-rules that may dictate the timing of such behavior for various species. For example, (Duriez et al., 2009) assumed the following factors to be important for the timing of pink-footed geese migration; (1) having minimal body stores, (2) having maximal stores, (3) date, (4) temperature, (5) plant phenology, and (6) fixed duration of stay. The authors found that decision-rules related to food resources were important for dictating the onset of migration, but later in the season, decision-rules related to the geese agents' internal clocks and date are likely used.
+* temporal changes in
+	* recoucese availability
+	* other factors
+
+
+e.g., timing of pink-footed geese migration are influenced by factors:
+
+1. minimal body stores
+2. maximal stores
+3. date
+4. temperature
+5. plant phenology
+6. fixed duration of stay
+
+> Large scale movement, such as migration, may be triggered by temporal changes in resource availability ([Van Moorter et al., 2013][2013_VanMoorter]) along with a number of other factors, and ABMs have been utilized to explore the potential decision-rules that may dictate the timing of such behavior for various species. For example, ([Duriez et al., 2009][2009_KlaassenMarcel_BauerSilke_DuriezOlivier]) assumed the following factors to be important for the timing of pink-footed geese migration; (1) having minimal body stores, (2) having maximal stores, (3) date, (4) temperature, (5) plant phenology, and (6) fixed duration of stay. The authors found that decision-rules related to food resources were important for dictating the onset of migration, but later in the season, decision-rules related to the geese agents' internal clocks and date are likely used.
 
 ###### 04.01.P04
 
@@ -608,3 +622,7 @@ The above are all areas in which ABM incorporating decision-making has room to e
 
 <!-- 0401p02 -->
 [1995_Neuert]: . ""
+
+<!-- 0401p03 -->
+[2013_VanMoorter]: . ""
+[2009_KlaassenMarcel_BauerSilke_DuriezOlivier]: https://academic.oup.com/beheco/article/20/3/560/185692 "Duriez, O., Bauer, S., Destin, A., Madsen, J., Nolet, B.A., Stillman, R.A. and Klaassen, M., 2009. What decision rules might pink-footed geese use to depart on migration? An individual-based model. Behavioral Ecology, 20(3), pp.560-569."
