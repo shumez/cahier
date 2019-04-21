@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-21 14:51:36
+Modified: 	2019-04-21 15:47:42
 -----
 Copyright (c) 2019 shumez
 -->
@@ -245,7 +245,11 @@ e.g., timing of pink-footed geese migration are influenced by factors:
 
 ###### 04.02.P01
 
-> Many organisms can process information about their environment and make movement decisions to satisfy internal desires. Changes in the internal state of an organism may result in changes in the organism's goals, movement decisions, and subsequent movement behavior (Tang and Bennett, 2010). When deciding where to move, mobile animals rely on their navigation capacity, which links the animals' internal states and external variables and manifests itself as either non-oriented, oriented, or memory-driven movement (Nathan et al., 2008; Doherty and Driscoll, 2017). The ABM framework lends itself to representing dynamic environmental cues, particularly when the spatiotemporal relationships between the agent and the environment is explicitly represented, as in spatially explicit ABMs. The internal states of individuals can be represented as dynamic state variables and integrated with the cognitive capabilities of individuals, which allows model agents to assess various movement decisions within complex landscapes and ultimately decide on their next destination (Tang and Bennett, 2010). Additionally, some stochasticity in selecting an area to move to is incorporated within many ABMs by using a combination of probabilistic and logical rules, reflecting imperfect knowledge of the environment and perception capabilities.
+navigation capacity:  
+links internal state and ecternal var 
+
+
+> Many organisms can process information about their environment and make movement decisions to satisfy internal desires. Changes in the internal state of an organism may result in changes in the organism's goals, movement decisions, and subsequent movement behavior ([Tang and Bennett, 2010][2010_Bennett_Tang]). When deciding where to move, mobile animals rely on their navigation capacity, which links the animals' internal states and external variables and manifests itself as either non-oriented, oriented, or memory-driven movement ([Nathan et al., 2008][2008_Nathan]; [Doherty and Driscoll, 2017][2017_DriscollDonA_DohertyTimS]). The ABM framework [lends](. "貸す, 適している") itself to representing dynamic environmental cues, particularly when the spatiotemporal relationships between the agent and the environment is explicitly represented, as in spatially explicit ABMs. The internal states of individuals can be represented as dynamic state variables and integrated with the cognitive capabilities of individuals, which allows model agents to assess various movement decisions within complex landscapes and ultimately decide on their next destination ([Tang and Bennett, 2010][2010_Bennett_Tang]). Additionally, some stochasticity in selecting an area to move to is incorporated within many ABMs by using a combination of probabilistic and logical rules, reflecting imperfect knowledge of the environment and perception capabilities.
 
 ###### 04.02.P02
 
@@ -652,3 +656,8 @@ The above are all areas in which ABM incorporating decision-making has room to e
 
 <!-- 0401p04 -->
 [2014_Bocedi]: . ""
+
+<!-- 0402p01 -->
+[2010_Bennett_Tang]: . ""
+[2008_Nathan]: . ""
+[2017_DriscollDonA_DohertyTimS]: https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2017.2272 "Doherty TS, Driscoll DA. 2017 Coupling movement and landscape ecology for animal conservation in production landscapes. Proc. R. Soc. B 285: 20172272. http://dx.doi.org/10.1098/rspb.2017.2272"
