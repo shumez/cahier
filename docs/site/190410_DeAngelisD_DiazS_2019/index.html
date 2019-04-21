@@ -297,7 +297,7 @@ Filename:   190410_DeAngelisD_DiazS_2019.md
 Project:    /Users/shume/Documents/Cahier
 Author:     shumez <https://github.com/shumez>
 Created:    2019-04-10 20:57:8
-Modified:   2019-04-20 20:59:2
+Modified:   2019-04-21 16:34:5
 -----
 Copyright (c) 2019 shumez
 -->
@@ -497,18 +497,85 @@ e.g., trout, bear </p>
 <p>ABMs for movement generally incorporate rules that dictate when an individual agent decides to move from its current location. For real-world organisms, the onset of movement at fine scales may depend on the individual's current internal state, including its physiological and psychological conditions, the condition of the current area that the individual is in, and the presence of competition and predation (<a href=".">Semeniuk et al., 2011</a>; <a href=".">Martin et al., 2013</a>; <a href=".">Doherty and Driscoll, 2017</a>). As such, ABMs simulating the fine-scale movement of individuals often keep track of <strong>temporal changes in the individual agent's internal state and its local surroundings</strong>. These changes generally prompt agent movement if they somehow increase (or at the very least, not decrease) the agent's fitness. For example, brown and rainbow <a href="." title="マス">trout</a> agents decide to move from their position if the previous day's calculated ratio of mortality risk to growth is greater than expected. Thus, at a given time step, fish agents might move to maximize the ratio of growth to risk of mortality (<a href=".">Van Winkle et al., 1998</a>). Bear agents in an ABM simulating human-bear interactions decide to move to a new location if their current location has a low amount of food, or if they are threatened by human activity (<a href=".">Marley et al., 2017</a>).</p>
 </blockquote>
 <h6 id="0401p02">04.01.P02<a class="headerlink" href="#0401p02" title="Permanent link">¶</a></h6>
+<p>changes of many individuals through time influence movement</p>
+<p>e.g., green woodhoopoe</p>
 <blockquote>
-<p>An individual's decision on when to move may be influenced by the individual's life cycle and social factors. ABMs can track important biological changes of many individuals through time and be utilized to explore how these changes influence movement when placed within a social context. For example, <a href=".">Neuert et al. (1995)</a> developed a model of the territorial group-living green woodhoopoe (Phoeniculus purpureus) to address the question of when a subdominant (and thus non-breeding) individual should decide to leave the group and scout for a territory on which it could breed, vs. waiting around to become high enough in status to breed at its natal site. In the model, the decision was based on its own age and rank, where the rank is correlated with age. The simple decision trait of higher propensity to go on scouting forays with increasing age provided the best agreement with empirical data.</p>
+<p>An individual's decision on when to move may be influenced by the individual's life cycle and social factors. ABMs can track important biological changes of many individuals through time and be utilized to explore how these changes influence movement when placed within a social context. For example, <a href=".">Neuert et al. (1995)</a> developed a model of the territorial group-living green <a href="https://en.wikipedia.org/wiki/Wood_hoopoe" title="モリヤツガシラ">woodhoopoe</a> (<em>Phoeniculus purpureus</em>) to address the question of when a subdominant (and thus non-breeding) individual should decide to leave the group and <a href="." title="reject">scout</a> for a territory on which it could breed, vs. waiting around to become high enough in status to breed at its natal site. In the model, <strong>the decision was based on its own age and rank, where the rank is correlated with age</strong>. The simple decision trait of higher <a href="." title="性癖, 傾向">propensity</a> to go on scouting <a href="." title="進出, 一時的関心">forays</a> with increasing age provided the best agreement with empirical data.</p>
 </blockquote>
 <h6 id="0401p03">04.01.P03<a class="headerlink" href="#0401p03" title="Permanent link">¶</a></h6>
+<ul>
+<li>temporal changes in<ul>
+<li>recoucese availability</li>
+<li>other factors</li>
+</ul>
+</li>
+</ul>
+<p>e.g., timing of pink-footed geese migration are influenced by factors:</p>
+<ol>
+<li>minimal body stores</li>
+<li>maximal stores</li>
+<li>date</li>
+<li>temperature</li>
+<li>plant phenology</li>
+<li>fixed duration of stay</li>
+</ol>
 <blockquote>
-<p>Large scale movement, such as migration, may be triggered by temporal changes in resource availability (Van Moorter et al., 2013) along with a number of other factors, and ABMs have been utilized to explore the potential decision-rules that may dictate the timing of such behavior for various species. For example, (Duriez et al., 2009) assumed the following factors to be important for the timing of pink-footed geese migration; (1) having minimal body stores, (2) having maximal stores, (3) date, (4) temperature, (5) plant phenology, and (6) fixed duration of stay. The authors found that decision-rules related to food resources were important for dictating the onset of migration, but later in the season, decision-rules related to the geese agents' internal clocks and date are likely used.</p>
+<p>Large scale movement, such as migration, may be triggered by temporal changes in resource availability (<a href=".">Van Moorter et al., 2013</a>) along with a number of other factors, and ABMs have been utilized to explore the potential decision-rules that may dictate the timing of such behavior for various species. For example, (<a href="https://academic.oup.com/beheco/article/20/3/560/185692" title="Duriez, O., Bauer, S., Destin, A., Madsen, J., Nolet, B.A., Stillman, R.A. and Klaassen, M., 2009. What decision rules might pink-footed geese use to depart on migration? An individual-based model. Behavioral Ecology, 20(3), pp.560-569.">Duriez et al., 2009</a>) assumed the following factors to be important for the timing of pink-footed geese migration; (1) having minimal body stores, (2) having maximal stores, (3) date, (4) temperature, (5) plant phenology, and (6) fixed duration of stay. The authors found that decision-rules related to food resources were important for dictating the onset of migration, but later in the season, decision-rules related to the geese agents' internal clocks and date are likely used.</p>
 </blockquote>
 <h6 id="0401p04">04.01.P04<a class="headerlink" href="#0401p04" title="Permanent link">¶</a></h6>
+<p><strong>range expansion of population</strong></p>
+<p>3 phases</p>
+<ol>
+<li><strong>initial probability</strong> of offspring dispersing from natal cell <ul>
+<li>depending on population density</li>
+</ul>
+</li>
+<li><strong>transfer probability</strong> <ul>
+<li>dependind on landscape composition of the cell &amp; neghboring animals</li>
+</ul>
+</li>
+<li><strong>settlement probability</strong><ul>
+<li>depending on habitat suitability, presence of potential mate, density of conspeceifics</li>
+</ul>
+</li>
+</ol>
 <blockquote>
-<p>Movement is also involved in the range expansion of a population, and Bocedi et al. (2014) modeled range expansion by considering three phases. Within the ABM, there is an initial probability of offspring dispersing from a natal cell, which can depend on population density. Then there is “transfer probability,” the direction of which is weighted by the costs of moving to each adjacent cell, which depends on landscape composition of the cell and neighboring animals. In the final phase, four alternative strategies were compared to determine which best described settlement probability, and each of which was based on a combination of several factors, including habitat suitability, presence of a potential mate, and density of conspecifics.</p>
+<p>Movement is also involved in the <strong>range expansion of a population</strong>, and <a href=".">Bocedi et al. (2014)</a> modeled range expansion by considering three phases. Within the ABM, there is an initial probability of <strong>offspring dispersing</strong> from a natal <a href="." title="巣">cell</a>, which can depend on population density. Then there is “<strong>transfer probability</strong>,” the direction of which is weighted by the costs of moving to each adjacent cell, which depends on landscape composition of the cell and neighboring animals. In the final phase, four alternative strategies were compared to determine which best described <strong>settlement probability</strong>, and each of which was based on a combination of several factors, including habitat suitability, presence of a potential mate, and density of <a href="." title="member of the same species">conspecifics</a>.</p>
 </blockquote>
 <h3 id="0402_where_to_move">04.02. Where to Move?<a class="headerlink" href="#0402_where_to_move" title="Permanent link">¶</a></h3>
+<h6 id="0402p01">04.02.P01<a class="headerlink" href="#0402p01" title="Permanent link">¶</a></h6>
+<p>navigation capacity:<br />
+links internal state and ecternal var </p>
+<blockquote>
+<p>Many organisms can process information about their environment and make movement decisions to satisfy internal desires. Changes in the internal state of an organism may result in changes in the organism's goals, movement decisions, and subsequent movement behavior (<a href=".">Tang and Bennett, 2010</a>). When deciding where to move, mobile animals rely on their navigation capacity, which links the animals' internal states and external variables and manifests itself as either non-oriented, oriented, or memory-driven movement (<a href=".">Nathan et al., 2008</a>; <a href="https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2017.2272" title="Doherty TS, Driscoll DA. 2017 Coupling movement and landscape ecology for animal conservation in production landscapes. Proc. R. Soc. B 285: 20172272. http://dx.doi.org/10.1098/rspb.2017.2272">Doherty and Driscoll, 2017</a>). The ABM framework <a href="." title="貸す, 適している">lends</a> itself to representing dynamic environmental cues, particularly when the spatiotemporal relationships between the agent and the environment is explicitly represented, as in spatially explicit ABMs. The internal states of individuals can be represented as dynamic state variables and integrated with the cognitive capabilities of individuals, which allows model agents to assess various movement decisions within complex landscapes and ultimately decide on their next destination (<a href=".">Tang and Bennett, 2010</a>). Additionally, some stochasticity in selecting an area to move to is incorporated within many ABMs by using a combination of probabilistic and logical rules, reflecting imperfect knowledge of the environment and perception capabilities.</p>
+</blockquote>
+<h6 id="0402p02">04.02.P02<a class="headerlink" href="#0402p02" title="Permanent link">¶</a></h6>
+<p>e.g., </p>
+<ul>
+<li>caribous<ul>
+<li>destination cell influenced by<ul>
+<li>daily energetic state</li>
+<li>reproductive energy requirement</li>
+<li>predation risk</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>jaguars<ul>
+<li>energy reserves (internal state)</li>
+</ul>
+</li>
+<li>hippopotamus</li>
+</ul>
+<blockquote>
+<p>Many ABMs simulating animal movement explicitly represent and track various components of an individual agent's internal state in detail, often resulting in movement characteristics that closely mimic those of real-world organisms. For example, <a href=".">Semeniuk et al. (2012)</a> explored potential habitat-selection strategies employed by woodland <a href="." title="トナカイ">caribou</a> in response to industrial features in the landscape and represented the caribou's internal states by primarily tracking an individual's energy gain and loss. The caribou's decision on selecting a destination cell was influenced by its daily energetic state, reproductive energy requirement, and predation risk. The way that the internal state of the agent influenced movement varied for each alternative habitat-selection strategy. The authors found that the behavioral strategy concerned with balancing daily energy intake, conserving energy for reproduction, and minimizing predation risk agreed with real-world data better than the other strategies (<a href=".">Semeniuk et al., 2012</a>). <a href=".">Watkins et al. (2015)</a> kept track of energy reserves of jaguar agents within a model landscape representing central <a href="https://en.wikipedia.org/wiki/Belize" title="ベリーズ">Belize</a>. The landscape cells were characterized by attributes including food availability, the presence of marks from other jaguars, and the presence of roads. When agents decide to move, their decision-making process concerning cell selection depends on the habitat attributes underlying a specific cell <em>and</em> the agent's internal state, namely, <strong>energy reserves</strong>. The individual jaguar's energy reserve levels modulate the preference of different attributes; consequently, agents with high energy reserve levels may decide to move to a cell that does not necessarily have high food availability; see also <a href=".">Lewison and Carter (2004)</a> for an ABM simulating hippopotamus foraging behavior.</p>
+</blockquote>
+<h6 id="0402p03">04.02.P03<a class="headerlink" href="#0402p03" title="Permanent link">¶</a></h6>
+<p>resistance </p>
+<p><strong>cost</strong></p>
+<blockquote>
+<p>When information on the dynamics of an individual's internal state is lacking, it may be appropriate to simulate movement by using simple decision rules based on empirical observations of the resistance that different habitat types may <a href="." title="参照する">confer</a> to the movement of real-world individuals. For example, <a href=".">Aben et al. (2014)</a> developed and explored the effectiveness of an ABM in simulating forest bird movement, in which a bird agent's selection of a cell (habitat area) to move to at any given time step was partially determined by the <strong>land-cover class</strong> that characterized a given cell. Land-cover classes conferring more resistance to movement were given higher <strong>“cost” values</strong>. Spatial cells characterized as having a low cost to birds that are moving through the cells had a higher probability of being selected than cells characterized as having a high cost. Similarly, simple decisions rules governing the selection of destination cells may be based on the quality of the surrounding environment, such that agents generally move toward preferred or favorable areas. In an ABM developed to estimate landscape connectivity for bighorn sheep, each cell in the landscape is represented by landscape attributes including its proximity to escape terrain and the presence of roads (<a href=".">Allen et al., 2016</a>). Bighorn sheep agents have a higher probability of moving to cells closer to escape terrain and away from roads as these cells represent more favorable habitats to real-world bighorn sheep. The characteristics of the surrounding environment also played a major role for agents deciding on a destination in ABMs simulating movement for tiger (<a href=".">Kanagaraj et al., 2013</a>), tortoise (<a href=".">Anadón et al., 2012</a>), and capercaillie (<a href=".">Graf et al., 2007</a>).</p>
+</blockquote>
 <h3 id="0403_collective_movement_behavior">04.03. Collective Movement Behavior<a class="headerlink" href="#0403_collective_movement_behavior" title="Permanent link">¶</a></h3>
 <h2 id="05_foraging_decisions_and_population_interactions">05. Foraging Decisions and Population Interactions<a class="headerlink" href="#05_foraging_decisions_and_population_interactions" title="Permanent link">¶</a></h2>
 <h2 id="06_social_interactions_in_populations">06. Social Interactions in Populations<a class="headerlink" href="#06_social_interactions_in_populations" title="Permanent link">¶</a></h2>
@@ -811,6 +878,16 @@ The above are all areas in which ABM incorporating decision-making has room to e
 <!-- 0401p01 -->
 
 <!-- 0401p02 -->
+
+<!-- 0401p03 -->
+
+<!-- 0401p04 -->
+
+<!-- 0402p01 -->
+
+<!-- 0402p02 -->
+
+<!-- 0402p03 -->
               
             </div>
           </div>
