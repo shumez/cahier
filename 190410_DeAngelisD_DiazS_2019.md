@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-21 17:47:51
+Modified: 	2019-04-21 18:02:45
 -----
 Copyright (c) 2019 shumez
 -->
@@ -279,7 +279,15 @@ resistance
 
 ###### 04.03.P01
 
-> Many of the above models of animal movement are single-agent ABMs, as opposed to multi-agent ABMs used to simulate collections of interacting individuals. One of the enigmas of natural history is the striking coordinated collective movements of various taxa (birds, insects, fish, mammals, etc.). Investigation of these phenomena is based on the recognition that the movement characteristics of individuals are often influenced by the spatial position and movement of conspecifics, which results in collective movement (Krause et al., 2010). Individuals must make decisions on the initialization and direction of movement, and these decisions somehow incorporate the states of their neighbors. As Sumpter (2006) notes, the key to understanding collective behavior lies in identifying the principles of the behavioral algorithms followed by individual animals and how information flows between the animals. The decision-making process of individuals involved in collective movement has been represented by a spectrum of simple to complex rules within ABMs.
+* single-agent
+* multi-agent
+
+key to understanding collective behavior:
+
+* principles of the bahavioral algorithms followed by individual
+* how info flows between animals 
+
+> Many of the above models of animal movement are single-agent ABMs, as opposed to **multi-agent ABMs** used to simulate collections of interacting individuals. One of the [enigmas](. "謎") of natural history is the striking coordinated collective movements of various taxa (birds, insects, fish, mammals, etc.). Investigation of these phenomena is based on the recognition that the movement characteristics of individuals are often influenced by the spatial position and movement of conspecifics, which results in collective movement ([Krause et al., 2010][2010_Krause]). Individuals must make decisions on the initialization and direction of movement, and these decisions somehow incorporate the states of their neighbors. As [Sumpter (2006)][2006_Sumpter] notes, the key to understanding collective behavior lies in identifying **the principles of the behavioral algorithms followed by individual animals** and **how information flows between the animals**. The decision-making process of individuals involved in collective movement has been represented by a spectrum of simple to complex rules within ABMs.
 
 ###### 04.03.P02
 
@@ -701,3 +709,7 @@ The above are all areas in which ABM incorporating decision-making has room to e
 [2013_Kanagaraj]: . ""
 [2012_Anadón]: . ""
 [2007_Graf]: . ""
+
+<!-- 0403p01 -->
+[2010_Krause]: . ""
+[2006_Sumpter]: . ""
