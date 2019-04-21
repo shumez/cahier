@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-21 14:37:51
+Modified: 	2019-04-21 14:49:4
 -----
 Copyright (c) 2019 shumez
 -->
@@ -226,7 +226,18 @@ e.g., timing of pink-footed geese migration are influenced by factors:
 
 ###### 04.01.P04
 
-> Movement is also involved in the range expansion of a population, and Bocedi et al. (2014) modeled range expansion by considering three phases. Within the ABM, there is an initial probability of offspring dispersing from a natal cell, which can depend on population density. Then there is “transfer probability,” the direction of which is weighted by the costs of moving to each adjacent cell, which depends on landscape composition of the cell and neighboring animals. In the final phase, four alternative strategies were compared to determine which best described settlement probability, and each of which was based on a combination of several factors, including habitat suitability, presence of a potential mate, and density of conspecifics.
+**range expansion of population**
+
+3 phases
+
+1. **initial probability** of offspring dispersing from natal cell 
+	* depending on population density
+2. **transfer probability** 
+	* dependind on landscape composition of the cell & neghboring animals
+3. **settlement probability**
+	* depending on habitat suitability, presence of potential mate, density of conspeceifics
+
+> Movement is also involved in the **range expansion of a population**, and [Bocedi et al. (2014)][2014_Bocedi] modeled range expansion by considering three phases. Within the ABM, there is an initial probability of **offspring dispersing** from a natal cell, which can depend on population density. Then there is “**transfer probability**,” the direction of which is weighted by the costs of moving to each adjacent cell, which depends on landscape composition of the cell and neighboring animals. In the final phase, four alternative strategies were compared to determine which best described **settlement probability**, and each of which was based on a combination of several factors, including habitat suitability, presence of a potential mate, and density of [conspecifics](. "member of the same species").
 
 
 
@@ -626,3 +637,6 @@ The above are all areas in which ABM incorporating decision-making has room to e
 <!-- 0401p03 -->
 [2013_VanMoorter]: . ""
 [2009_KlaassenMarcel_BauerSilke_DuriezOlivier]: https://academic.oup.com/beheco/article/20/3/560/185692 "Duriez, O., Bauer, S., Destin, A., Madsen, J., Nolet, B.A., Stillman, R.A. and Klaassen, M., 2009. What decision rules might pink-footed geese use to depart on migration? An individual-based model. Behavioral Ecology, 20(3), pp.560-569."
+
+<!-- 0401p04 -->
+[2014_Bocedi]: . ""
