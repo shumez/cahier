@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-25 16:18:18
+Modified: 	2019-04-25 16:28:7
 -----
 Copyright (c) 2019 shumez
 -->
@@ -338,13 +338,13 @@ geese
 
 **Bioenergetics model**
 
-
-
 > [Kanarek et al. (2008)][2008_Kanarek] modeled [barnacle geese](. "黒雁") that return to the same group of islands each year as a migration stop. The geese are assumed to vary in age, energy reserves, genetic disposition, and spatial memory of previously visited locations. A goose chooses a specific island based on a combination of factors; constraint due to rank in the dominance hierarchy, memories of previously visited sites and past reproductive success, inherited genetic influences toward site faithfulness, and knowledge of the available biomass density. Within the island the goose chooses to forage on a particular patch until its intake rate drops below a certain amount. Once a goose decides to leave a patch, it uses its knowledge to choose where to go next, assigning a score to a patch based on several factors. A **bioenergetics model** keeps track of the body mass of the goose, and the goose leaves the staging area either when a threshold of the amount of energy stored or when the end of the stopover period is reached. Each year that a goose returns to the same patch, its familiarity and ability to locate food increases as well as its hierarchical rank. 
 
 ###### 05.P04
 
-> A dominance hierarchy is also incorporated into the ABM of a migratory bird, the oystercatcher, feeding on mussels in a tidal estuary in England during the winter (Stillman et al., 1997). A population of individual oystercatchers was modeled on a two-dimensional patch, and the individuals were assigned to places in a dominance hierarchy. When two individuals come within a certain distance, and one is handling prey, the other might attack to attempt to steal the prey, prompting the other to fight back, with the dominant individual always winning. The alternative behavior is avoidance, an action taken with higher probability by less dominant individuals. Avoidance subtracts less time from foraging than fighting. The authors assumed that individuals could calculate the costs vs. benefits of a given action and decide accordingly. The results of the model show, in accord with observations, much less incidence of interference than equivalent analytic models, because, given the differences in rank that are incorporated in the ABM, dominants wasted less time avoiding subdominants, and subdominants avoided fighting. 
+**dominance hierarchy**
+
+> A dominance hierarchy is also incorporated into the ABM of a migratory bird, the [oystercatcher](. "ミヤコドリ"), feeding on [mussels](. "ムール貝") in a tidal [estuary](. "河口, 入江") in England during the winter ([Stillman et al., 1997][1997_Stillman]). A population of individual oystercatchers was modeled on a two-dimensional patch, and the individuals were assigned to places in a dominance hierarchy. When two individuals come within a certain distance, and one is handling prey, the other might attack to attempt to steal the prey, prompting the other to fight back, with the dominant individual always winning. The alternative behavior is avoidance, an action taken with higher probability by less dominant individuals. Avoidance subtracts less time from foraging than fighting. The authors assumed that individuals could calculate the costs vs. benefits of a given action and decide accordingly. The results of the model show, in accord with observations, much less incidence of interference than equivalent analytic models, because, given the differences in rank that are incorporated in the ABM, dominants wasted less time avoiding subdominants, and subdominants avoided fighting. 
 
 ###### 05.P05
 
@@ -623,3 +623,6 @@ geese
 
 <!-- 05p03 -->
 [2008_Kanarek]: . ""
+
+<!-- 05p04 -->
+[1997_Stillman]: . ""
