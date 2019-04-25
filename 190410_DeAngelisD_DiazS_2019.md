@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-21 18:02:45
+Modified: 	2019-04-25 14:06:4
 -----
 Copyright (c) 2019 shumez
 -->
@@ -287,11 +287,21 @@ key to understanding collective behavior:
 * principles of the bahavioral algorithms followed by individual
 * how info flows between animals 
 
-> Many of the above models of animal movement are single-agent ABMs, as opposed to **multi-agent ABMs** used to simulate collections of interacting individuals. One of the [enigmas](. "謎") of natural history is the striking coordinated collective movements of various taxa (birds, insects, fish, mammals, etc.). Investigation of these phenomena is based on the recognition that the movement characteristics of individuals are often influenced by the spatial position and movement of conspecifics, which results in collective movement ([Krause et al., 2010][2010_Krause]). Individuals must make decisions on the initialization and direction of movement, and these decisions somehow incorporate the states of their neighbors. As [Sumpter (2006)][2006_Sumpter] notes, the key to understanding collective behavior lies in identifying **the principles of the behavioral algorithms followed by individual animals** and **how information flows between the animals**. The decision-making process of individuals involved in collective movement has been represented by a spectrum of simple to complex rules within ABMs.
+> Many of the above models of animal movement are single-agent ABMs, as opposed to **multi-agent ABMs** used to simulate collections of interacting individuals. One of the [enigmas](. "謎") of natural history is the striking coordinated collective movements of various taxa (birds, insects, fish, mammals, etc.). Investigation of these phenomena is based on the recognition that the movement characteristics of individuals are often influenced by the spatial position and movement of conspecifics, which results in collective movement ([Krause et al., 2010][2010_Krause]). Individuals must make decisions on the initialization and direction of movement, and these decisions somehow incorporate the states of their neighbors. As [Sumpter (2006)][2006_SumpterDavidJT] notes, the key to understanding collective behavior lies in identifying **the principles of the behavioral algorithms followed by individual animals** and **how information flows between the animals**. The decision-making process of individuals involved in collective movement has been represented by a spectrum of simple to complex rules within ABMs.
 
 ###### 04.03.P02
 
-> Both Sumpter (2006) and Couzin and Krause (2003) provide reviews of the use of ABM in describing collective behaviors of organisms based on relatively small sets of decision rules. In an early use of a spatially explicit ABM, Huth and Wissel (1992) showed that the complex movement of fish schools could be described by a few rules; the fish tend to keep a certain distance between themselves and a number of its close neighbors and move parallel to other fish when they are within a certain range. The fish agents decide to move away from neighbors if they are too close (repulsion) or align themselves with their neighbors if they are too far (attraction). Size sorting also occurs in fish schools, which may be represented by simple rules, where individuals tend to actively stay with individuals of similar size and avoid those of a different size (Hemelrijk and Kunz, 2005). Couzin et al. (2002) proposed a similarly simple model in which individual animals followed three rules of thumb; (1) move away from very nearby neighbors, (2) adopt the same direction as those that are close by, and (3) avoid becoming isolated; thus, the authors utilized the simple rules of repulsion, alignment, and attraction. In taking into account the location of an individual's neighbors at all times, the authors' model was able to reproduce collective behavior often seen in nature, including swarming and torus behavior.
+* fish school ([Huth and Wissel (1992)][1992_Wissel_Huth])
+	* rupulsion ()
+	* attraction ()
+
+[Couzin 2002][2002_Couzin]:
+
+* repulsion (move away from nearby neighbors)
+* alignment (adopt the same direction)
+* attractin (avoid becoming isolated)
+
+> Both [Sumpter (2006)][2006_SumpterDavidJT] and [Couzin and Krause (2003)][2003_Krause_Couzin] provide reviews of the use of ABM in describing collective behaviors of organisms based on relatively small sets of decision rules. In an early use of a spatially explicit ABM, [Huth and Wissel (1992)][1992_Wissel_Huth] showed that the complex movement of fish schools could be described by a few rules; the fish tend to keep a certain distance between themselves and a number of its close neighbors and move parallel to other fish when they are within a certain range. The fish agents decide to move away from neighbors if they are too close (repulsion) or align themselves with their neighbors if they are too far (attraction). Size sorting also occurs in fish schools, which may be represented by simple rules, where individuals tend to actively stay with individuals of similar size and avoid those of a different size ([Hemelrijk and Kunz, 2005][2005_Kunz_Hemelrijk]). [Couzin et al. (2002)][2002_Couzin] proposed a similarly simple model in which individual animals followed three rules of thumb; (1) move away from very nearby neighbors, (2) adopt the same direction as those that are close by, and (3) avoid becoming isolated; thus, the authors utilized the simple rules of repulsion, alignment, and attraction. In taking into account the location of an individual's neighbors at all times, the authors' model was able to reproduce collective behavior often seen in nature, including [swarm](. "昆虫などが群れる")ing and [torus](. "円環面") behavior.
 
 ###### 04.03.P03
 
@@ -712,4 +722,10 @@ The above are all areas in which ABM incorporating decision-making has room to e
 
 <!-- 0403p01 -->
 [2010_Krause]: . ""
-[2006_Sumpter]: . ""
+[2006_SumpterDavidJT]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1626537/ "Sumpter, D.J., 2005. The principles of collective animal behaviour. Philosophical transactions of the royal society B: Biological Sciences, 361(1465), pp.5-22."
+
+<!-- 0403p02 -->
+[2003_Krause_Couzin]: . ""
+[1992_Wissel_Huth]: . ""
+[2005_Kunz_Hemelrijk]: . ""
+[2002_Couzin]: . ""
