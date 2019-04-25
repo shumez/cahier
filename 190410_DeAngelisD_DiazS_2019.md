@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-25 15:19:32
+Modified: 	2019-04-25 15:29:14
 -----
 Copyright (c) 2019 shumez
 -->
@@ -322,7 +322,9 @@ key to understanding collective behavior:
 
 ###### 05.P01
 
-> The use of ABM in modeling foraging behavior changes the emphasis from predicting the fitness of the individual based on its decisions to predicting temporal and spatial patterns formed by large collections of individuals foraging and competing for resources (though sometimes interacting positively). 
+* temporal / spatial patterns 
+
+> The use of ABM in modeling foraging behavior changes the emphasis from predicting the fitness of the individual based on its decisions to **predicting temporal and spatial patterns formed by large collections of individuals foraging and competing for resources** (though sometimes interacting positively). 
 
 ###### 05.P02
 
