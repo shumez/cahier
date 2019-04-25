@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-25 15:50:44
+Modified: 	2019-04-25 16:18:18
 -----
 Copyright (c) 2019 shumez
 -->
@@ -334,7 +334,13 @@ observations of real population in real locations
 
 ###### 05.P03
 
-> Kanarek et al. (2008) modeled barnacle geese that return to the same group of islands each year as a migration stop. The geese are assumed to vary in age, energy reserves, genetic disposition, and spatial memory of previously visited locations. A goose chooses a specific island based on a combination of factors; constraint due to rank in the dominance hierarchy, memories of previously visited sites and past reproductive success, inherited genetic influences toward site faithfulness, and knowledge of the available biomass density. Within the island the goose chooses to forage on a particular patch until its intake rate drops below a certain amount. Once a goose decides to leave a patch, it uses its knowledge to choose where to go next, assigning a score to a patch based on several factors. A bioenergetics model keeps track of the body mass of the goose, and the goose leaves the staging area either when a threshold of the amount of energy stored or when the end of the stopover period is reached. Each year that a goose returns to the same patch, its familiarity and ability to locate food increases as well as its hierarchical rank. 
+geese
+
+**Bioenergetics model**
+
+
+
+> [Kanarek et al. (2008)][2008_Kanarek] modeled [barnacle geese](. "黒雁") that return to the same group of islands each year as a migration stop. The geese are assumed to vary in age, energy reserves, genetic disposition, and spatial memory of previously visited locations. A goose chooses a specific island based on a combination of factors; constraint due to rank in the dominance hierarchy, memories of previously visited sites and past reproductive success, inherited genetic influences toward site faithfulness, and knowledge of the available biomass density. Within the island the goose chooses to forage on a particular patch until its intake rate drops below a certain amount. Once a goose decides to leave a patch, it uses its knowledge to choose where to go next, assigning a score to a patch based on several factors. A **bioenergetics model** keeps track of the body mass of the goose, and the goose leaves the staging area either when a threshold of the amount of energy stored or when the end of the stopover period is reached. Each year that a goose returns to the same patch, its familiarity and ability to locate food increases as well as its hierarchical rank. 
 
 ###### 05.P04
 
@@ -614,3 +620,6 @@ observations of real population in real locations
 <!-- 0403p03 -->
 [1996_Gueron]: . ""
 [2004_Hoare]: . ""
+
+<!-- 05p03 -->
+[2008_Kanarek]: . ""
