@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-25 15:29:14
+Modified: 	2019-04-25 15:50:44
 -----
 Copyright (c) 2019 shumez
 -->
@@ -327,6 +327,8 @@ key to understanding collective behavior:
 > The use of ABM in modeling foraging behavior changes the emphasis from predicting the fitness of the individual based on its decisions to **predicting temporal and spatial patterns formed by large collections of individuals foraging and competing for resources** (though sometimes interacting positively). 
 
 ###### 05.P02
+
+observations of real population in real locations
 
 > A common, though not universal, characteristic of ABMs is that they are based on observations of real populations in real locations. Thus, the assumptions built into the models constitute hypotheses that can be tested against observational data. A few models will be mentioned here: Barnacle geese (Branta leucopsis) in Helgeland, Norway, white-fronted geese (Anser albifrons) in Lake Miyajimanuma, Japan, oystercatchers (Haematopus ostralegus) in the Exe estuary, England, salmonids in Little Jones Creek, California, USA, and dusky dolphins (Lagenorrhyncus obscurus) and killer whales (Orcinus orca) near Kaikoura, New Zealand. 
 
