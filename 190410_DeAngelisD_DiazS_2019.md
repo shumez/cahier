@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-25 16:28:7
+Modified: 	2019-04-25 17:15:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -348,7 +348,11 @@ geese
 
 ###### 05.P05
 
-> In the case of white-fronted geese, an ABM explored possible positive interactions among the geese (Amano et al., 2006). The model tested the hypothesis that geese foraging in patches usually have no prior information on patch quality before making a choice but can benefit from choosing patches already occupied by conspecifics; i.e., the presence of conspecifics in the patch has the potential positive effect of decreasing the need for vigilance, although it also causes prey to be depleted faster. The authors tested the hypothesis and found that it was better than alternatives foraging models at describing empirical data, indicating that the assumptions are realistic bases of foraging decisions. 
+white-fronted geese
+
+* choosing patches already occcupied by conspecifiecs
+
+> In the case of white-fronted geese, an ABM explored possible positive interactions among the geese ([Amano et al., 2006][2006_Amano]). The model tested the hypothesis that geese foraging in patches usually have no prior information on patch quality before making a choice but can benefit from choosing patches already occupied by conspecifics; i.e., the **presence of [conspecifics](. "memmber of the same species") in the patch has the potential positive effect of decreasing the need for [vigilance](. "警戒")**, although it also causes prey to be depleted faster. The authors tested the hypothesis and found that it was better than alternatives foraging models at describing empirical data, indicating that the assumptions are realistic bases of foraging decisions. 
 
 ###### 05.P06
 
@@ -626,3 +630,6 @@ geese
 
 <!-- 05p04 -->
 [1997_Stillman]: . ""
+
+<!-- 05p05 -->
+[2006_Amano]: . ""
