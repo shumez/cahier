@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-26 16:57:52
+Modified: 	2019-04-26 17:06:14
 -----
 Copyright (c) 2019 shumez
 -->
@@ -364,7 +364,7 @@ tradeoff: starvation vs. predation
 
 ###### 05.P07
 
-> These studies all illustrate the ability of ABMs not only to incorporate high amounts of the complexity of real ecological systems and their ability to compare output with empirically observed patterns, but also to derive more realistic pictures of the decision-making process. 
+> These studies all illustrate the ability of ABMs not only to incorporate high amounts of the complexity of real ecological systems and their ability to compare output with empirically observed patterns, but also to derive **more realistic pictures of the decision-making process**. 
 
 ###### 05.P08
 
