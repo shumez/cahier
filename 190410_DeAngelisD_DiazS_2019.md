@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-25 17:22:7
+Modified: 	2019-04-26 16:57:52
 -----
 Copyright (c) 2019 shumez
 -->
@@ -356,9 +356,11 @@ white-fronted geese
 
 ###### 05.P06
 
+tradeoff: starvation vs. predation
 
+**EM (expected maturity)**: maximize growth & survival
 
-> In the classical **DSVM** theory mentioned earlier, tradeoffs are assumed between risks of starvation and predation. Many ABM foraging models also incorporate these risks. Railsback and Harvey (2002) used ABM to predict empirical patterns of habitat selection in drift-feeding juvenile trout foraging in a stream, based on assumptions concerning their decisions to choose habitat to forage in, given a range of empirical factors; e.g., water depth, velocity, available food, in the stream environment. The risks involved in deciding to move to a given location were starvation, predation by terrestrial animals, predation by fish, high water velocity (which requires energy to stay in place), stranding, and competition. A bioenergetics model was used to follow daily growth, and daily predation mortality depended on the size of the fish and water depth at its location, which gave the current “state” of the individual. Three foraging strategies were compared, based on the agent's state and prediction of conditions over the near term (thus the authors label their approach “state and prediction theory”). The strategy that compared well with all observed patterns involved daily decisions that maximized, over a longer term, the “expected maturity” (EM), or the product of predicted survival from starvation and other mortality risks and the fraction of reproductive size reached over the period of the 75-day simulation. The EM strategy, in which the fish agent maximizes both growth and survival, gives better results than other maximization criteria, such as maximizing only growth or only survival probability, used in many classical models. 
+> In the classical **DSVM** theory mentioned earlier, tradeoffs are assumed between risks of starvation and predation. Many ABM foraging models also incorporate these risks. [Railsback and Harvey (2002)][2002_Harvey_Railsback] used ABM to predict empirical patterns of habitat selection in drift-feeding juvenile [trout](. "マス") foraging in a stream, based on assumptions concerning their decisions to choose habitat to forage in, given a range of empirical factors; e.g., water depth, velocity, available food, in the stream environment. The risks involved in deciding to move to a given location were starvation, predation by terrestrial animals, predation by fish, high water velocity (which requires energy to stay in place), [stranding](. "岸に打ち上げる"), and competition. A bioenergetics model was used to follow daily growth, and daily predation mortality depended on the size of the fish and water depth at its location, which gave the current “state” of the individual. Three foraging strategies were compared, based on the agent's state and prediction of conditions over the near term (thus the authors label their approach “state and prediction theory”). The strategy that compared well with all observed patterns involved daily decisions that maximized, over a longer term, the **“expected maturity” (EM)**, or the product of predicted survival from starvation and other mortality risks and the fraction of reproductive size reached over the period of the 75-day simulation. The EM strategy, in which the fish agent maximizes both growth and survival, gives better results than other maximization criteria, such as maximizing only growth or only survival probability, used in many classical models. 
 
 ###### 05.P07
 
@@ -635,3 +637,6 @@ white-fronted geese
 
 <!-- 05p05 -->
 [2006_Amano]: . ""
+
+<!-- 05p06 -->
+[2002_Harvey_Railsback]: . ""
