@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-26 17:49:23
+Modified: 	2019-04-26 17:59:28
 -----
 Copyright (c) 2019 shumez
 -->
@@ -377,6 +377,10 @@ importance of behavioral decisions of the predator
 ## 06. Social Interactions in Populations
 
 ###### 06.P01
+
+* reproduction
+* parental care
+* territorial / home range defense
 
 > Social behavior requires decisions involving, among other things, reproduction, parental care, and territorial or home range defense. These, plus a wider range of activities, have been represented in ABMs. 
 
