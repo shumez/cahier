@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-26 17:06:14
+Modified: 	2019-04-26 17:49:23
 -----
 Copyright (c) 2019 shumez
 -->
@@ -368,7 +368,9 @@ tradeoff: starvation vs. predation
 
 ###### 05.P08
 
-> Lima (2002) noted the importance of the behavioral decisions of the predator when studying predator-prey interactions, rather than treating predators as “unresponsive black boxes.” Accordingly, ABMs have also been used to extend the focus of predation risk beyond merely the prey strategy to include feedbacks from the predator or from competitors. A detailed investigation of tradeoffs of dusky dolphins choosing between feeding and avoiding predation by killer whales is given in a spatially explicit ABM of Srinivasan et al. (2010). The authors explored the fitness costs and benefits of various escape strategies potentially used by dusky dolphins, including the time spent hiding in a refuge from predation and degree of vigilance when feeding. The model included counter strategies of the amount of time a killer whale would wait for a dolphin to emerge from a refuge, so the model contains a version of game theory. Another example of feedback effects, in this case coming from competition, is illustrated by a model of Peacor et al. (2007). Individual foragers and a common resource for which they compete were simulated, both with and without the presence of a predator. The density of competing foragers affected the tradeoff in foraging. Under low density of competitors, the forager spent 40% of its time eating, but the time eating decreased to 7% when the forager density was high. This outcome resulted from the decreased benefits of foraging, as the resource was reduced by competitors. Such an outcome could not easily be anticipated or incorporated in simple models. A species' response to predation risk can affect whole food chains. An illustration of how behaviors of herbivores can modify top-down effects of predators on plants is the ABM of Schmitz and Booth (1997) for a tri-trophic chain (spiders, grasshoppers, and a food base of two plant types, grass and a herbaceous plant) of individual organisms on a spatial lattice. The spiders could affect the grasshoppers directly, by predation, and indirectly, by causing grasshoppers within a certain radius to move from grass to the safer herb sites. The model allowed the relative effects of direct predation and the predator avoidance by grasshoppers to be examined individually. The model predicted long-term field observations of the predator's top-down effect and showed the importance of including the behavioral response of the herbivore. 
+importance of behavioral decisions of the predator
+
+> [Lima (2002)][2002_Lima] noted the importance of the behavioral decisions of the predator when studying predator-prey interactions, rather than treating predators as “unresponsive black boxes.” Accordingly, ABMs have also been used to extend the focus of predation risk beyond merely the prey strategy to include feedbacks from the predator or from competitors. A detailed investigation of tradeoffs of dusky dolphins choosing between feeding and avoiding predation by killer whales is given in a spatially explicit ABM of [Srinivasan et al. (2010)][2010_Srinivasan]. The authors explored the fitness costs and benefits of various escape strategies potentially used by dusky dolphins, including the time spent hiding in a refuge from predation and degree of vigilance when feeding. The model included counter strategies of the amount of time a killer whale would wait for a dolphin to emerge from a [refuge](. "避難場所"), so the model contains a version of game theory. Another example of feedback effects, in this case coming from competition, is illustrated by a model of [Peacor et al. (2007)][2007_Peacor]. Individual foragers and a common resource for which they compete were simulated, both with and without the presence of a predator. The density of competing foragers affected the tradeoff in foraging. Under low density of competitors, the forager spent 40% of its time eating, but the time eating decreased to 7% when the forager density was high. This outcome resulted from the decreased benefits of foraging, as the resource was reduced by competitors. Such an outcome could not easily be anticipated or incorporated in simple models. A species' response to predation risk can affect whole food chains. An illustration of how behaviors of [herbivores](. "草食動物") can modify top-down effects of predators on plants is the ABM of [Schmitz and Booth (1997)][1997_Booth_Schmitz] for a tri-trophic chain (spiders, grasshoppers, and a food base of two plant types, grass and a herbaceous plant) of individual organisms on a spatial lattice. The spiders could affect the grasshoppers directly, by predation, and indirectly, by causing grasshoppers within a certain radius to move from grass to the safer herb sites. The model allowed the relative effects of direct predation and the predator avoidance by grasshoppers to be examined individually. The model predicted long-term field observations of the predator's top-down effect and showed the importance of including the behavioral response of the herbivore. 
 
 
 
@@ -640,3 +642,9 @@ tradeoff: starvation vs. predation
 
 <!-- 05p06 -->
 [2002_Harvey_Railsback]: . ""
+
+<!-- 05p08 -->
+[2002_Lima]: . ""
+[2010_Srinivasan]: . ""
+[2007_Peacor]: . ""
+[1997_Booth_Schmitz]: . ""
