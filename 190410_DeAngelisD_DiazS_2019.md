@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-04-26 17:59:28
+Modified: 	2019-05-02 16:07:35
 -----
 Copyright (c) 2019 shumez
 -->
@@ -386,7 +386,9 @@ importance of behavioral decisions of the predator
 
 ###### 06.P02
 
-> Several studies have addressed the question of when to reproduce, incorporating external factors such as population density and the availability and quality of resources in an area (Stewart et al., 2005; Brouwer et al., 2015). When deciding to reproduce, individual agents within an ABM often consider information of the surrounding environment. An individual agent's decision to reproduce is frequently represented in a logistical or probabilistic manner, in which agents may decide to reproduce if they meet some requirement or threshold. For example, Ye et al. (2014) used a grid-based spatially explicit ABM to gain insight on how the population dynamics of a virtual species is influenced by landscape structure and various life history traits. In the ABM, the resource share of an individual reflects the number of individuals in a spatial cell and the cell's underlying habitat quality. Only individual agents with a resource fraction over a given threshold may reproduce in a given time step with a given probability, reflecting the importance of competition and the quality of the surrounding habitat in driving reproductive success. 
+population dynamics is influenced by landscaoe structure & life history trait ([Ye (2014)][2014_Ye])
+
+> Several studies have addressed the question of when to reproduce, incorporating external factors such as population density and the availability and quality of resources in an area ([Stewart et al., 2005][2005_Stewart]; [Brouwer et al., 2015][2015_Brouwer]). When deciding to reproduce, individual agents within an ABM often consider information of the surrounding environment. An individual agent's decision to reproduce is frequently represented in a logistical or probabilistic manner, in which agents may decide to reproduce if they meet some requirement or threshold. For example, [Ye et al. (2014)][2014_Ye] used a grid-based spatially explicit ABM to gain insight on how the population dynamics of a virtual species is influenced by landscape structure and various life history traits. In the ABM, the resource share of an individual reflects the number of individuals in a spatial cell and the cell's underlying habitat quality. Only individual agents with a resource fraction over a given threshold may reproduce in a given time step with a given probability, reflecting the importance of competition and the quality of the surrounding habitat in driving reproductive success. 
 
 ###### 06.P03
 
@@ -652,3 +654,8 @@ importance of behavioral decisions of the predator
 [2010_Srinivasan]: . ""
 [2007_Peacor]: . ""
 [1997_Booth_Schmitz]: . ""
+
+<!-- 06p02 -->
+[2005_Stewart]: . ""
+[2015_Brouwer]: . ""
+[2014_Ye]: . ""
