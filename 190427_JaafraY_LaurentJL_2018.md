@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 18:07:22
+Modified: 	2019-05-03 19:45:27
 -----
 Copyright (c) 2019 shumez
 -->
@@ -112,22 +112,23 @@ loss function evalation
 
 ## 03. CNN Layers
 
-> CNN are widely used in a great number of pattern and image recognition problems. Three main characteristics are making this deep learning technique successful and suitable to visual data. First, local receptive fields perfectly reflect image data specificity to be correlated locally and uncorrelated in global segments. Second, shared weights allows a substantial parameter re- duction without altering image processing since the convolution is applicable to the whole image. Last, grid-structured image enable pooling operations that simplify data without losing useful information [9].
+###### 03.P01
+
+3 characteristics 
+
+1. local receptive fields reflect image data 
+2. shared weights &rArr; param reduction
+3. grid-structured image &rArr; pooling operations
+
+> CNN are widely used in a great number of pattern and image recognition problems. Three main characteristics are making this deep learning technique successful and suitable to visual data. First, local receptive fields perfectly reflect image data specificity to **be correlated locally and uncorrelated in global segments**. Second, shared weights allows a substantial parameter re- duction without altering image processing since the convolution is applicable to the whole image. Last, grid-structured image enable pooling operations that simplify data without losing useful information [9].
 
 ### 03.01. Convolutional Layer
 
 > The convolutional layer is the basic CNN unit that has been inspired by physiological research evidence of hierarchical processing in the visual cor- tex of mammals [10]. Simple cells detect primitive attributes while more compound structures are subsequently extracted by complex cells. Thus, convolutional layer consists of a set of feature maps issued from convolving different filters (kernels) with an input image or previous layer output [11]. The 2-dimensional maps are stacked together to produce the resulting vol- ume of the convolutional layer. This process reduces drastically the network complexity since the neurons of a same feature map share the same weights and bias maintaining a low number of parameters to learn [12].
 
-> The hyperparameters characterizing a convolutional layer are the depth \( F \) (number of filters), the stride \( S \) (filter movement from a receptive field to the next one) and the zero padding \( P \) to control input size [13]. Assuming that the filter size \( (\text{height}, \text{width}, \text{depth}) = (h, w, D), the dimensions of the feature maps generated can be obtained according to:
+> The hyperparameters characterizing a convolutional layer are the depth \( F \) (number of filters), the stride \( S \) (filter movement from a receptive field to the next one) and the zero padding \( P \) to control input size [13]. Assuming that the filter size \( (\text{height}, \text{width}, \text{depth}) = (h, w, D) \), the dimensions of the feature maps generated can be obtained according to:
 
-\[ 
-	\begin{pmatrix}
-		H_1 & W_1 & F \\
-	\end{pmatrix} = 
-	\begin{pmatrix}
-		\frac{(H + 2P − h)}{S} + 1 & \frac{(W + 2P − w)}{S} + 1 & F \\
-	\end{pmatrix}
-\]
+\[ ( H_1, W_1, F ) = \bigg( \frac{(H + 2P − h)}{S} + 1, \frac{(W + 2P − w)}{S} + 1, F \bigg) \]
 
 > Where \((H, W, D)\) is the size \((\text{height}, \text{width}, \text{depth})\) of the input image.
 
