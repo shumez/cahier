@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:39:26
+Modified: 	2019-05-03 17:42:0
 -----
 Copyright (c) 2019 shumez
 -->
@@ -57,7 +57,7 @@ in this paper
 	* search acceleration techniques
 4. future works
 
-> CNN architecture consists of several types of layers including convolu- tion, pooling, and fully connected. The network expert has to make multiple choices while designing a CNN such as the number and ordering of layers, the hyperparameters for each type of layer (receptive field size, stride, etc.). Thus, selecting the appropriate architecture and related hyperparameters requires a trial and error manual search process mainly directed by intu- ition and experience. Additionally, the number of available choices makes the selection space of CNN architectures extremely wide and impossible for an exhaustive manual exploration. Many research effort in meta-modeling tries to minimize human intervention in designing neural network architec- tures. In this paper, we first give a general overview and define the field of deep learning. We then briefly survey the history of CNN architectures. In the following section we review several methods for automating CNN de- sign according to three dimensions: search optimization, architecture design methods (plain or modular) and search acceleration techniques. Finally, we conclude the article with a discussion of future works.
+> CNN architecture consists of several types of layers including convolution, pooling, and fully connected. The network expert has to make multiple choices while designing a CNN such as the **number and ordering of layers**, the **hyperparameters** for each type of layer (**receptive field size**, **stride**, etc.). Thus, selecting the appropriate architecture and related hyperparameters requires a trial and error manual search process mainly directed by intuition and experience. Additionally, the number of available choices makes the selection space of CNN architectures extremely wide and impossible for an exhaustive manual exploration. Many research effort in meta-modeling tries to minimize human intervention in designing neural network architectures. In this paper, we first give a general overview and define the field of deep learning. We then briefly survey the history of CNN architectures. In the following section we review several methods for automating CNN design according to three dimensions: **search optimization**, **architecture design methods** (plain or modular) and **search acceleration techniques**. Finally, we conclude the article with a discussion of future works.
 
 
 ## 02. Background
