@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:46:1
+Modified: 	2019-05-03 17:48:12
 -----
 Copyright (c) 2019 shumez
 -->
@@ -77,6 +77,11 @@ in this paper
 [![Fig.1][fig_01]][fig_01]
 
 > Figure 1: Artificial neural network, containing an input layer, an output layer and two hidden layers.
+
+###### 02.01.P02
+
+* weight
+* bias
 
 > During training, an ANN aims at learning two types of parameters that will condition its predictive performance. First, connection weights that assess to which extent a neuron result will impact the output of higher level neuron. Second, the bias which is a global estimator of a feature presence across all inputs. Hence, a neuron output can be formalized through a linear combination of weighted inputs and associated bias:
 
