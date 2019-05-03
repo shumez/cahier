@@ -95,6 +95,8 @@
     
         <ul>
         
+            <li><a class="toctree-l4" href="#03p01">03.P01</a></li>
+        
             <li><a class="toctree-l4" href="#0301_convolutional_layer">03.01. Convolutional Layer</a></li>
         
             <li><a class="toctree-l4" href="#0302_pooling_layer">03.02. Pooling Layer</a></li>
@@ -304,7 +306,7 @@ Filename:   190427_JaafraY_LaurentJL_2018.md
 Project:    /Users/shume/Documents/Cahier
 Author:     shumez <https://github.com/shumez>
 Created:    2019-04-27 11:11:3
-Modified:   2019-05-03 18:07:22
+Modified:   2019-05-03 20:20:25
 -----
 Copyright (c) 2019 shumez
 -->
@@ -400,28 +402,39 @@ Copyright (c) 2019 shumez
 <p>The concept of deep learning refers to machine learning processing within multi-layer ANN [8]. The training of these networks relies on a <strong>loss function evaluation</strong>. For example, in supervised learning the loss is assimilated to the matching accuracy between ANN predictions and real expected outputs. An iterative update procedure is implemented to adjust network parameters according to loss function computed gradient. This procedure is called <strong>Backpropagation</strong> since parameters updates are spread from final layers to initial ones. Deep learning implies a certain number of challenges such as vanish- ing/exploding gradient and overfitting. The solutions to these problems will be discussed when developing CNN design architectures in next sections.</p>
 </blockquote>
 <h2 id="03_cnn_layers">03. CNN Layers<a class="headerlink" href="#03_cnn_layers" title="Permanent link">¶</a></h2>
+<h6 id="03p01">03.P01<a class="headerlink" href="#03p01" title="Permanent link">¶</a></h6>
+<p>3 characteristics </p>
+<ol>
+<li>local receptive fields reflect image data </li>
+<li>shared weights &rArr; param reduction</li>
+<li>grid-structured image &rArr; pooling operations</li>
+</ol>
 <blockquote>
-<p>CNN are widely used in a great number of pattern and image recognition problems. Three main characteristics are making this deep learning technique successful and suitable to visual data. First, local receptive fields perfectly reflect image data specificity to be correlated locally and uncorrelated in global segments. Second, shared weights allows a substantial parameter re- duction without altering image processing since the convolution is applicable to the whole image. Last, grid-structured image enable pooling operations that simplify data without losing useful information [9].</p>
+<p>CNN are widely used in a great number of pattern and image recognition problems. Three main characteristics are making this deep learning technique successful and suitable to visual data. First, local receptive fields perfectly reflect image data specificity to <strong>be correlated locally and uncorrelated in global segments</strong>. Second, shared weights allows a substantial parameter re- duction without altering image processing since the convolution is applicable to the whole image. Last, grid-structured image enable pooling operations that simplify data without losing useful information [9].</p>
 </blockquote>
 <h3 id="0301_convolutional_layer">03.01. Convolutional Layer<a class="headerlink" href="#0301_convolutional_layer" title="Permanent link">¶</a></h3>
+<h6 id="0301p01">03.01.P01<a class="headerlink" href="#0301p01" title="Permanent link">¶</a></h6>
 <blockquote>
-<p>The convolutional layer is the basic CNN unit that has been inspired by physiological research evidence of hierarchical processing in the visual cor- tex of mammals [10]. Simple cells detect primitive attributes while more compound structures are subsequently extracted by complex cells. Thus, convolutional layer consists of a set of feature maps issued from convolving different filters (kernels) with an input image or previous layer output [11]. The 2-dimensional maps are stacked together to produce the resulting vol- ume of the convolutional layer. This process reduces drastically the network complexity since the neurons of a same feature map share the same weights and bias maintaining a low number of parameters to learn [12].</p>
-<p>The hyperparameters characterizing a convolutional layer are the depth <script type="math/tex"> F </script> (number of filters), the stride <script type="math/tex"> S </script> (filter movement from a receptive field to the next one) and the zero padding <script type="math/tex"> P </script> to control input size [13]. Assuming that the filter size ( (\text{height}, \text{width}, \text{depth}) = (h, w, D), the dimensions of the feature maps generated can be obtained according to:</p>
+<p>The convolutional layer is the basic CNN unit that has been inspired by physiological research evidence of hierarchical processing in the visual cor- tex of mammals <sup><a href="https://physoc.onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.1962.sp006837" title="Hubel, D. H., &amp; Wiesel, T. N. (1962). Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. The Journal of physiology, 160(1), 106-154.">10</a></sup>. Simple cells detect primitive attributes while more compound structures are subsequently extracted by complex cells. Thus, convolutional layer consists of a set of feature maps issued from convolving different filters (kernels) with an input image or previous layer output <sup><a href=".">11</a></sup>. The 2-dimensional maps are stacked together to produce the resulting vol- ume of the convolutional layer. This process reduces drastically the network complexity since the neurons of a same feature map share the same weights and bias maintaining a low number of parameters to learn <sup><a href=".">12</a></sup>.</p>
+</blockquote>
+<h6 id="0301p02">03.01.P02<a class="headerlink" href="#0301p02" title="Permanent link">¶</a></h6>
+<ul>
+<li>depth <script type="math/tex">F</script> num of filters</li>
+<li>stride <script type="math/tex">S</script> filter movement from receptive field to the next</li>
+<li>zero padding <script type="math/tex">P</script>
+</li>
+</ul>
+<blockquote>
+<p>The hyperparameters characterizing a convolutional layer are the depth <script type="math/tex">F</script> (number of filters), the stride <script type="math/tex">S</script> (filter movement from a receptive field to the next one) and the zero padding <script type="math/tex">P</script> to control input size <sup><a href=".">13</a></sup>. Assuming that the filter size <script type="math/tex">(\text{height}, \text{width}, \text{depth}) = (h, w, F)</script>, the dimensions of the feature maps generated can be obtained according to:</p>
 </blockquote>
 <p>
-<script type="math/tex; mode=display"> 
-    \begin{pmatrix}
-        H_1 & W_1 & F \\
-    \end{pmatrix} = 
-    \begin{pmatrix}
-        \frac{(H + 2P − h)}{S} + 1 & \frac{(W + 2P − w)}{S} + 1 & F \\
-    \end{pmatrix}
-</script>
+<script type="math/tex; mode=display"> ( H_1, W_1, F ) = \bigg( \frac{(H + 2P − h)}{S} + 1, \frac{(W + 2P − w)}{S} + 1, F \bigg) </script>
 </p>
 <blockquote>
-<p>Where <script type="math/tex">(H, W, D)</script> is the size <script type="math/tex">(\text{height}, \text{width}, \text{depth})</script> of the input image.</p>
+<p>Where <script type="math/tex">(H, W, F)</script> is the size <script type="math/tex">(\text{height}, \text{width}, \text{depth})</script> of the input image.</p>
 </blockquote>
 <h3 id="0302_pooling_layer">03.02. Pooling Layer<a class="headerlink" href="#0302_pooling_layer" title="Permanent link">¶</a></h3>
+<h6 id="0302p01">03.02.P01<a class="headerlink" href="#0302p01" title="Permanent link">¶</a></h6>
 <blockquote>
 <p>CNN architectures generally alternate convolution and pooling layers. The latter have the purpose of reducing network complexity and avoid the problem of overfitting. At biological level, pooling is assimilated to the behav- ior of cortical complex cells that reveal a certain degree of position invariance. A pooling layer neuron is connected to a region of the previous layer by per- forming a non-parameterized function. Thus it differs from convolution as it doesn’t have learnable weights or bias and additionally, it keeps the same depth of the previous layer. Max pooling [14] is one of the most common type of pooling that consists in retaining the maximum value of a neurons cluster. It means that max pooling is detecting if a given feature has been identified in a receptive field without recording the exact location [9].</p>
 </blockquote>
@@ -616,10 +629,10 @@ tures performance as a guiding reward for controllers updates. Training and eval
 <li>[Y. Lecun, L. Bottou, Y. Bengio, P. Haffner, Gradient-based learning applied to document recognition, Proceedings of the IEEE 86 (11) (1998) 2278–2324.]</li>
 <li>[K. Jarrett, K. Kavukcuoglu, M. Ranzato, Y. LeCun, What is the best multi-stage architecture for object recognition?, in: 2009 IEEE 12th International Conference on Computer Vision, 2009, pp. 2146–2153.]</li>
 <li>[M. A. Nielsen, Neural Networks and Deep Learning, Determination Press, 2018.]</li>
-<li>[D. Hubel, T. Wiesel, Receptive fields, binocular interaction, and func- tional architecture in the cat’s visual cortex, Journal of Physiology 160 (1962) 106–154.]</li>
-<li>[A. Krizhevsky, I. Sutskever, G. E. Hinton, Imagenet classification with deep convolutional neural networks, in: Proceedings of the 25th Interna- tional Conference on Neural Information Processing Systems - Volume 1, Curran Associates Inc., USA, 2012, pp. 1097–1105.]</li>
-<li>[H. Wu, X. Gu, Max-pooling dropout for regularization of convolutional neural networks, in: Neural Information Processing - 22nd International Conference, ICONIP 2015, Istanbul, Turkey, November 9-12, 2015, Pro- ceedings, Part I, 2015, pp. 46–54.]</li>
-<li>[I. Goodfellow, Y. Bengio, A. Courville, Deep Learning, MIT Press, 2016.]</li>
+<li><a href="https://physoc.onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.1962.sp006837" title="Hubel, D. H., &amp; Wiesel, T. N. (1962). Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. The Journal of physiology, 160(1), 106-154.">D. Hubel, T. Wiesel, Receptive fields, binocular interaction, and func- tional architecture in the cat’s visual cortex, Journal of Physiology 160 (1962) 106–154.</a></li>
+<li><a href=".">A. Krizhevsky, I. Sutskever, G. E. Hinton, Imagenet classification with deep convolutional neural networks, in: Proceedings of the 25th Interna- tional Conference on Neural Information Processing Systems - Volume 1, Curran Associates Inc., USA, 2012, pp. 1097–1105.</a></li>
+<li><a href=".">H. Wu, X. Gu, Max-pooling dropout for regularization of convolutional neural networks, in: Neural Information Processing - 22nd International Conference, ICONIP 2015, Istanbul, Turkey, November 9-12, 2015, Pro- ceedings, Part I, 2015, pp. 46–54.</a></li>
+<li><a href=".">I. Goodfellow, Y. Bengio, A. Courville, Deep Learning, MIT Press, 2016.</a></li>
 <li>[M. Zeiler, R. Fergus, Stochastic pooling for regularization of deep con- volutional neural networks, in: Proceedings of the International Confer- ence on Learning Representations (ICLR), 2013.]</li>
 <li>[N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, R. Salakhutdinov, Dropout: A simple way to prevent neural networks from overfitting, J. Mach. Learn. Res. 15 (1) (2014) 1929–1958.]</li>
 <li>[K. Simonyan, A. Zisserman, Very deep convolutional networks for large- scale image recognition, in: Proceedings of the International Conference on Learning Representations (ICLR), 2015.]</li>
