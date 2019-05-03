@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:09:21
+Modified: 	2019-05-03 17:31:17
 -----
 Copyright (c) 2019 shumez
 -->
@@ -24,7 +24,17 @@ Copyright (c) 2019 shumez
 
 > ”A neuron is nothing more than a switch with information input and output. The switch will be activated if there are enough stimuli of other neurons hitting the information input. Then, at the information output, a pulse is sent to, for example, other neurons ” ^[1]^. Brain-inspired machine learning imitates in a simplified manner the hierarchical operating mode of biological neurons ^[2]^. The concept of artificial neural networks (ANN) achieved a huge progress from its first theoretical proposal in the 1950s until the recent considerable outcomes of deep learning. In computer vision and more specifically in classification tasks, CNN, which we will examine in this review, are among the most popular deep learning techniques since they are outperforming humans in some vision complex tasks ^[3]^.
 
-> The origin of CNN that were initially established by [4] goes back to the 1950s with the advent of ”perceptron”, the first neural network prototyped by Frank Rosenblatt. However, neural network models were not extensively used until recently, after researchers overcame certain limits. Among these advances we can mention the generalization of perceptrons to many layers [5], the emergence of backpropagation algorithm as an appropriate training method for such architectures [6] and, mainly, the availability of large training datasets and computational resources to learn millions of parameters. CNN differ from classical neural networks in the fact that the connectivity of a hidden layer neuron is limited to a subset of neurons in the previous layer. This selective connection endow the network with the ability to operate, implicitly, hierarchical features extraction. For an image classification case, the first hidden layer can visualize edges, the second a specific shape and so on until the final layer that will identify the object.
+###### 01.P02
+
+advances:
+
+* backpropagation algorithm
+* large training datasets / computational resources
+
+CNN differ in that the connectivity of a hidden layer neuron is limited to a subset of neurons in the previous layer
+
+
+> The origin of CNN that were initially established by [4] goes back to the 1950s with the advent of ”perceptron”, the first neural network prototyped by Frank Rosenblatt. However, neural network models were not extensively used until recently, after researchers overcame certain limits. Among these advances we can mention the generalization of perceptrons to many layers [5], the emergence of backpropagation algorithm as an appropriate training method for such architectures [6] and, mainly, the availability of large training datasets and computational resources to learn millions of parameters. CNN differ from classical neural networks in the fact that **the connectivity of a hidden layer neuron is limited to a subset of neurons in the previous layer**. This selective connection endow the network with the ability to operate, implicitly, hierarchical features extraction. For an image classification case, the first hidden layer can visualize edges, the second a specific shape and so on until the final layer that will identify the object.
 
 > CNN architecture consists of several types of layers including convolu- tion, pooling, and fully connected. The network expert has to make multiple choices while designing a CNN such as the number and ordering of layers, the hyperparameters for each type of layer (receptive field size, stride, etc.). Thus, selecting the appropriate architecture and related hyperparameters requires a trial and error manual search process mainly directed by intu- ition and experience. Additionally, the number of available choices makes the selection space of CNN architectures extremely wide and impossible for an exhaustive manual exploration. Many research effort in meta-modeling tries to minimize human intervention in designing neural network architec- tures. In this paper, we first give a general overview and define the field of deep learning. We then briefly survey the history of CNN architectures. In the following section we review several methods for automating CNN de- sign according to three dimensions: search optimization, architecture design methods (plain or modular) and search acceleration techniques. Finally, we conclude the article with a discussion of future works.
 
@@ -43,7 +53,7 @@ Copyright (c) 2019 shumez
 
 > During training, an ANN aims at learning two types of parameters that will condition its predictive performance. First, connection weights that assess to which extent a neuron result will impact the output of higher level neuron. Second, the bias which is a global estimator of a feature presence across all inputs. Hence, a neuron output can be formalized through a linear combination of weighted inputs and associated bias:
 
-\[ \text{output} = ( \sum_i{ \text{input}_i ∗ \text{weight}_i} ) + \text{bias} \]
+\[ \text{output} = \Big( \sum_i{ \text{input}_i ∗ \text{weight}_i} \Big) + \text{bias} \]
 
 > In order to allow the network operating non-linear transformations, an activation function is applied to the previous output. Equation 1 presents an example of such transformation using one of the most common and efficient activation function which is the Rectified Linear Unit (ReLU) [7]:
 
@@ -64,7 +74,14 @@ Copyright (c) 2019 shumez
 
 > The hyperparameters characterizing a convolutional layer are the depth \( F \) (number of filters), the stride \( S \) (filter movement from a receptive field to the next one) and the zero padding \( P \) to control input size [13]. Assuming that the filter size \( (\text{height}, \text{width}, \text{depth}) = (h, w, D), the dimensions of the feature maps generated can be obtained according to:
 
-\[ (H_1, W_1, F ) = ( \frac{(H + 2P − h)}{S} + 1, \frac{(W + 2P − w)}{S} + 1, F ) \]
+\[ 
+	\begin{pmatrix}
+		H_1 & W_1 & F \\
+	\end{pmatrix} = 
+	\begin{pmatrix}
+		\frac{(H + 2P − h)}{S} + 1 & \frac{(W + 2P − w)}{S} + 1 & F \\
+	\end{pmatrix}
+\]
 
 > Where \((H, W, D)\) is the size \((\text{height}, \text{width}, \text{depth})\) of the input image.
 
