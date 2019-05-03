@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:58:35
+Modified: 	2019-05-03 18:07:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -99,7 +99,15 @@ activation fn
 
 ### 02.02. Deep learning
 
-> The concept of deep learning refers to machine learning processing within multi-layer ANN [8]. The training of these networks relies on a loss function evaluation. For example, in supervised learning the loss is assimilated to the matching accuracy between ANN predictions and real expected outputs. An iterative update procedure is implemented to adjust network parameters according to loss function computed gradient. This procedure is called Back- propagation since parameters updates are spread from final layers to initial ones. Deep learning implies a certain number of challenges such as vanish- ing/exploding gradient and overfitting. The solutions to these problems will be discussed when developing CNN design architectures in next sections.
+###### 02.02.P01
+
+Deep learning: ML processing w/i multi-layer ANN
+
+loss function evalation
+
+**backpropagation**
+
+> The concept of deep learning refers to machine learning processing within multi-layer ANN [8]. The training of these networks relies on a **loss function evaluation**. For example, in supervised learning the loss is assimilated to the matching accuracy between ANN predictions and real expected outputs. An iterative update procedure is implemented to adjust network parameters according to loss function computed gradient. This procedure is called **Backpropagation** since parameters updates are spread from final layers to initial ones. Deep learning implies a certain number of challenges such as vanish- ing/exploding gradient and overfitting. The solutions to these problems will be discussed when developing CNN design architectures in next sections.
 
 
 ## 03. CNN Layers
