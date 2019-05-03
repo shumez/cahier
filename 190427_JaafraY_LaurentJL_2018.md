@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-04-27 15:02:37
+Modified: 	2019-05-03 17:09:21
 -----
 Copyright (c) 2019 shumez
 -->
@@ -20,7 +20,9 @@ Copyright (c) 2019 shumez
 
 ## 01. Introduction
 
-> ”A neuron is nothing more than a switch with information input and output. The switch will be activated if there are enough stimuli of other neurons hitting the information input. Then, at the information output, a pulse is sent to, for example, other neurons ” [1]. Brain-inspired machine learning imitates in a simplified manner the hierarchical operating mode of biological neurons [2]. The concept of artificial neural networks (ANN) achieved a huge progress from its first theoretical proposal in the 1950s until the recent considerable outcomes of deep learning. In computer vision and more specifically in classification tasks, CNN, which we will examine in this review, are among the most popular deep learning techniques since they are outperforming humans in some vision complex tasks [3].
+###### 01.P01
+
+> ”A neuron is nothing more than a switch with information input and output. The switch will be activated if there are enough stimuli of other neurons hitting the information input. Then, at the information output, a pulse is sent to, for example, other neurons ” ^[1]^. Brain-inspired machine learning imitates in a simplified manner the hierarchical operating mode of biological neurons ^[2]^. The concept of artificial neural networks (ANN) achieved a huge progress from its first theoretical proposal in the 1950s until the recent considerable outcomes of deep learning. In computer vision and more specifically in classification tasks, CNN, which we will examine in this review, are among the most popular deep learning techniques since they are outperforming humans in some vision complex tasks ^[3]^.
 
 > The origin of CNN that were initially established by [4] goes back to the 1950s with the advent of ”perceptron”, the first neural network prototyped by Frank Rosenblatt. However, neural network models were not extensively used until recently, after researchers overcame certain limits. Among these advances we can mention the generalization of perceptrons to many layers [5], the emergence of backpropagation algorithm as an appropriate training method for such architectures [6] and, mainly, the availability of large training datasets and computational resources to learn millions of parameters. CNN differ from classical neural networks in the fact that the connectivity of a hidden layer neuron is limited to a subset of neurons in the previous layer. This selective connection endow the network with the ability to operate, implicitly, hierarchical features extraction. For an image classification case, the first hidden layer can visualize edges, the second a specific shape and so on until the final layer that will identify the object.
 
