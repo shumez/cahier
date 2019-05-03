@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:31:17
+Modified: 	2019-05-03 17:39:26
 -----
 Copyright (c) 2019 shumez
 -->
@@ -35,6 +35,27 @@ CNN differ in that the connectivity of a hidden layer neuron is limited to a sub
 
 
 > The origin of CNN that were initially established by [4] goes back to the 1950s with the advent of ”perceptron”, the first neural network prototyped by Frank Rosenblatt. However, neural network models were not extensively used until recently, after researchers overcame certain limits. Among these advances we can mention the generalization of perceptrons to many layers [5], the emergence of backpropagation algorithm as an appropriate training method for such architectures [6] and, mainly, the availability of large training datasets and computational resources to learn millions of parameters. CNN differ from classical neural networks in the fact that **the connectivity of a hidden layer neuron is limited to a subset of neurons in the previous layer**. This selective connection endow the network with the ability to operate, implicitly, hierarchical features extraction. For an image classification case, the first hidden layer can visualize edges, the second a specific shape and so on until the final layer that will identify the object.
+
+###### 01.P03
+
+* convolusion
+* pooling 
+* fully connected
+
+multiple choices:
+
+* num / order of layers
+* hyperparameter (receptive fild size, stride)
+
+in this paper
+
+1. overview of deep learning
+2. history of CNN architectures
+3. several methods for automating CNN design according to 
+	* search optimizaiton
+	* architecture design methods
+	* search acceleration techniques
+4. future works
 
 > CNN architecture consists of several types of layers including convolu- tion, pooling, and fully connected. The network expert has to make multiple choices while designing a CNN such as the number and ordering of layers, the hyperparameters for each type of layer (receptive field size, stride, etc.). Thus, selecting the appropriate architecture and related hyperparameters requires a trial and error manual search process mainly directed by intu- ition and experience. Additionally, the number of available choices makes the selection space of CNN architectures extremely wide and impossible for an exhaustive manual exploration. Many research effort in meta-modeling tries to minimize human intervention in designing neural network architec- tures. In this paper, we first give a general overview and define the field of deep learning. We then briefly survey the history of CNN architectures. In the following section we review several methods for automating CNN de- sign according to three dimensions: search optimization, architecture design methods (plain or modular) and search acceleration techniques. Finally, we conclude the article with a discussion of future works.
 
