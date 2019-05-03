@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:42:58
+Modified: 	2019-05-03 17:46:1
 -----
 Copyright (c) 2019 shumez
 -->
@@ -68,7 +68,11 @@ in this paper
 
 ### 02.01. Artificial Neural Networks
 
-> ANN are a major field of artificial intelligence that attempts to replicate human brain processing. Three types of neural layers distinguish an ANN: input, output and hidden layers. The latter operate transitional representa- tions of the input data evolving from low level features (lines and edges) to higher ones (complex patterns) as far as deeper layers are reached. Figure 1 provide an example of ANN involving classical fully-connected layers where every neuron is connected to all ones of the previous layer.
+###### 02.01.P01
+
+> ANN are a major field of artificial intelligence that attempts to replicate human brain processing. Three types of neural layers distinguish an ANN: input, output and hidden layers. The latter operate transitional representa- tions of the input data evolving from low level features (lines and edges) to higher ones (complex patterns) as far as deeper layers are reached. [Figure 1](#figure_1) provide an example of ANN involving classical fully-connected layers where every neuron is connected to all ones of the previous layer.
+
+###### Figure 1
 
 [![Fig.1][fig_01]][fig_01]
 
