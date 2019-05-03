@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:48:12
+Modified: 	2019-05-03 17:58:35
 -----
 Copyright (c) 2019 shumez
 -->
@@ -87,7 +87,13 @@ in this paper
 
 \[ \text{output} = \Big( \sum_i{ \text{input}_i ∗ \text{weight}_i} \Big) + \text{bias} \]
 
-> In order to allow the network operating non-linear transformations, an activation function is applied to the previous output. Equation 1 presents an example of such transformation using one of the most common and efficient activation function which is the Rectified Linear Unit (ReLU) [7]:
+###### 02.01.P03
+
+activation fn
+
+**ReLU** (**Rectified Linear Unit**)
+
+> In order to allow the network operating non-linear transformations, an activation function is applied to the previous output. Equation 1 presents an example of such transformation using one of the most common and efficient activation function which is the **Rectified Linear Unit** (**ReLU**) [7]:
 
 \[ f(x) = \max(x, 0) \tag{1} \]
 
