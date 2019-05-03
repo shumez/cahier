@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 19:45:27
+Modified: 	2019-05-03 20:10:30
 -----
 Copyright (c) 2019 shumez
 -->
@@ -124,7 +124,9 @@ loss function evalation
 
 ### 03.01. Convolutional Layer
 
-> The convolutional layer is the basic CNN unit that has been inspired by physiological research evidence of hierarchical processing in the visual cor- tex of mammals [10]. Simple cells detect primitive attributes while more compound structures are subsequently extracted by complex cells. Thus, convolutional layer consists of a set of feature maps issued from convolving different filters (kernels) with an input image or previous layer output [11]. The 2-dimensional maps are stacked together to produce the resulting vol- ume of the convolutional layer. This process reduces drastically the network complexity since the neurons of a same feature map share the same weights and bias maintaining a low number of parameters to learn [12].
+###### 03.01.P01
+
+> The convolutional layer is the basic CNN unit that has been inspired by physiological research evidence of hierarchical processing in the visual cor- tex of mammals ^[10][1962_WiesekT_HubelD]^. Simple cells detect primitive attributes while more compound structures are subsequently extracted by complex cells. Thus, convolutional layer consists of a set of feature maps issued from convolving different filters (kernels) with an input image or previous layer output ^[11][2012_HintonGE_SutskeverI_KrizhevskyA]^. The 2-dimensional maps are stacked together to produce the resulting vol- ume of the convolutional layer. This process reduces drastically the network complexity since the neurons of a same feature map share the same weights and bias maintaining a low number of parameters to learn ^[12][2015_GuX_WuH]^.
 
 > The hyperparameters characterizing a convolutional layer are the depth \( F \) (number of filters), the stride \( S \) (filter movement from a receptive field to the next one) and the zero padding \( P \) to control input size [13]. Assuming that the filter size \( (\text{height}, \text{width}, \text{depth}) = (h, w, D) \), the dimensions of the feature maps generated can be obtained according to:
 
@@ -355,9 +357,9 @@ tures performance as a guiding reward for controllers updates. Training and eval
 07. [Y. Lecun, L. Bottou, Y. Bengio, P. Haffner, Gradient-based learning applied to document recognition, Proceedings of the IEEE 86 (11) (1998) 2278–2324.]
 08. [K. Jarrett, K. Kavukcuoglu, M. Ranzato, Y. LeCun, What is the best multi-stage architecture for object recognition?, in: 2009 IEEE 12th International Conference on Computer Vision, 2009, pp. 2146–2153.]
 09. [M. A. Nielsen, Neural Networks and Deep Learning, Determination Press, 2018.]
-10. [D. Hubel, T. Wiesel, Receptive fields, binocular interaction, and func- tional architecture in the cat’s visual cortex, Journal of Physiology 160 (1962) 106–154.]
-11. [A. Krizhevsky, I. Sutskever, G. E. Hinton, Imagenet classification with deep convolutional neural networks, in: Proceedings of the 25th Interna- tional Conference on Neural Information Processing Systems - Volume 1, Curran Associates Inc., USA, 2012, pp. 1097–1105.]
-12. [H. Wu, X. Gu, Max-pooling dropout for regularization of convolutional neural networks, in: Neural Information Processing - 22nd International Conference, ICONIP 2015, Istanbul, Turkey, November 9-12, 2015, Pro- ceedings, Part I, 2015, pp. 46–54.]
+10. [D. Hubel, T. Wiesel, Receptive fields, binocular interaction, and func- tional architecture in the cat’s visual cortex, Journal of Physiology 160 (1962) 106–154.][1962_WiesekT_HubelD]
+11. [A. Krizhevsky, I. Sutskever, G. E. Hinton, Imagenet classification with deep convolutional neural networks, in: Proceedings of the 25th Interna- tional Conference on Neural Information Processing Systems - Volume 1, Curran Associates Inc., USA, 2012, pp. 1097–1105.][2012_HintonGE_SutskeverI_KrizhevskyA]
+12. [H. Wu, X. Gu, Max-pooling dropout for regularization of convolutional neural networks, in: Neural Information Processing - 22nd International Conference, ICONIP 2015, Istanbul, Turkey, November 9-12, 2015, Pro- ceedings, Part I, 2015, pp. 46–54.][2015_GuX_WuH]
 13. [I. Goodfellow, Y. Bengio, A. Courville, Deep Learning, MIT Press, 2016.]
 14. [M. Zeiler, R. Fergus, Stochastic pooling for regularization of deep con- volutional neural networks, in: Proceedings of the International Confer- ence on Learning Representations (ICLR), 2013.]
 15. [N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, R. Salakhutdinov, Dropout: A simple way to prevent neural networks from overfitting, J. Mach. Learn. Res. 15 (1) (2014) 1929–1958.]
@@ -410,7 +412,9 @@ A. Krause (Eds.), Proceedings of the 35th International Conference on Machine Le
 
 
 
+
 ## 
+
 
 <style type="text/css">
 	img{width: 50%; float: right;}
@@ -422,3 +426,7 @@ A. Krause (Eds.), Proceedings of the 35th International Conference on Machine Le
 [figs]: .
 [fig01]: .
 [ref01]: .
+
+[1962_WiesekT_HubelD]: https://physoc.onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.1962.sp006837 "Hubel, D. H., & Wiesel, T. N. (1962). Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. The Journal of physiology, 160(1), 106-154."
+[2012_HintonGE_SutskeverI_KrizhevskyA]: . ""
+[2015_GuX_WuH]: . ""
