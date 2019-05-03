@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 20:16:39
+Modified: 	2019-05-03 20:20:25
 -----
 Copyright (c) 2019 shumez
 -->
@@ -134,13 +134,15 @@ loss function evalation
 * stride \(S\) filter movement from receptive field to the next
 * zero padding \(P\) 
 
-> The hyperparameters characterizing a convolutional layer are the depth \(F\) (number of filters), the stride \(S\) (filter movement from a receptive field to the next one) and the zero padding \(P\) to control input size [13][2016_CourvilleA_BengioY_GoodfellowI]. Assuming that the filter size \((\text{height}, \text{width}, \text{depth}) = (h, w, F)\), the dimensions of the feature maps generated can be obtained according to:
+> The hyperparameters characterizing a convolutional layer are the depth \(F\) (number of filters), the stride \(S\) (filter movement from a receptive field to the next one) and the zero padding \(P\) to control input size ^[13][2016_CourvilleA_BengioY_GoodfellowI]^. Assuming that the filter size \((\text{height}, \text{width}, \text{depth}) = (h, w, F)\), the dimensions of the feature maps generated can be obtained according to:
 
 \[ ( H_1, W_1, F ) = \bigg( \frac{(H + 2P − h)}{S} + 1, \frac{(W + 2P − w)}{S} + 1, F \bigg) \]
 
-> Where \((H, W, D)\) is the size \((\text{height}, \text{width}, \text{depth})\) of the input image.
+> Where \((H, W, F)\) is the size \((\text{height}, \text{width}, \text{depth})\) of the input image.
 
 ### 03.02. Pooling Layer
+
+###### 03.02.P01
 
 > CNN architectures generally alternate convolution and pooling layers. The latter have the purpose of reducing network complexity and avoid the problem of overfitting. At biological level, pooling is assimilated to the behav- ior of cortical complex cells that reveal a certain degree of position invariance. A pooling layer neuron is connected to a region of the previous layer by per- forming a non-parameterized function. Thus it differs from convolution as it doesn’t have learnable weights or bias and additionally, it keeps the same depth of the previous layer. Max pooling [14] is one of the most common type of pooling that consists in retaining the maximum value of a neurons cluster. It means that max pooling is detecting if a given feature has been identified in a receptive field without recording the exact location [9].
 
