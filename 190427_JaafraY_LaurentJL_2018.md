@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 17:42:0
+Modified: 	2019-05-03 17:42:58
 -----
 Copyright (c) 2019 shumez
 -->
@@ -61,6 +61,8 @@ in this paper
 
 
 ## 02. Background
+
+###### 02.P01
 
 > Before embarking with CNN, we will introduce in this section some basic generalities about artificial networks and deep learning.
 
