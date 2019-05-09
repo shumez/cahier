@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-09 21:02:18
+Modified: 	2019-05-10 08:47:17
 -----
 Copyright (c) 2019 shumez
 -->
@@ -75,7 +75,19 @@ TDP-43 w/i nuclei &xrarr; phospharylted w/i cytoplasm
 
 ###### 02.P03
 
-> Following the detection of TDP-43 proteinopathy in FTLD-TDP and in the large majority of ALS cases (Mackenzie et al., 2007), **TDP-43 proteinopathy was also discovered in the brains of subjects over age 80 years without FTLD or ALS, but often with comorbid hippocampal sclerosis and/or ADNC** ([Amador-Ortiz et al., 2007a][2007_DicksonDW_AhmedZ_Amador-OrtizC], [b][2007_DicksonDW_LinWL_Amador-OrtizC]). In subjects with ADNC, LATE-NC represents a common comorbid lesion that lowers the threshold for developing dementia ([Josephs et al., 2014b], [2015]). In retrospective studies, age-related TDP-43 proteinopathy has been associated with a progressive amnestic syndrome that mimicked the Alzheimer’s clinical syndrome (Pao et al., 2011; Brenowitz et al., 2014). TDP-43 proteinopathy, hippocampal sclerosis pathology, and the associated amnestic dementia increases with advanced age, while the prevalence of severe ADNC decreases in extreme old age (Nelson et al., 2011a, b, 2013; Brenowitz et al., 2014). The presence of pathological TDP-43 in these cases suggests a novel disease mechanism in older adults. As there is currently no universally agreed upon terminology or staging system for common age-related TDP-43 proteinopathy, this condition is under-studied and not well recognized even among investigators in the field of dementia research. The promotion of research and increasing awareness of this disease are the primary motivations for developing the new term LATE, and for the recommendations that follow.
+LATE
+
+* TDP-43 discovered 
+	* in > 80yo w/o FTLD / ALS
+	* also comorbid hipocampal sclerosis &/ ADNC
+
+
+advanced age
+
+* &uarr; TDP-43 proteinopathy / hippocampal sclerosis pathology / amnestic dementia 
+* &darr; severe ADNC
+
+> Following the detection of TDP-43 proteinopathy in FTLD-TDP and in the large majority of ALS cases (Mackenzie et al., 2007), **TDP-43 proteinopathy was also discovered in the brains of subjects over age 80 years without FTLD or ALS, but often with comorbid hippocampal sclerosis and/or ADNC** ([Amador-Ortiz et al., 2007a][2007_DicksonDW_AhmedZ_Amador-OrtizC], [b][2007_DicksonDW_LinWL_Amador-OrtizC]). In subjects with ADNC, LATE-NC represents a common [comorbid](. "併存する, 合併する") lesion that lowers the threshold for developing dementia ([Josephs et al., 2014b], [2015]). In retrospective studies, age-related TDP-43 proteinopathy has been associated with a progressive amnestic syndrome that mimicked the Alzheimer’s clinical syndrome (Pao et al., 2011; Brenowitz et al., 2014). TDP-43 proteinopathy, hippocampal sclerosis pathology, and the associated amnestic dementia increases with advanced age, while the prevalence of severe ADNC decreases in extreme old age (Nelson et al., 2011a, b, 2013; Brenowitz et al., 2014). The presence of pathological TDP-43 in these cases suggests a novel disease mechanism in older adults. As there is currently no universally agreed upon terminology or staging system for common age-related TDP-43 proteinopathy, this condition is under-studied and not well recognized even among investigators in the field of dementia research. The promotion of research and increasing awareness of this disease are the primary motivations for developing the new term LATE, and for the recommendations that follow.
 
 ### 02.01. LATE neuropathological changes
 
