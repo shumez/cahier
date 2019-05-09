@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-09 20:31:18
+Modified: 	2019-05-09 20:46:32
 -----
 Copyright (c) 2019 shumez
 -->
@@ -61,7 +61,9 @@ LATE and LATE-NC summary points
 
 ## 02. Background
 
-> There is growing awareness that Alzheimer’s disease neuropathological change (ADNC) is only one of multiple neuropathological substrates associated with amnestic mild cognitive impairment and the Alzheimer’s clinical syndrome in the aged population (Korczyn, 2002; Zekry et al., 2002; Bennett et al., 2006; Jellinger and Attems, 2007; Schneider et al., 2007; Crary et al., 2014; Murray et al., 2014; Rahimi and Kovacs, 2014; James et al., 2016). Recent studies have gathered rich clinical data from large groups of subjects across a spectrum of cognitive states, correlated these clinical findings with new pathological markers at autopsy, and then analysed the data using powerful statistical methods. These studies have indicated that the diseases of aged human brains are complex: multiple comorbid pathologies are the norm, and there is substantial interindividual variation in neuropathological phenotypes (Neuropathology Group. Medical Research Council Cognitive and Aging, 2001; Brayne et al., 2009; Kovacs et al., 2013; Murray et al., 2014; Rahimi and Kovacs, 2014; White et al., 2016; Abner et al., 2017; Kapasi et al., 2017; Suemoto et al., 2017; Tanskanen et al., 2017; Robinson et al., 2018b, c). While there is a strong association between severe ADNC and cognitive impairment in all age groups (Nelson et al., 2009; Abner et al., 2011), subjects who die after 80 years of age often have exhibited cognitive decline exceeding expectation given the severity of ADNC (Kawas and Corrada, 2006; Savva et al., 2009; Nelson et al., 2012). LATE-NC is an important contributor to this apparent clinicopathological mismatch (see below).
+###### 02.P01
+
+> There is growing awareness that **Alzheimer’s disease neuropathological change** (**ADNC**) is only one of multiple neuropathological substrates associated with amnestic mild cognitive impairment and the Alzheimer’s clinical syndrome in the aged population ([Korczyn, 2002][2002_Korczyn]; [Zekry et al., 2002][2002_Zekry]; [Bennett et al., 2006][2006_Bennett]; [Jellinger and Attems, 2007][2007_Attems_Jellinger]; [Schneider et al., 2007][2007_Schneider]; [Crary et al., 2014][2014_Crary]; [Murray et al., 2014][2014_Murray]; [Rahimi and Kovacs, 2014][2014_Kovacs_Rahimi]; [James et al., 2016][2016_James]). Recent studies have gathered rich clinical data from large groups of subjects across a spectrum of cognitive states, correlated these clinical findings with new pathological markers at autopsy, and then analysed the data using powerful statistical methods. These studies have indicated that the diseases of aged human brains are complex: multiple comorbid pathologies are the norm, and there is substantial interindividual variation in neuropathological phenotypes ([Neuropathology Group. Medical Research Council Cognitive and Aging, 2001][2001_]; [Brayne et al., 2009][2009_Brayne]; [Kovacs et al., 2013][2013_Kovacs]; [Murray et al., 2014][2014_Murray]; [Rahimi and Kovacs, 2014][2014_Kovacs_Rahimi]; [White et al., 2016][2016_White]; [Abner et al., 2017][2017_Abner]; [Kapasi et al., 2017][2017_Kapasi]; [Suemoto et al., 2017][2017_Suemoto]; [Tanskanen et al., 2017][2017_Tanskanen]; [Robinson et al., 2018b][2018_Robinson], [c][2018_Robinson]). While there is a strong association between severe ADNC and cognitive impairment in all age groups ([Nelson et al., 2009][2009_Nelson]; [Abner et al., 2011][2011_Abner]), subjects who die after 80 years of age often have exhibited cognitive decline exceeding expectation given the severity of ADNC ([Kawas and Corrada, 2006][2006_Corrada_Kawas]; [Savva et al., 2009][2009_Savva]; [Nelson et al., 2012][2012_Nelson]). LATE-NC is an important contributor to this apparent clinicopathological mismatch (see below).
 
 > Historically, the first-recognized pathological manifestation of LATE was profound hippocampal neuron loss and gliosis, collectively termed hippocampal sclerosis. In a landmark study, Dickson et al. (1994) identified 13 elderly subjects with dementia and hippocampal sclerosis, yet who lacked substantial ADNC. Other larger autopsy series that included subjects with dementia and hippocampal sclerosis were later reported (Crystal et al., 2000; Barker et al., 2002; Leverenz et al., 2002; White et al., 2002; Zarow et al., 2005; Attems and Jellinger, 2006; Brayne et al., 2009). In 2006, phosphorylated TDP-43 was discovered as the disease protein in the ubiquitylated inclusions that are signatures of amyotrophic lateral sclerosis (ALS) and most cases of frontotemporal lobar degeneration (FTLD), known as FTLD-TDP (Neumann et al., 2006; Cairns et al., 2007a). TDP-43 protein, encoded by the TARDBP gene (Ou et al., 1995), is a protein that binds to RNA and DNA as well as to other proteins, and serves multiple functions in gene expression regulation at the levels of both transcription and translation (Cohen et al., 2011; Guo and Shorter, 2017). Expressed in most human tissues and cell types, TDP-43 is predominantly non-phosphorylated and localized mostly within nuclei, while in disease states the protein is phosphorylated and often translocated to the cytoplasm (Neumann et al., 2006).
 
@@ -226,8 +228,28 @@ LATE and LATE-NC summary points
 </style>
 
 <!-- -------------------------------------------- -->
+<!-- ref -->
 [orig]: https://academic.oup.com/brain/advance-article/doi/10.1093/brain/awz099/5481202 ""
 [mend]: .
+
+<!-- 02p01 -->
+[2002_Korczyn]: . ""
+[2002_Zekry]: . ""
+[2006_Bennett]: . ""
+[2007_Attems_Jellinger]: . ""
+[2007_Schneider]: . ""
+[2014_Crary]: . ""
+[2014_Murray]: . ""
+[2014_Kovacs_Rahimi]: . ""
+[2016_James]: . ""
+[2001_]
+[2009_Brayne]: . ""
+[2013_Kovacs]: . ""
+[2014_Murray]: . ""
+[2014_Kovacs_Rahimi]: . ""
+[2016_White]: . ""
+[2017_Abner]: . ""
+[2017_Kapasi]: . ""
 
 <!-- fig -->
 [fig1]: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/PAP/10.1093_brain_awz099/1/m_awz099f1.png?Expires=1557303302&Signature=rA8iwWJYSqkTDXUN6xU7LgQ~MjMkfmqAdE5K3wGsESBDoR5dTt2LfIgq4mSJEqKy7QtB3Fq~v5Xsn6rKttn0EqibAKvx1Iq16IkcnWpY5QclmiTqc74jzfHzFrj2VZv6uKRJ6Uf9QRtlWGVQpt0VuDqS~oA55Ee07JaXliIsF1PAXeoPpAeWFF87NynGeUcLZrIb6IoU6dTtlD7BGi5udAElpVrmhC-mXHNjrhgFN5J7oTMFlkKl3EOD8xhJegnMDQ9ZhvHqQ~2pHYb46JWZUjppJcX2I~AdGetjvqaZU8n29uHdrlrIBHv4zU2Bb7obA6wJF2-2jWrxLt69iO8r7Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
