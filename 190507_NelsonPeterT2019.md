@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-09 20:27:8
+Modified: 	2019-05-09 20:31:18
 -----
 Copyright (c) 2019 shumez
 -->
@@ -41,7 +41,7 @@ Copyright (c) 2019 shumez
 
 ## 01. Introduction
 
-> Transactive response DNA binding protein of 43 kDa (TDP-43) proteinopathy in limbic brain structures is commonly observed in subjects past 80 years of age. This proteinopathy has been associated with substantial cognitive impairment that mimicked Alzheimer’s disease clinical syndrome in retrospective studies. Despite evidence from many sources attesting to the public health impact of age-related TDP-43 proteinopathy, there is as yet no consensus-based nomenclature. To address this problem, we propose new terminology: limbic-predominant age-related TDP-43 encephalopathy (LATE). Guidelines are suggested for the autopsy evaluation and staging of LATE neuropathological change (LATE-NC). We review the medical literature pertaining to LATE, including cognitive manifestations, neuroimaging, public health impact, and genetics. The importance of LATE as a contributing factor in neurodegeneration is stressed, as are the needs for specific LATE biomarker development, TDP-43 focused drug discovery, and eventual clinical trials. We conclude by highlighting important knowledge gaps and potential future directions for research on LATE. Summary points are presented in Box 1.
+> Transactive response DNA binding protein of 43 kDa (TDP-43) proteinopathy in limbic brain structures is commonly observed in subjects past 80 years of age. This proteinopathy has been associated with substantial cognitive impairment that mimicked Alzheimer’s disease clinical syndrome in retrospective studies. Despite evidence from many sources [attest](. "証明する")ing to the public health impact of age-related TDP-43 proteinopathy, there is as yet no consensus-based [nomenclature](. "体系"). To address this problem, we propose new terminology: **limbic-predominant age-related TDP-43 encephalopathy** (LATE). Guidelines are suggested for the autopsy evaluation and staging of LATE neuropathological change (LATE-NC). We review the medical literature pertaining to LATE, including cognitive manifestations, neuroimaging, public health impact, and genetics. The importance of LATE as a contributing factor in neurodegeneration is stressed, as are the needs for specific LATE biomarker development, TDP-43 focused drug discovery, and eventual clinical trials. We conclude by highlighting important knowledge gaps and potential future directions for research on LATE. Summary points are presented in Box 1.
 
 ### Box 1
 
