@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-10 08:54:46
+Modified: 	2019-05-10 09:04:29
 -----
 Copyright (c) 2019 shumez
 -->
@@ -91,7 +91,18 @@ advanced age
 
 ### 02.01. LATE neuropathological changes
 
-> LATE-NC is a TDP-43 proteinopathy of advanced age, especially in subjects older than age 80. Following the convention proposed by a working group for the neuropathological criteria of Alzheimer’s disease (Montine et al., 2012), we use LATE to refer to the disease, and LATE-NC as the term to indicate LATE neuropathological changes. The term LATE is intended to encompass several previously used designations related to TDP-43 proteinopathy that may be associated with cognitive impairment, including hippocampal sclerosis, hippocampal sclerosis of ageing, hippocampal sclerosis dementia, cerebral age-related TDP-43 with sclerosis, and TDP-43 pathologies in the elderly (for reviews see Kuslansky et al., 2004; Lippa and Dickson, 2004; Nelson et al., 2013, 2016b; Dutra et al., 2015).
+###### 02.01.P01
+
+LATE encompoass 
+
+* hippocampal sclerosis
+* hippocampal sclerosis of aging
+* hippocampal sclerosis dementia
+* cerebral age-related TDP-43 w/ sclerosis
+* TDP-43 pathology in the elderly
+
+
+> LATE-NC is a TDP-43 proteinopathy of advanced age, especially in subjects older than age 80. Following the convention proposed by a working group for the neuropathological criteria of Alzheimer’s disease ([Montine et al., 2012]), we use LATE to refer to the disease, and LATE-NC as the term to indicate LATE neuropathological changes. The term LATE is intended to encompass several previously used designations related to TDP-43 proteinopathy that may be associated with cognitive impairment, including hippocampal sclerosis, hippocampal sclerosis of aging, hippocampal sclerosis dementia, cerebral age-related TDP-43 with sclerosis, and TDP-43 pathologies in the elderly (for reviews see [Kuslansky et al., 2004]; [Lippa and Dickson, 2004]; [Nelson et al., 2013], [2016b][2016_NeltnerJH_TrojanwskiJQ_NelsonPT]; [Dutra et al., 2015]).
 
 > ‘TDP-43 proteinopathy’ refers to loss of normal nuclear TDP-43 immunoreactivity, with TDP-43 protein ‘inclusion bodies’ in the neuronal cytoplasm, as well as abnormal TDP-43 accumulation (much of it phosphorylated) in nuclei and cell processes (neurites) of neurons and in oligodendroglia and astrocytes. For representative examples of TDP-43 proteinopathy, see Fig. 1. Mislocalized and phosphorylated TDP-43 is a necessary feature of LATE-NC and sometimes has characteristics similar to those seen in type A FTLD-TDP (Lin et al., 2009; Mackenzie et al., 2011; Murray et al., 2014; Aoki et al., 2015), but often the features do not fit cleanly into an established FTLD-TDP subtype. Indeed, a recent study described features of LATE-NC including both similarities and differences from type A FTLD-TDP (Josephs et al., 2019). In addition to limbic structures, TDP-43 proteinopathy in LATE has also been described in the olfactory bulb, neocortex, basal ganglia, and less frequently in brainstem (Josephs et al., 2008; Geser et al., 2010; Josephs and Dickson, 2016; Nelson et al., 2018). Immunoelectron microscopy showed that the TDP-43 inclusions have a fibrillary ultrastructure composed of bundled 10–20-nm diameter straight filaments (Lin and Dickson, 2008; Lin et al., 2009), often accompanied by electron dense granules (Cairns et al., 2007b; Robinson et al., 2013).
 
@@ -280,6 +291,9 @@ advanced age
 [2007_DicksonDW_AhmedZ_Amador-OrtizC]: https://link.springer.com/article/10.1007/s00401-006-0183-4 "Amador-Ortiz, C., Ahmed, Z., Zehr, C. and Dickson, D.W., 2007. Hippocampal sclerosis dementia differs from hippocampal sclerosis in frontal lobe degeneration. Acta neuropathologica, 113(3), pp.245-252."
 [2007_DicksonDW_LinWL_Amador-OrtizC]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2677204/ "Amador‐Ortiz, C., Lin, W.L., Ahmed, Z., Personett, D., Davies, P., Duara, R., Graff‐Radford, N.R., Hutton, M.L. and Dickson, D.W., 2007. TDP‐43 immunoreactivity in hippocampal sclerosis and Alzheimer's disease. Annals of neurology, 61(5), pp.435-445."
 [2014_NelsonPT_MonsellSE_BrenowitzWD]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3946156/ "Brenowitz, W.D., Monsell, S.E., Schmitt, F.A., Kukull, W.A. and Nelson, P.T., 2014. Hippocampal sclerosis of aging is a key Alzheimer's disease mimic: clinical-pathologic correlations and comparisons with both Alzheimer's disease and non-tauopathic frontotemporal lobar degeneration. Journal of Alzheimer's Disease, 39(3), pp.691-702."
+
+<!-- 0201p01 -->
+[2016_NeltnerJH_TrojanwskiJQ_NelsonPT]: https://academic.oup.com/jnen/article/75/6/482/2579840 "Nelson, P.T., Trojanowski, J.Q., Abner, E.L., Al-Janabi, O.M., Jicha, G.A., Schmitt, F.A., Smith, C.D., Fardo, D.W., Wang, W.X., Kryscio, R.J. and Neltner, J.H., 2016. “New old pathologies”: AD, PART, and cerebral age-related TDP-43 with sclerosis (CARTS). Journal of Neuropathology & Experimental Neurology, 75(6), pp.482-498."
 
 <!-- fig -->
 [fig1]: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/PAP/10.1093_brain_awz099/1/m_awz099f1.png?Expires=1557303302&Signature=rA8iwWJYSqkTDXUN6xU7LgQ~MjMkfmqAdE5K3wGsESBDoR5dTt2LfIgq4mSJEqKy7QtB3Fq~v5Xsn6rKttn0EqibAKvx1Iq16IkcnWpY5QclmiTqc74jzfHzFrj2VZv6uKRJ6Uf9QRtlWGVQpt0VuDqS~oA55Ee07JaXliIsF1PAXeoPpAeWFF87NynGeUcLZrIb6IoU6dTtlD7BGi5udAElpVrmhC-mXHNjrhgFN5J7oTMFlkKl3EOD8xhJegnMDQ9ZhvHqQ~2pHYb46JWZUjppJcX2I~AdGetjvqaZU8n29uHdrlrIBHv4zU2Bb7obA6wJF2-2jWrxLt69iO8r7Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
