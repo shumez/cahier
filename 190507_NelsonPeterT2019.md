@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-10 09:33:42
+Modified: 	2019-05-10 16:15:55
 -----
 Copyright (c) 2019 shumez
 -->
@@ -110,7 +110,17 @@ LATE encompoass
 	* inclusion body in cytoplasm
 	* abnormal accumulation in nuclei & neurite
 
-> ‘TDP-43 proteinopathy’ refers to loss of normal nuclear TDP-43 immunoreactivity, with TDP-43 protein ‘inclusion bodies’ in the neuronal cytoplasm, as well as abnormal TDP-43 accumulation (much of it phosphorylated) in nuclei and cell processes (neurites) of neurons and in oligodendroglia and astrocytes. For representative examples of TDP-43 proteinopathy, see [Fig. 1](#figure_1). Mislocalized and phosphorylated TDP-43 is a necessary feature of LATE-NC and sometimes has characteristics similar to those seen in type A FTLD-TDP (Lin et al., 2009; Mackenzie et al., 2011; Murray et al., 2014; Aoki et al., 2015), but often the features do not fit cleanly into an established FTLD-TDP subtype. Indeed, a recent study described features of LATE-NC including both similarities and differences from type A FTLD-TDP (Josephs et al., 2019). In addition to limbic structures, TDP-43 proteinopathy in LATE has also been described in the olfactory bulb, neocortex, basal ganglia, and less frequently in brainstem (Josephs et al., 2008; Geser et al., 2010; Josephs and Dickson, 2016; Nelson et al., 2018). Immunoelectron microscopy showed that the TDP-43 inclusions have a fibrillary ultrastructure composed of bundled 10–20-nm diameter straight filaments (Lin and Dickson, 2008; Lin et al., 2009), often accompanied by electron dense granules (Cairns et al., 2007b; Robinson et al., 2013).
+type A FTLD-TDP similar/different
+
+TDP-43 in LATE
+
+* HCP
+* olfactory bulb
+* neocortex
+* basal ganglia
+* brainstem
+
+> ‘TDP-43 proteinopathy’ refers to loss of normal nuclear TDP-43 immunoreactivity, with TDP-43 protein ‘inclusion bodies’ in the neuronal cytoplasm, as well as abnormal TDP-43 accumulation (much of it phosphorylated) in nuclei and cell processes (neurites) of neurons and in oligodendroglia and astrocytes. For representative examples of TDP-43 proteinopathy, see [Fig. 1](#figure_1). Mislocalized and phosphorylated TDP-43 is a necessary feature of LATE-NC and sometimes has characteristics similar to those seen in type A FTLD-TDP ([Lin et al., 2009][2009_Lin]; [Mackenzie et al., 2011][2011_Mackenzie]; [Murray et al., 2014][2014_Murray]; [Aoki et al., 2015][2015_DicksonDennisW_MurrayMelissaE_AokiNaoya]), but often the features do not fit cleanly into an established FTLD-TDP subtype. Indeed, a recent study described features of LATE-NC including both similarities and differences from type A FTLD-TDP ([Josephs et al., 2019][2019_DicksonDennisW_MurrayMelissaE_JosephsKeithA]). In addition to limbic structures, TDP-43 proteinopathy in LATE has also been described in the olfactory bulb, neocortex, basal ganglia, and less frequently in brainstem ([Josephs et al., 2008][2008_Josephs]; [Geser et al., 2010][2010_Geser]; [Josephs and Dickson, 2016][2016_Dickson_Josephs]; [Nelson et al., 2018][2018_Nelson]). Immunoelectron microscopy showed that the TDP-43 inclusions have a fibrillary ultrastructure composed of bundled 10–20-nm diameter straight filaments ([Lin and Dickson, 2008][2008_Dickson_Lin]; [Lin et al., 2009][2009_Lin]), often accompanied by electron dense granules ([Cairns et al., 2007b][2007_Cairns]; [Robinson et al., 2013][2013_Robinson]).
 
 ###### Figure 1
 
@@ -316,6 +326,10 @@ Episodic memory score 	−0.60 (1.28) 	−0.76 (1.31) 	−1.36 (1.34) 	−2.06 (
 
 <!-- 0201p01 -->
 [2016_NeltnerJH_TrojanwskiJQ_NelsonPT]: https://academic.oup.com/jnen/article/75/6/482/2579840 "Nelson, P.T., Trojanowski, J.Q., Abner, E.L., Al-Janabi, O.M., Jicha, G.A., Schmitt, F.A., Smith, C.D., Fardo, D.W., Wang, W.X., Kryscio, R.J. and Neltner, J.H., 2016. “New old pathologies”: AD, PART, and cerebral age-related TDP-43 with sclerosis (CARTS). Journal of Neuropathology & Experimental Neurology, 75(6), pp.482-498."
+
+<!-- 0201p02 -->
+[2015_DicksonDennisW_MurrayMelissaE_AokiNaoya]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4282950/ "Aoki, N., Murray, M.E., Ogaki, K., Fujioka, S., Rutherford, N.J., Rademakers, R., Ross, O.A. and Dickson, D.W., 2015. Hippocampal sclerosis in Lewy body disease is a TDP-43 proteinopathy similar to FTLD-TDP Type A. Acta neuropathologica, 129(1), pp.53-64."
+[2019_DicksonDennisW_MurrayMelissaE_JosephsKeithA]: https://link.springer.com/article/10.1007%2Fs00401-018-1951-7 "Josephs, K.A., Murray, M.E., Tosakulwong, N., Weigand, S.D., Serie, A.M., Perkerson, R.B., Matchett, B.J., Jack, C.R., Knopman, D.S., Petersen, R.C. and Parisi, J.E., 2019. Pathological, imaging and genetic characteristics support the existence of distinct TDP-43 types in non-FTLD brains. Acta neuropathologica, 137(2), pp.227-238."
 
 <!-- fig -->
 [fig1]: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/PAP/10.1093_brain_awz099/1/awz099f1.png?Expires=1557540815&Signature=IYO0hndcBxZ6-Z8gR4CdBLDpl9MQr3onetmcEcGfj5k8oLEMbj57KeCxYoZYvfsvhd495eK04eTPGNscx1znLsBRudJdH5CLajVJy9npnhP~q9jM9Tpg0sZCpcm6PnrBRdrq3Aw8BMPOjNct5RU3fz00mJMg5J01VlhNDLfSLlKBpXRhDAkxyxqREy3GVzn6dUlS1eaJ2vil7MMSJvr1vSq31YJgo69BsVBlzIgtP2Npyjs5yiG9Pqcmkod6HbW1X13EMZwWBRsJB-MdjgW7SQA08n1NtEMBTBxdoptcJZSng3wE3klSQCBDgHSglk0Vedn8MEpz257TDmiqTLacZQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
