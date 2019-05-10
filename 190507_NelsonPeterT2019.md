@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-10 16:15:55
+Modified: 	2019-05-10 16:33:42
 -----
 Copyright (c) 2019 shumez
 -->
@@ -132,7 +132,16 @@ TDP-43 in LATE
 
 #### 
 
-> In brains with LATE-NC, haematoxylin and eosin stains may reveal neuronal dropout and astrocytosis in the CA1 sector of the hippocampus, as well as in the subiculum, entorhinal cortex, and amygdala (Amador-Ortiz and Dickson, 2008). Atrophy can be marked in these areas (Fig. 1A–C). In severely affected hippocampi, the neuropil becomes rarefied and loss of neuronal components is accompanied by reactive astrocytosis (Amador-Ortiz et al., 2007a). Pronounced leucocyte infiltrates or perivascular cuffing are not typically seen, but hypertrophic microglia can be numerous (Bachstetter et al., 2015). The neuronal cell loss is segmental in some subjects, observed in some but not all sections from the same brain area (Ighodaro et al., 2015). Hippocampal sclerosis pathology is unilateral in ∼40–50% of cases in which both sides were evaluated (Nelson et al., 2011b; Zarow et al., 2012; Kero et al., 2018), not unlike FTLD-TDP (Irwin et al., 2018).
+###### 02.01.P03
+
+neuronal dropoout & astrocytosis in LATE-NC
+
+* HPC
+* subiculum
+* entorhinal cortex
+* amygdala
+
+> In brains with LATE-NC, haematoxylin and eosin stains may reveal neuronal dropout and astrocytosis in the CA1 sector of the hippocampus, as well as in the [subiculum](https://en.wikipedia.org/wiki/Subiculum "海馬台, 鉤状回"), entorhinal cortex, and amygdala ([Amador-Ortiz and Dickson, 2008][2008_Dickson_Amador-Ortiz]). Atrophy can be marked in these areas (Fig. 1A–C). In severely affected hippocampi, the neuropil becomes rarefied and loss of neuronal components is accompanied by reactive astrocytosis ([Amador-Ortiz et al., 2007a][2007_Amador-Ortiz]). Pronounced leucocyte infiltrates or perivascular cuffing are not typically seen, but hypertrophic microglia can be numerous ([Bachstetter et al., 2015][2015_Bachstetter]). The neuronal cell loss is segmental in some subjects, observed in some but not all sections from the same brain area ([Ighodaro et al., 2015][2015_Ighodaro]). Hippocampal sclerosis pathology is unilateral in ∼40–50% of cases in which both sides were evaluated ([Nelson et al., 2011b][2011_Nelson]; [Zarow et al., 2012][2012_Zarow]; [Kero et al., 2018][2018_Kero]), not unlike FTLD-TDP ([Irwin et al., 2018][2018_Irwin]).
 
 > Hippocampal sclerosis is present in a subset of cases with severe LATE-NC, and was the first characteristic pathological feature that distinguished it from ADNC (Dickson et al., 1994). Nevertheless, hippocampal sclerosis is neither specific to LATE-NC nor sufficient for the diagnosis of LATE. The neuropathological diagnosis of hippocampal sclerosis is fraught with difficulty. The most recent consensus guidelines for ADNC and related disorders stated that hippocampal sclerosis pathology is ‘defined by severe pyramidal cell loss and gliosis in CA1 and subiculum of the hippocampal formation that is out of proportion to AD neuropathologic change in the same structures’ (Montine et al., 2012). There is, however, significant topographic and phenotypic heterogeneity in hippocampal degeneration, creating difficulties in establishing strict criteria for widespread use. Moreover, hippocampal sclerosis is a pathological endpoint associated with various underlying disease processes, including epilepsy, hypoxia, hypoglycaemia, certain infections, and numerous neurodegenerative conditions (Josephs et al., 2007; Thom et al., 2009; Yokota et al., 2010; Malek-Ahmadi et al., 2013; Murray et al., 2013; Ling et al., 2017; Popkirov et al., 2017; Sen et al., 2018). Having originated in a 19th century study of epilepsy by Wilhelm Sommer (Sommer, 1880; Thom, 2009), the term hippocampal sclerosis is still used widely by radiologists and pathologists in the context of seizure disorders (Isnard and Bourdillon, 2015; Thom and Sisodiya, 2015). Detailed discussions of histopathological features and subtypes of hippocampal sclerosis can be found elsewhere (Probst et al., 2007; Rauramaa et al., 2013; Hatanpaa et al., 2014; Dutra et al., 2015; Thom and Sisodiya, 2015; Cykowski et al., 2017). Brains with hippocampal sclerosis, but lacking TDP-43 pathology (TDP-43−/HS+), do not represent LATE-NC. For example, brains with hippocampal sclerosis caused by acute hypoxia or associated with epilepsy are negative for TDP-43 proteinopathy (Amador-Ortiz et al., 2007b; Lee and Lee, 2008; Nelson et al., 2011b) and do not fulfil criteria for LATE-NC (Fig. 1H). In summary, TDP-43 proteinopathy is a necessary feature of LATE-NC that may or may not be accompanied by hippocampal sclerosis.
 
