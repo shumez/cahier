@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-10 17:00:27
+Modified: 	2019-05-10 17:23:31
 -----
 Copyright (c) 2019 shumez
 -->
@@ -155,7 +155,15 @@ TDP-43^+^/HS^–^ &rarr; TDP-43^+^/HS^+^
 
 > As has been the case in other neurodegenerative diseases ([Braak et al., 1993][1993_Braak], [2006][2006_Braak]; [Thal et al., 2000][2000_Thal]; [Zaccai et al., 2008][2008_Zaccai]; [Alafuzoff et al., 2009][2009_Alafuzoff]), careful assessments of autopsy data, from both longitudinal studies of clinic-based research subjects as in the NIA-funded Alzheimer’s Disease Centers, and from community-based studies, have expanded our understanding of LATE. While subjects with advanced age and hippocampal sclerosis often have TDP-43 proteinopathy ([Amador-Ortiz et al., 2007b][2007_Amador-Ortiz]; [Nelson et al., 2011b][2011_Nelson]; [Robinson et al., 2014][2014_Robinson]; [Nag et al., 2015][2015_Nag], [2018][2018_Nag]), TDP-43 proteinopathy in limbic structures is more prevalent than hippocampal sclerosis (Kovacs et al., 2013; Josephs et al., 2014b; Keage et al., 2014; Murray et al., 2014; Rahimi and Kovacs, 2014; Aoki et al., 2015; Nag et al., 2015, 2017; Hokkanen et al., 2018; Robinson et al., 2018b). The TDP-43-positive (+) and hippocampal sclerosis-negative (HS−) cases are a subset of LATE-NC that represent 5–40% of research subjects in autopsy series. Prior researchers have used terms for brains with TDP-43 proteinopathy and with some degree of cell dropout and gliosis, but lacking frank hippocampal sclerosis, as a ‘precursor to HS’, ‘pre-HpScl,’ or ‘pre-HS-Aging’ ([Hatanpaa et al., 2008][2008_Hatanpaa]; [Aoki et al., 2015][2015_Aoki]; [Hokkanen et al., 2018][2018_Hokkanen]). As suggested by the terminology, TDP-43^+^/HS^−^ brains may represent an early or transitional phase on the same disease continuum as TDP-43^+^/HS^+^ cases. There are other clues about LATE that were gathered from autopsy cohort studies. For example, even when hippocampal sclerosis was unilateral or segmental, the TDP-43 proteinopathy was almost always bilateral ([Nelson et al., 2011b][2011_Nelson]; [Ighodaro et al., 2015][2015_Ighodaro]). These observations have implications about how LATE evolves, which remains an important and open question.
 
-> Data gathered in large autopsy series have been analysed to test hypotheses about progression of LATE. Multivariable regression-based assessment can be used to generate models to test whether cross-sectional data align with proposed sequential pathways of neuropathological changes. Results of one such pathway analysis, from the Rush University community-based autopsy studies, are shown in Fig. 2. These analyses were performed as described previously (Power et al., 2018) and the findings are compatible with at least three hypotheses: (i) a subset of cases with TDP-43 proteinopathy develop hippocampal sclerosis caused or exacerbated by overlapping process(s) that promoted the TDP-43 proteinopathy, or directly by the TDP-43 proteinopathy itself; (ii) TDP-43 proteinopathy is associated independently with dementia, even in cases lacking hippocampal sclerosis; and (iii) pathogenetic mechanisms associated with ADNC (in Fig. 2, data are provided on neuritic amyloid-β plaques) are also associated with increased TDP-43 proteinopathy. Current rodent models of TDP-43 proteinopathy with hippocampal sclerosis-like pathology are few (Ke et al., 2015). TDP-43 proteinopathy was shown to be transmissible in mouse models similar to pathological tau and amyloid-β from Alzheimer’s disease brains (Porta et al., 2018), but the published TDP-43 models are thought to be more directly relevant to FTLD-TDP than LATE. For now, the lack of adequate longitudinal biomarker data and the limitations of current animal models hamper our study of disease mechanism(s) and further investigations are needed.
+###### 02.01.P06
+
+3 hypothesis
+
+1. subset of TDP-43 proteinopathy develop HS
+2. TDP-43 associated independently w dementia
+3. pathogenetic mechanisms associted w/ ADNC also associate w/ TDP-43 proteinopathy
+
+> Data gathered in large autopsy series have been analysed to test hypotheses about progression of LATE. Multivariable regression-based assessment can be used to generate models to test whether cross-sectional data align with proposed sequential pathways of neuropathological changes. Results of one such pathway analysis, from the Rush University community-based autopsy studies, are shown in Fig. 2. These analyses were performed as described previously ([Power et al., 2018][2018_NudelmanK_MorminoE_PowerMC]) and the findings are compatible with at least three hypotheses: (i) a subset of cases with TDP-43 proteinopathy develop hippocampal sclerosis caused or exacerbated by overlapping process(s) that promoted the TDP-43 proteinopathy, or directly by the TDP-43 proteinopathy itself; (ii) TDP-43 proteinopathy is associated independently with dementia, even in cases lacking hippocampal sclerosis; and (iii) pathogenetic mechanisms associated with ADNC (in Fig. 2, data are provided on neuritic amyloid-β plaques) are also associated with increased TDP-43 proteinopathy. Current rodent models of TDP-43 proteinopathy with hippocampal sclerosis-like pathology are few ([Ke et al., 2015][2015_Ke]). TDP-43 proteinopathy was shown to be transmissible in mouse models similar to pathological tau and amyloid-β from Alzheimer’s disease brains ([Porta et al., 2018][2018_Porta]), but the published TDP-43 models are thought to be more directly relevant to FTLD-TDP than LATE. For now, the lack of adequate longitudinal biomarker data and the limitations of current animal models hamper our study of disease mechanism(s) and further investigations are needed.
 
 ###### Figure 2
 
@@ -347,6 +355,13 @@ Episodic memory score 	−0.60 (1.28) 	−0.76 (1.31) 	−1.36 (1.34) 	−2.06 (
 <!-- 0201p02 -->
 [2015_DicksonDennisW_MurrayMelissaE_AokiNaoya]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4282950/ "Aoki, N., Murray, M.E., Ogaki, K., Fujioka, S., Rutherford, N.J., Rademakers, R., Ross, O.A. and Dickson, D.W., 2015. Hippocampal sclerosis in Lewy body disease is a TDP-43 proteinopathy similar to FTLD-TDP Type A. Acta neuropathologica, 129(1), pp.53-64."
 [2019_DicksonDennisW_MurrayMelissaE_JosephsKeithA]: https://link.springer.com/article/10.1007%2Fs00401-018-1951-7 "Josephs, K.A., Murray, M.E., Tosakulwong, N., Weigand, S.D., Serie, A.M., Perkerson, R.B., Matchett, B.J., Jack, C.R., Knopman, D.S., Petersen, R.C. and Parisi, J.E., 2019. Pathological, imaging and genetic characteristics support the existence of distinct TDP-43 types in non-FTLD brains. Acta neuropathologica, 137(2), pp.227-238."
+
+<!-- 0201p03 -->
+<!-- 0201p04 -->
+<!-- 0201p05 -->
+
+<!-- 0201p06 -->
+[2018_NudelmanK_MorminoE_PowerMC]: https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25246 "Power, M.C., Mormino, E., Soldan, A., James, B.D., Yu, L., Armstrong, N.M., Bangen, K.J., Delano‐Wood, L., Lamar, M., Lim, Y.Y. and Nudelman, K., 2018. Combined neuropathological pathways account for age‐related risk of dementia. Annals of neurology, 84(1), pp.10-22."
 
 <!-- fig -->
 [fig1]: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/PAP/10.1093_brain_awz099/1/awz099f1.png?Expires=1557540815&Signature=IYO0hndcBxZ6-Z8gR4CdBLDpl9MQr3onetmcEcGfj5k8oLEMbj57KeCxYoZYvfsvhd495eK04eTPGNscx1znLsBRudJdH5CLajVJy9npnhP~q9jM9Tpg0sZCpcm6PnrBRdrq3Aw8BMPOjNct5RU3fz00mJMg5J01VlhNDLfSLlKBpXRhDAkxyxqREy3GVzn6dUlS1eaJ2vil7MMSJvr1vSq31YJgo69BsVBlzIgtP2Npyjs5yiG9Pqcmkod6HbW1X13EMZwWBRsJB-MdjgW7SQA08n1NtEMBTBxdoptcJZSng3wE3klSQCBDgHSglk0Vedn8MEpz257TDmiqTLacZQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
