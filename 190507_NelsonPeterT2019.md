@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-15 11:59:42
+Modified: 	2019-05-15 12:07:7
 -----
 Copyright (c) 2019 shumez
 -->
@@ -178,9 +178,18 @@ TDP-43^+^/HS^–^ &rarr; TDP-43^+^/HS^+^
 > MRI studies have provided a complementary window into brain changes in LATE, highlighting brain atrophy both within and outside of the medial temporal lobes of brains with autopsy-verified LATE-NC. Prior studies featured research volunteers who underwent MRI with autopsy follow-up. Several of these studies focused on the subset of cases with hippocampal sclerosis (i.e. presumed severe LATE-NC), therefore, most of the published data were lacking information about less severely affected cases. With that [caveat](. "警告, 忠告") in mind, a common finding in MRI studies is that hippocampal atrophy is greater in cases with LATE-NC than in those with pure Alzheimer’s disease ([Jagust et al., 2008][2008_Jagust]; [Josephs et al., 2008][2008_Josephs], [2017a][2017_Josephs]; [Dawe et al., 2011][2011_Dawe]; [Kaur et al., 2014][2014_Kaur]; [Dallaire-Theroux et al., 2017][2017_Dallaire-Theroux]; [Hanko et al., 2019][2019_Hanko]). [Barkhof et al. (2007)][2007_Barkhof] found that many subjects with medial temporal atrophy lacked primary underlying ADNC. In this study cohort, the sensitivity and specificity of severe atrophy for ADNC was 63% and 69%, respectively, consistent with prior findings ([Jack et al., 2002][2002_Jack]). [Josephs et al. (2008)][2008_Josephs] reported that subjects with neuropathology consistent with LATE-NC tended to be older, with more cognitive impairment, and with more pronounced hippocampal atrophy than TDP-43− subjects. [Zarow et al. (2011)][2011_Zarow] also described atrophy and deformation of the hippocampus considerably greater in those with hippocampal sclerosis and LATE-NC than in those with only ADNC ([Zarow et al., 2011][2011_Zarow]). In hippocampal sclerosis associated with LATE-NC, hippocampal atrophy was often asymmetric, and it tended to progress in a rostral-caudal gradient in the hippocampus. Using post-mortem MRI, [Dawe et al. (2011)][2011_Dawe] reported stronger correlations between hippocampal atrophy and LATE-NC (with hippocampal sclerosis pathology) than between hippocampal atrophy and ADNC, and subjects with both ADNC and LATE-NC had greater hippocampal atrophy than those with only ADNC. A recent study found that the volume and shape of the amygdala is associated with underlying LATE-NC and that these structural changes are indicative of cognitive decline beyond what can be explained with other pathological indices ([Makkinejad et al., 2019][2019_Makkinejad]).
 
 
-###### 02.
+###### 02.02.P02
 
-> Post-mortem MRI research has also provided strong evidence that LATE-NC is associated with substantial brain atrophy outside the medial temporal lobes (Kotrotsou et al., 2015). Figure 3A shows updated data from the Rush University autopsy cohort. After controlling for demographics, ADNC and other age-related pathologies, LATE-NC was related to not only the mesial temporal lobe atrophy, but also to atrophy in the inferior frontal, anterior temporal, and insular cortices. It is noteworthy that this regional atrophy pattern corresponds with the distribution of TDP-43 proteinopathy at autopsy (Josephs et al., 2016; Nag et al., 2018) (Fig. 3B). These data are in agreement with pathological studies of LATE-NC, as well as neuroimaging in subjects with LATE-NC risk genotypes, showing widespread brain involvement (Neltner et al., 2014; Cykowski et al., 2016; Josephs et al., 2016; Nelson et al., 2016a; Nho et al., 2016).
+
+* brain atrophy
+	* med tem l
+	* inf fro 
+	* ant tem
+	* ins
+
+correponds to TDP-43 proteinopathy pattern
+
+> Post-mortem MRI research has also provided strong evidence that LATE-NC is associated with substantial brain atrophy outside the medial temporal lobes ([Kotrotsou et al., 2015][2015_Kotrotsou]). Figure 3A shows updated data from the Rush University autopsy cohort. After controlling for demographics, ADNC and other age-related pathologies, LATE-NC was related to not only the mesial temporal lobe atrophy, but also to atrophy in the inferior frontal, anterior temporal, and insular cortices. It is noteworthy that this regional atrophy pattern corresponds with the distribution of TDP-43 proteinopathy at autopsy ([Josephs et al., 2016][2016_Josephs]; [Nag et al., 2018][2018_Nag]) ([Fig. 3B][fig_03]). These data are in agreement with pathological studies of LATE-NC, as well as neuroimaging in subjects with LATE-NC risk genotypes, showing widespread brain involvement ([Neltner et al., 2014][2014_Neltner]; [Cykowski et al., 2016][2016_Cykowski]; [Josephs et al., 2016][2016_Josephs]; [Nelson et al., 2016a][2016_Nelson]; [Nho et al., 2016][2016_Nho]).
 
 ###### Figure 3
 
@@ -379,6 +388,10 @@ TDP-43^+^/HS^–^ &rarr; TDP-43^+^/HS^+^
 <!-- 0202p01 -->
 [2007_ErkinjunttiT_PolvikoskiTM_BarkhofF]: https://n.neurology.org/content/69/15/1521.short "Barkhof, F., Polvikoski, T.M., Van Straaten, E.C.W., Kalaria, R.N., Sulkava, R., Aronen, H.J., Niinistö, L., Rastas, S., Oinas, M., Scheltens, P. and Erkinjuntti, T., 2007. The significance of medial temporal lobe atrophy: a postmortem MRI study in the very old. Neurology, 69(15), pp.1521-1527."
 
+
+<!-- 0202p02 -->
+[2016_Josephs]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5946692/ ""
+[2018_Nag]: https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-018-0531-3 ""
 
 <!-- fig -->
 [fig1]: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/PAP/10.1093_brain_awz099/1/awz099f1.png?Expires=1557892639&Signature=1x4OBwSBttYC5z2dbOrH-0tZd~JOYtRdo2M5ofKYuJ-x7HW99JeAyOCFBNu5z~UwZjQmW7bV0CNl37LG7tqnzjCGDOild4uNOScnN2Se8~4EVPNRDHWcZHXgqjP3zo-qeTauCMJdfZhydCT2w1v8b6ZQJD9BFyQtFCrSivqsk0vQT40n5MF2k2CegssjqD5TpWio8lxEaKTQPGRpAO3~WW8bt7J-zSbAZD~pgj~JvUh12~3bvE4pNn63vncSN9umJsSglxdeFXwJCo98IzIk5dfsW-4f6k54jBJzblm6AadshBrIs4tv~WNiHrppdvQV-tOETA5SCz3m694ToZRlPw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
