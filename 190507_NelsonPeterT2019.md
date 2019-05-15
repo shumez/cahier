@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-15 12:11:20
+Modified: 	2019-05-15 12:18:30
 -----
 Copyright (c) 2019 shumez
 -->
@@ -202,7 +202,18 @@ correponds to TDP-43 proteinopathy pattern
 
 ### 02.03. Recommendations for routine autopsy evaluation and classification of LATE-NC
 
-> It is recommended that TDP-43 immunohistochemistry be performed as part of the neuropathological evaluation in all older subjects. At a minimum, immunohistochemical staining for TDP-43 is recommended in three brain areas: amygdala, mid-level hippocampus, and middle frontal gyrus. We recommend evaluating these regions as they are commonly obtained at autopsy of aged subjects and capture presumed progression of LATE-NC in the brain. This sampling includes the brain area affected early in the disease course (amygdala, Stage 1), an intermediate stage where the pathological change is robustly associated with cognitive impairment (hippocampus, Stage 2), and a region affected at more advanced stages (middle frontal gyrus, Stage 3) (Nag et al., 2018). Any detected TDP-43 proteinopathy is sufficient to define an anatomical region-based stage: for example, a minute amount of detected TDP-43 proteinopathy in the hippocampus indicates at least Stage 2. We emphasize that the proposed sampling for LATE-NC autopsy screening is a minimal evaluation, whereas more detailed sampling and staging should be considered for specific research settings (Josephs et al., 2014a, 2016; Uchino et al., 2015; Nag et al., 2017, 2018; Zhang et al., 2019). Figure 3B depicts staging schemes for LATE-NC, including sampling recommended for neuropathological evaluation of brain of older adults. This does not address regions that would be assessed in separate TDP-43 pathological staging schemes developed for ALS or FTLD-TDP (Brettschneider et al., 2013; Fatima et al., 2015; Tan et al., 2015; Verde et al., 2017; Neumann and Mackenzie, 2019).
+###### 02.03.P01
+
+* stage 1: 
+	* amygdala
+	* early 
+* stage 2: 
+	* hippocampus
+	* pathological change is associated w/ cogni imp
+* stage 3: 
+	* mid fro g
+
+> It is recommended that TDP-43 immunohistochemistry be performed as part of the neuropathological evaluation in all older subjects. At a minimum, immunohistochemical staining for TDP-43 is recommended in three brain areas: amygdala, mid-level hippocampus, and middle frontal gyrus. We recommend evaluating these regions as they are commonly obtained at autopsy of aged subjects and capture presumed progression of LATE-NC in the brain. This sampling includes the brain area affected early in the disease course (amygdala, Stage 1), an intermediate stage where the pathological change is robustly associated with cognitive impairment (hippocampus, Stage 2), and a region affected at more advanced stages (middle frontal gyrus, Stage 3) ([Nag et al., 2018][2018_Nag]). Any detected TDP-43 proteinopathy is sufficient to define an anatomical region-based stage: for example, a minute amount of detected TDP-43 proteinopathy in the hippocampus indicates at least Stage 2. We emphasize that the proposed sampling for LATE-NC autopsy screening is a minimal evaluation, whereas more detailed sampling and staging should be considered for specific research settings (Josephs et al., 2014a, 2016; Uchino et al., 2015; Nag et al., 2017, 2018; Zhang et al., 2019). Figure 3B depicts staging schemes for LATE-NC, including sampling recommended for neuropathological evaluation of brain of older adults. This does not address regions that would be assessed in separate TDP-43 pathological staging schemes developed for ALS or FTLD-TDP ([Brettschneider et al., 2013][2013_Brettschneider]; [Fatima et al., 2015][2015_Fatima]; [Tan et al., 2015][2015_Tan]; [Verde et al., 2017][2017_Verde]; [Neumann and Mackenzie, 2019][2019_Mackenzie_Neumann]).
 
 > Practical questions arise in relation to diagnostic ‘boundary zones’ between LATE-NC, FTLD-TDP, and ADNC. While both LATE-NC and FTLD-TDP may affect neocortical areas and may be comorbid with hippocampal sclerosis, LATE-NC usually has a later age of onset, an amnestic dementia, and limbic predominance of pathological change (Nelson et al., 2011b). On the other hand, recommendations for LATE-NC do not stipulate any age cut-offs, because the exact age ranges of disease susceptibility for FTLD-TDP or LATE-NC are not yet fully understood. For prior pathology-based comparisons between subtypes of TDP-43 proteinopathies (not related to age of onset), previous studies should be consulted (Amador-Ortiz et al., 2007a; Tan et al., 2015). More widespread and severe cortical atrophy is typically present in advanced FTLD-TDP than LATE-NC. There may indeed be features that could definitively distinguish LATE-NC cases (histopathologically or molecularly) from subtypes of FTLD-TDP (Arai et al., 2010; Hasegawa et al., 2011; Tsuji et al., 2012; Laferriere et al., 2019); however, more work is needed in this area. For now, definitive criteria to differentiate severe LATE-NC from FTLD-TDP await discovery of specific features that discriminate among various TDP-43 proteinopathies (Tan et al., 2017a).
 
