@@ -3,12 +3,25 @@ Filename: 	190517_LynnChristopherW_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-17 20:31:0
-Modified: 	2019-05-18 11:49:28
+Modified: 	2019-05-28 11:30:57
 -----
 Copyright (c) 2019 shumez
 -->
 
 # 19-05-17 The physics of brain network structure, function and control
+
+Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, function and control. Nature Reviews Physics, 1.
+
+```tex
+@article{lynn2019physics,
+  title={The physics of brain network structure, function and control},
+  author={Lynn, Christopher W and Bassett, Danielle S},
+  journal={Nature Reviews Physics},
+  pages={1},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+```
 
 [Original] | [Mendeley]
 
@@ -17,6 +30,7 @@ Copyright (c) 2019 shumez
 * [00. Abstract][00]
 * [01. Introduction][01]
 * [02. The physics of brain network structure][02]
+	* [Box 1][box1]
 	* [02.01. Measureing brain netrork structure][0201]
 	* [02.02. Modeling brain network structure][0202]
 		* [02.02.01. Random structure][020201]
@@ -33,9 +47,11 @@ Copyright (c) 2019 shumez
 		* [03.02.01. Artificial models][030201]
 		* [03.02.02. Biophysical models][030202]
 	* [03.03. The future of brain network function][0303]
+	* [Box 3][box3]
 * [04. Perteration experiments and the physics of brain network control][04]
 	* [04.01. Trageted perturbations and clinical interventions][0401]
 	* [04.02. Network control in the brain][0402]
+	* [Box 4][box4]
 	* [04.03. The future of brain network control][0403]
 * [05. Conclusions and future directions in the neurophysics of brain networks][05]
 
@@ -101,6 +117,7 @@ Copyright (c) 2019 shumez
 [00]: #00_abstract
 [01]: #01_introduction
 [02]: #02_the_physics_of_brain_network_structure
+[box1]: #box_1
 [0201]: #0201_measureing_brain_netrork_structure
 [0202]: #0202_modeling_brain_network_structure
 [020201]: #020201_random_structure
@@ -110,15 +127,18 @@ Copyright (c) 2019 shumez
 [020205]: #020205_spatial_structure
 [020206]: #020206_competition_between_structural_properties
 [0203]: #0203_the_future_of_brain_network_structure
+[box2]: #box_2
 [03]: #03_the_physics_of_brain_network_function
 [0301]: #0301_measuring_brain_network_function
 [0302]: #0302_modeling_brain_network_function
 [030201]: #030201_artificial_models
 [030202]: #030202_biophysical_models
 [0303]: #0303_the_future_of_brain_network_function
+[box3]: #box_3
 [04]: #04_perteration_experiments_and_the_physics_of_brain_network_control
 [0401]: #0401_trageted_perturbations_and_clinical_interventions
 [0402]: #0402_network_control_in_the_brain
+[box4]: #box_4
 [0403]: #0403_the_future_of_brain_network_control
 [05]: #05_conclusions_and_future_directions_in_the_neurophysics_of_brain_networks
 
