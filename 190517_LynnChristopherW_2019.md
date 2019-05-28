@@ -3,7 +3,7 @@ Filename: 	190517_LynnChristopherW_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-17 20:31:0
-Modified: 	2019-05-28 11:30:57
+Modified: 	2019-05-28 13:08:45
 -----
 Copyright (c) 2019 shumez
 -->
@@ -80,9 +80,9 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 
 ### 01. Introduction
 
-> It is our good fortune as physicists to seek to understand the nature of the observable world around us. In this inquiry, we need not reach to contemporary science to appreciate the fact that our perception of the world around us is inextricably linked to the world within us: the mind. Indeed, even Aristotle c. 350 B.C. noted that it is by mapping the structure of the world that the human comes to understand their own mind ^[1][ref01]^. “Mind thinks itself because it shares the nature of the object of thought; for it becomes an object of thought in coming into contact with and thinking its objects, so that mind and object of thought are the same” ^[2][ref02]^. Over the ensuing 2000-plus years, it has not completely escaped notice that the mappers of the world have unique contributions to offer the mapping of the mind (from Thales of Miletus, c. 624–546 B.C., to Leonardo Da Vinci, 1452–1519). More recently, it is notable that nearly all famous physicists of the early 20th century – Albert Einstein, Niels Bohr, Erwin Schroedinger, Werner Heisenberg, Max Born – considered the philosophical implications of their observations and theories ^[3][ref03]^. In the post-war era, philosophical musings turned to particularly conspicuous empirical contributions at the intersection of neuroscience and artificial intelligence, spanning polymath John von Neumann’s work enhancing our understanding of computational architectures ^[4][ref04]^ and physicist John Hopfield’s invention of the associative neural network, which revolutionized our understanding of collective computation ^[5][ref05]^.
+> It is our good fortune as physicists to seek to understand the nature of the observable world around us. In this inquiry, we need not reach to contemporary science to appreciate the fact that our perception of the world around us is inextricably linked to the world within us: the mind. Indeed, even Aristotle c. 350 B.C. noted that it is by mapping the structure of the world that the human comes to understand their own mind ^[1]^. “Mind thinks itself because it shares the nature of the object of thought; for it becomes an object of thought in coming into contact with and thinking its objects, so that mind and object of thought are the same” ^[2]^. Over the ensuing 2000-plus years, it has not completely escaped notice that the mappers of the world have unique contributions to offer the mapping of the mind (from Thales of Miletus, c. 624–546 B.C., to Leonardo Da Vinci, 1452–1519). More recently, it is notable that nearly all famous physicists of the early 20th century – Albert Einstein, Niels Bohr, Erwin Schroedinger, Werner Heisenberg, Max Born – considered the philosophical implications of their observations and theories ^[3]^. In the post-war era, philosophical musings turned to particularly conspicuous empirical contributions at the intersection of neuroscience and artificial intelligence, spanning polymath John von Neumann’s work enhancing our understanding of computational architectures ^[4]^ and physicist John Hopfield’s invention of the associative neural network, which revolutionized our understanding of collective computation ^[5]^.
 
-> In the contemporary study of the mind and its fundamental organ – the brain – nearly all of the domains of physics, perhaps with the exception of relativity, are not only relevant but truly essential, motivating the early [coinage] of the term neurophysics some four decades ago ^[6][ref06]^. The fundamentals of electricity and magnetism prove critical for building theoretical models of neurons and the transmission of action potentials ^[7][ref07]^. These theories are being increasingly informed by mechanics to understand how force-generating and load-bearing proteins bend, curl, kink, buckle, constrict, and stretch to mediate neuronal signaling and plasticity ^[8][ref08]^. Principles from thermodynamics come into play when predicting how the brain samples the environment (action) or shifts the distribution of information that it encodes (perception) ^[9][ref09]^. Collectively, theories of brain function are either [buttress]ed or [dismantle]d by imaging, with common tools including magnetic resonance imaging ^[10][ref10]^ and magnetoencephalography ^[11][ref11]^, the latter being built on superconducting quantum interference devices and next-generation quantum sensors that can be embedded into a system that can be worn like a helmet, revolutionizing our ability to measure brain function while allowing free and natural movement ^[12][ref12]^. Moreover, recent developments in nanoscale analysis tools and in the design and synthesis of nanomaterials have generated optical, electrical, and chemical methods to explore brain function by enabling simultaneous measurement and manipulation of the activity of thousands or even millions of neurons ^[13][ref13]^. Beyond its relevance for continued imaging advance- ments ^[14][ref14]^, optics has come to the fore of neuroscience over the last decade with the development of optogenetics, an approach that uses light to alter neural processing at the level of single spikes and synaptic events, offering reliable, millisecond-timescale control of excitatory and inhibitory synaptic transmission ^[15][ref15]^.
+> In the contemporary study of the mind and its fundamental organ – the brain – nearly all of the domains of physics, perhaps with the exception of relativity, are not only relevant but truly essential, motivating the early [coinage] of the term neurophysics some four decades ago ^[6]^. The fundamentals of electricity and magnetism prove critical for building theoretical models of neurons and the transmission of action potentials ^[7]^. These theories are being increasingly informed by mechanics to understand how force-generating and load-bearing proteins bend, curl, kink, buckle, constrict, and stretch to mediate neuronal signaling and plasticity ^[8]^. Principles from thermodynamics come into play when predicting how the brain samples the environment (action) or shifts the distribution of information that it encodes (perception) ^[9]^. Collectively, theories of brain function are either [buttress]ed or [dismantle]d by imaging, with common tools including magnetic resonance imaging ^[10]^ and magnetoencephalography ^[11]^, the latter being built on superconducting quantum interference devices and next-generation quantum sensors that can be embedded into a system that can be worn like a helmet, revolutionizing our ability to measure brain function while allowing free and natural movement ^[12]^. Moreover, recent developments in nanoscale analysis tools and in the design and synthesis of nanomaterials have generated optical, electrical, and chemical methods to explore brain function by enabling simultaneous measurement and manipulation of the activity of thousands or even millions of neurons ^[13]^. Beyond its relevance for continued imaging advance- ments ^[14]^, optics has come to the fore of neuroscience over the last decade with the development of optogenetics, an approach that uses light to alter neural processing at the level of single spikes and synaptic events, offering reliable, millisecond-timescale control of excitatory and inhibitory synaptic transmission ^[15]^.
 
 
 
@@ -91,8 +91,8 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 
 ### References
 
-01. [Scott, A. Neurophysics (Wiley, 1977).][ref01]
-02. [Koch, C. & Poggio, T. A theoretical analysis of electrical properties of spines. Proc. R. Soc. Lond. B Biol. Sci. 218, 455–477 (1983).][ref02]
+01. [Scott, A. Neurophysics (Wiley, 1977).][1]
+02. [Koch, C. & Poggio, T. A theoretical analysis of electrical properties of spines. Proc. R. Soc. Lond. B Biol. Sci. 218, 455–477 (1983).][2]
 03. 
 04. 
 05. 
@@ -102,15 +102,12 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 09. 
 10. 
 11. 
-12. [Fries, P. Rhythms for cognition: communication through coherence. Neuron 88, 220–235 (2015).][ref12]
+12. [Fries, P. Rhythms for cognition: communication through coherence. Neuron 88, 220–235 (2015).][12]
 
 ## 
 
-<style type="text/css">
-	img{width: 50%; float: right;}
-</style>
-
 <!-- -------------------------------------------- -->
+<!-- toc -->
 [Original]: https://www.nature.com/articles/s42254-019-0040-8
 [Mendeley]: https://www.mendeley.com/viewer/?fileId=78370c2e-5094-45f9-7007-f9d192a513ef&documentId=0f2066dc-1282-395d-a1f0-9718a7c5860e
 
@@ -147,21 +144,22 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 
 
 <!-- ref -->
-[ref01]: . "Scott, A. Neurophysics (Wiley, 1977)."
-[ref02]: . "Koch, C. & Poggio, T. A theoretical analysis of electrical properties of spines. Proc. R. Soc. Lond. B Biol. Sci. 218, 455–477 (1983)."
-[ref03]: .
-[ref04]: .
-[ref05]: .
-[ref06]: .
-[ref07]: .
-[ref08]: .
-[ref09]: .
-[ref10]: .
-[ref11]: .
-[ref12]: https://www.sciencedirect.com/science/article/pii/S0896627315008235 "Fries, P. Rhythms for cognition: communication through coherence. Neuron 88, 220–235 (2015)."
-[ref13]: .
-[ref14]: .
-[ref15]: .
+[1]: . "Scott, A. Neurophysics (Wiley, 1977)."
+[2]: . "Koch, C. & Poggio, T. A theoretical analysis of electrical properties of spines. Proc. R. Soc. Lond. B Biol. Sci. 218, 455–477 (1983)."
+[3]: .
+[4]: .
+[5]: .
+[6]: .
+[7]: .
+[8]: .
+[9]: .
+[10]: .
+[11]: .
+[12]: https://www.sciencedirect.com/science/article/pii/S0896627315008235 "Fries, P. Rhythms for cognition: communication through coherence. Neuron 88, 220–235 (2015)."
+[13]: .
+[14]: .
+[15]: .
+[]: . ""
 
 
 
@@ -173,3 +171,8 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 [coinage]: . "硬貨"
 [buttress]: . "控壁で支える, 支持する, 強化する"
 [dismantle]: . "分解する, 取り壊す"
+[]: . ""
+
+<style type="text/css">
+	img{width: 50%; float: right;}
+</style>
