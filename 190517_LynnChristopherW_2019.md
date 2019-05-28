@@ -3,7 +3,7 @@ Filename: 	190517_LynnChristopherW_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-17 20:31:0
-Modified: 	2019-05-28 13:08:45
+Modified: 	2019-05-28 13:50:25
 -----
 Copyright (c) 2019 shumez
 -->
@@ -23,7 +23,7 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 }
 ```
 
-[Original] | [Mendeley]
+[Original] | [Arxiv] | [Mendeley]
 
 ## ToC
 
@@ -84,7 +84,62 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 
 > In the contemporary study of the mind and its fundamental organ – the brain – nearly all of the domains of physics, perhaps with the exception of relativity, are not only relevant but truly essential, motivating the early [coinage] of the term neurophysics some four decades ago ^[6]^. The fundamentals of electricity and magnetism prove critical for building theoretical models of neurons and the transmission of action potentials ^[7]^. These theories are being increasingly informed by mechanics to understand how force-generating and load-bearing proteins bend, curl, kink, buckle, constrict, and stretch to mediate neuronal signaling and plasticity ^[8]^. Principles from thermodynamics come into play when predicting how the brain samples the environment (action) or shifts the distribution of information that it encodes (perception) ^[9]^. Collectively, theories of brain function are either [buttress]ed or [dismantle]d by imaging, with common tools including magnetic resonance imaging ^[10]^ and magnetoencephalography ^[11]^, the latter being built on superconducting quantum interference devices and next-generation quantum sensors that can be embedded into a system that can be worn like a helmet, revolutionizing our ability to measure brain function while allowing free and natural movement ^[12]^. Moreover, recent developments in nanoscale analysis tools and in the design and synthesis of nanomaterials have generated optical, electrical, and chemical methods to explore brain function by enabling simultaneous measurement and manipulation of the activity of thousands or even millions of neurons ^[13]^. Beyond its relevance for continued imaging advance- ments ^[14]^, optics has come to the fore of neuroscience over the last decade with the development of optogenetics, an approach that uses light to alter neural processing at the level of single spikes and synaptic events, offering reliable, millisecond-timescale control of excitatory and inhibitory synaptic transmission ^[15]^.
 
+> Such astounding advances, enabled by the intersection of physics and neuroscience, have motivated the construction of a National Brain Observatory at the Argonne National Laboratory (Director: Peter Littlewood, previously of Cavendish Laboratories) funded by the National Sci- ence Foundation, as well as frequent media coverage including titles in the APS News such as “Physicists, the Brain is Calling You.”16 And as physicists answer the call, our understanding of the brain deepens and our ability to mark and measure its component parts expands. Yet alongside this growing systematization and archivation, we have begun to face an increasing realization that it is the interactions between hundreds or thousands of neurons that generate the mind’s functional states 13. Indeed, from interactions among neural components emerge computation 17, commu- nication 18, and information propagation 19. We can confidently state of neuroscience what Henri Poincare, the French mathematician, theoretical physicist, and philosopher of science, states of sci- ence generally: “The aim of science is not things themselves, as the dogmatists in their simplicity imagine, but the relations among things; outside these relations there is no reality knowable.”20 The overarching goal of mapping these interactions in neural systems has motivated multibillion-dollar investments across the United States (the Brain Initiative generally, and the Human Connectome Project specifically 21), the European Union (the Blue Brain Project 22), China (the China Brain Project 23), and Japan (Japan’s Brain/MINDS project 24).
 
+> While it is clear that interactions are paramount, exactly how the functions of the mind arise from these interactions remains one of the fundamental open questions of brain science 25. To the physicist, such a question appears to exist naturally within the purview of statistical mechanics 26, with one major caveat: the interaction patterns observed in the brain are far from regular, such as those observed in crystalline structures, and are also far from random, such as those observed in fully disordered systems 27. Indeed, the observed heterogeneity of interaction patterns in neural systems – across a range of spatial and temporal scales – generally limits the utility of basic contin- uum models or mean-field theories, which would otherwise comprise our natural first approaches. Fortunately, similar observations of interaction heterogeneity have been made in other technologi- cal, social, and biological systems, leading to concerted efforts to develop a statistical mechanics of complex networks 28. The resultant area of inquiry includes criteria for building a network model of a complex system 29, statistics to quantify the architecture of that network 30, models to stipulate the dynamics that can occur both in and on a network 31–33, and theories of network function and control 34,35.
+
+> Here, we provide a brief review for the curious physicist, spanning the network-based ap- proaches, statistics, models, and theories that have recently been used to understand the brain. Importantly, the interpretations that can be rationally drawn from all such efforts depend upon the nature of the network representation 29, including its descriptive, explanatory, and predictive valid- ity – topics that are treated with some philosophical rigor elsewhere 36. Following a simple primer on the nature of network models, we discuss the physics of brain network structure, beginning with an exposition regarding measurement before turning to an exposition regarding modeling. In a parallel line of discourse, we then discuss the physics of brain network function, followed by a description of perturbation experiments and brain network control. In each section we separate our remarks into the known and the unknown, the past and the future, the fact and the speculation. Our goal is to provide an accessible introduction to the field, and to inspire the younger generation of physicists to courageously tackle some of the most pressing open questions surrounding the inner workings of the mind.
+
+
+### 02. The physics of brain network structure
+
+#### Box 1: A simple primer on networks
+
+#### 02.01. Measureing brain netrork structure
+
+#### 02.02. Modeling brain network structure
+
+##### 02.02.01. Random structure
+
+##### 02.02.02. Community structure
+
+##### 02.02.03. Small-world structure
+
+##### 02.02.04. Hub structure
+
+##### 02.02.05. Spatial structure
+
+##### 02.02.06. Competition between structural properties
+
+#### 02.03. The future of brain network structure
+
+#### Box 2: Bridging spatiotemporal scales
+
+### 03. The physics of brain network function
+
+#### 03.01. Measuring brain network function
+
+#### 03.02. Modeling brain network function
+
+##### 03.02.01. Artificial models
+
+##### 03.02.02. Biophysical models
+
+#### 03.03. The future of brain network function
+
+#### Box 3: Information theory and network neuroscience
+
+### 04. Perteration experiments and the physics of brain network control
+
+#### 04.01. Trageted perturbations and clinical interventions
+
+#### 04.02. Network control in the brain
+
+#### Box 4: Linear control and network controllability
+
+#### 04.03. The future of brain network control
+
+### 05. Conclusions and future directions in the neurophysics of brain networks
 
 
 <!-- [![fig01][fig01]][fig01] -->
@@ -107,14 +162,15 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 ## 
 
 <!-- -------------------------------------------- -->
-<!-- toc -->
 [Original]: https://www.nature.com/articles/s42254-019-0040-8
+[Arxiv]: https://arxiv.org/abs/1809.06441
 [Mendeley]: https://www.mendeley.com/viewer/?fileId=78370c2e-5094-45f9-7007-f9d192a513ef&documentId=0f2066dc-1282-395d-a1f0-9718a7c5860e
 
+<!-- toc -->
 [00]: #00_abstract
 [01]: #01_introduction
 [02]: #02_the_physics_of_brain_network_structure
-[box1]: #box_1
+[box1]: #box_1_a_simple_primer_on_networks
 [0201]: #0201_measureing_brain_netrork_structure
 [0202]: #0202_modeling_brain_network_structure
 [020201]: #020201_random_structure
@@ -124,18 +180,18 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 [020205]: #020205_spatial_structure
 [020206]: #020206_competition_between_structural_properties
 [0203]: #0203_the_future_of_brain_network_structure
-[box2]: #box_2
+[box2]: #box_2_bridging_spatiotemporal_scales
 [03]: #03_the_physics_of_brain_network_function
 [0301]: #0301_measuring_brain_network_function
 [0302]: #0302_modeling_brain_network_function
 [030201]: #030201_artificial_models
 [030202]: #030202_biophysical_models
 [0303]: #0303_the_future_of_brain_network_function
-[box3]: #box_3
+[box3]: #box_3_information_theory_and_network_neuroscience
 [04]: #04_perteration_experiments_and_the_physics_of_brain_network_control
 [0401]: #0401_trageted_perturbations_and_clinical_interventions
 [0402]: #0402_network_control_in_the_brain
-[box4]: #box_4
+[box4]: #box_4_linear_control_and_network_controllability
 [0403]: #0403_the_future_of_brain_network_control
 [05]: #05_conclusions_and_future_directions_in_the_neurophysics_of_brain_networks
 
@@ -169,7 +225,7 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 [stipulate]: . "規定する"
 [perturbative]: . "動揺, 混乱"
 [coinage]: . "硬貨"
-[buttress]: . "控壁で支える, 支持する, 強化する"
+[buttress]: . "控え壁で支える, 支持する, 強化する"
 [dismantle]: . "分解する, 取り壊す"
 []: . ""
 
