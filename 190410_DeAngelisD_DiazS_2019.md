@@ -3,7 +3,7 @@ Filename: 	190410_DeAngelisD_DiazS_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-10 20:57:8
-Modified: 	2019-05-02 16:07:35
+Modified: 	2019-06-07 17:27:48
 -----
 Copyright (c) 2019 shumez
 -->
@@ -500,162 +500,161 @@ population dynamics is influenced by landscaoe structure & life history trait ([
 <!-- -------------------------------------------- -->
 [orig]: https://www.frontiersin.org/articles/10.3389/fevo.2018.00237/full
 [mend]: https://www.mendeley.com/viewer/?fileId=3d78bb79-89c8-e37f-6254-22f7f29d68ef&documentId=2f302485-626d-340d-abc7-86c0d24bfe06
-[figs]: .
 [fig_01]: https://www.frontiersin.org/files/Articles/428465/fevo-06-00237-HTML/image_m/fevo-06-00237-g001.jpg
 [fig_02]: https://www.frontiersin.org/files/Articles/428465/fevo-06-00237-HTML/image_m/fevo-06-00237-g002.jpg
 
 <!-- ref -->
 
 <!-- 01p01 -->
-[2009_Bray]: . ""
-[2009_Wagner]: . ""
-[2006_Deneubourg_Detrain]: . ""
-[2010_Ydenberg]: . ""
-[2015_Rypstra]: . ""
+[2009_Bray]: # ""
+[2009_Wagner]: # ""
+[2006_Deneubourg_Detrain]: # ""
+[2010_Ydenberg]: # ""
+[2015_Rypstra]: # ""
 
 <!-- 01p02 -->
 
 <!-- 02p01 -->
 
 <!-- 02p02 -->
-[1961_Fraenkel_Gunn]: . ""
-[1984_Schöne]: . ""
-[1991_Bell]: . ""
-[1999_Grünbaum]: . ""
-[2016_Gautestad]: . ""
-[2004_Humston]: . ""
-[1996_Zollner_Lima]: . ""
-[1988_Fahrig]: . ""
-[1976_Charnov]: . ""
-[1988_Clark_Mangel]: . ""
-[1999_McNamara_Houston]: . ""
-[2000_Mangel_Clark]: . ""
+[1961_Fraenkel_Gunn]: # ""
+[1984_Schöne]: # ""
+[1991_Bell]: # ""
+[1999_Grünbaum]: # ""
+[2016_Gautestad]: # ""
+[2004_Humston]: # ""
+[1996_Zollner_Lima]: # ""
+[1988_Fahrig]: # ""
+[1976_Charnov]: # ""
+[1988_Clark_Mangel]: # ""
+[1999_McNamara_Houston]: # ""
+[2000_Mangel_Clark]: # ""
 
 <!-- 02p03 -->
 [2000_Gilliam_Skalski]: https://pdfs.semanticscholar.org/3b3b/39b3456e3854ade5b74f5a763304e8710565.pdf "Skalski, G.T. and Gilliam, J.F., 2000. Modeling diffusive spread in a heterogeneous population: a movement study with stream fish. Ecology, 81(6), pp.1685-1700."
 [2008_MatthiopoulosJ_ThomasL_PattersonTA]: http://fics.hiit.fi/files/Patterson%20et%20al%202008%20TREE.pdf "Patterson, T.A., Thomas, L., Wilcox, C., Ovaskainen, O. and Matthiopoulos, J., 2008. State–space models of individual animal movement. Trends in ecology & evolution, 23(2), pp.87-94."
 [2018_Çabukoglu_Gorban]: https://arxiv.org/pdf/1804.01342.pdf "Gorban, A.N. and Çabukoǧlu, N., 2018. Mobility cost and degenerated diffusion in kinesis models. Ecological complexity, 36, pp.16-21."
-[2004_Bertozzi_Topaz]: . ""
-[2008_Lutscher]: . ""
-[2015_Almeida]: . ""
-[2016_Petrovskii_Tilles]: . ""
-[2004_Tyutyunov]: . ""
+[2004_Bertozzi_Topaz]: # ""
+[2008_Lutscher]: # ""
+[2015_Almeida]: # ""
+[2016_Petrovskii_Tilles]: # ""
+[2004_Tyutyunov]: # ""
 [1999_OlsonDonald_GrünbaumD_FlierlG]: https://www.sciencedirect.com/science/article/pii/S0022519398908426 "Flierl, G., Grünbaum, D., Levins, S. and Olson, D., 1999. From individuals to aggregations: the interplay between behavior and physics. Journal of Theoretical biology, 196(4), pp.397-454."
 
 <!-- 02p04 -->
-[1966_Pianka_MacArthur]: . ""
-[1974_Pulliam]: . ""
-[1992_Roff]: . ""
-[1969_Lucas_Fretwell]: . ""
-[2004_Vos]: . ""
-[2007_DeAngelis]: . ""
+[1966_Pianka_MacArthur]: # ""
+[1974_Pulliam]: # ""
+[1992_Roff]: # ""
+[1969_Lucas_Fretwell]: # ""
+[2004_Vos]: # ""
+[2007_DeAngelis]: # ""
 
 <!-- 02p05 -->
-[1982_Abrams]: . ""
-[1993_Abrams]: . ""
-[1990_Dill_Lima]: . ""
-[1993_Matsuda_Abrams]: . ""
-[2003_Peacor_Werner]: . ""
-[2009_Feng]: . ""
+[1982_Abrams]: # ""
+[1993_Abrams]: # ""
+[1990_Dill_Lima]: # ""
+[1993_Matsuda_Abrams]: # ""
+[2003_Peacor_Werner]: # ""
+[2009_Feng]: # ""
 [1983_Hammerstein_Richert]: https://www.annualreviews.org/doi/pdf/10.1146/annurev.es.14.110183.002113 "Riechert, S.E. and Hammerstein, P., 1983. Game theory in the ecological context. Annual Review of Ecology and Systematics, 14(1), pp.377-409."
 
 <!-- 03p01 -->
-[1987_Dill]: . ""
-[2008_Stamps_Biro]: . ""
-[2017_Jordan_Beekman]: . ""
-[2003_Bolnick]: . ""
-[2018_Blake]: . ""
-[2011_Araújo]: . ""
-[2012_Dall]: . ""
-[2011_Wolf]: . ""
+[1987_Dill]: # ""
+[2008_Stamps_Biro]: # ""
+[2017_Jordan_Beekman]: # ""
+[2003_Bolnick]: # ""
+[2018_Blake]: # ""
+[2011_Araújo]: # ""
+[2012_Dall]: # ""
+[2011_Wolf]: # ""
 [2011_VasseurDavid_AmarasekarePriyanga_BolnickDanielI]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3088364/ "Bolnick, D.I., Amarasekare, P., Araújo, M.S., Bürger, R., Levine, J.M., Novak, M., Rudolf, V.H., Schreiber, S.J., Urban, M.C. and Vasseur, D.A., 2011. Why intraspecific trait variation matters in community ecology. Trends in ecology & evolution, 26(4), pp.183-192."
 
 <!-- 03p02 -->
-[1972_Botkin]: . ""
-[2005_Mooij_DeAngelis]: . ""
+[1972_Botkin]: # ""
+[2005_Mooij_DeAngelis]: # ""
 [2014_GrimmV_DeAngelisDL]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4047944/  "DeAngelis, D.L. and Grimm, V., 2014. Individual-based models in ecology after four decades. F1000prime reports, 6."
-[1998_Parunak]: . ""
-[2001_Railsback]: . ""
-[2018_Vincenot]: . ""
+[1998_Parunak]: # ""
+[2001_Railsback]: # ""
+[2018_Vincenot]: # ""
 
 <!-- 03p03 -->
-[2005_Railsback_Grimm]: . ""
+[2005_Railsback_Grimm]: # ""
 
 <!-- 04p01 -->
-[2010_Bennett_Tang]: . ""
-[1995_Duning]: . ""
-[2013_Klaassen_Bauer]: . ""
+[2010_Bennett_Tang]: # ""
+[1995_Duning]: # ""
+[2013_Klaassen_Bauer]: # ""
 
 <!-- figure 2 -->
-[2014_Baguette]: . ""
+[2014_Baguette]: # ""
 
 <!-- 0401p01 -->
-[2011_Semeniuk]: . ""
-[2013_Martin]: . ""
-[2017_Driscoll_Doherty]: . ""
-[1998_VanWinkle]: . ""
-[2017_Marley]: . ""
+[2011_Semeniuk]: # ""
+[2013_Martin]: # ""
+[2017_Driscoll_Doherty]: # ""
+[1998_VanWinkle]: # ""
+[2017_Marley]: # ""
 
 <!-- 0401p02 -->
-[1995_Neuert]: . ""
+[1995_Neuert]: # ""
 
 <!-- 0401p03 -->
-[2013_VanMoorter]: . ""
+[2013_VanMoorter]: # ""
 [2009_KlaassenMarcel_BauerSilke_DuriezOlivier]: https://academic.oup.com/beheco/article/20/3/560/185692 "Duriez, O., Bauer, S., Destin, A., Madsen, J., Nolet, B.A., Stillman, R.A. and Klaassen, M., 2009. What decision rules might pink-footed geese use to depart on migration? An individual-based model. Behavioral Ecology, 20(3), pp.560-569."
 
 <!-- 0401p04 -->
-[2014_Bocedi]: . ""
+[2014_Bocedi]: # ""
 
 <!-- 0402p01 -->
-[2010_Bennett_Tang]: . ""
-[2008_Nathan]: . ""
+[2010_Bennett_Tang]: # ""
+[2008_Nathan]: # ""
 [2017_DriscollDonA_DohertyTimS]: https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2017.2272 "Doherty TS, Driscoll DA. 2017 Coupling movement and landscape ecology for animal conservation in production landscapes. Proc. R. Soc. B 285: 20172272. http://dx.doi.org/10.1098/rspb.2017.2272"
 
 <!-- 0402p02 -->
-[2012_Semeniuk]: . ""
-[2015_Watkins]: . ""
-[2004_Carter_Lewison]: . ""
+[2012_Semeniuk]: # ""
+[2015_Watkins]: # ""
+[2004_Carter_Lewison]: # ""
 
 <!-- 0402p03 -->
-[2014_Aben]: . ""
-[2016_Allen]: . ""
-[2013_Kanagaraj]: . ""
-[2012_Anadón]: . ""
-[2007_Graf]: . ""
+[2014_Aben]: # ""
+[2016_Allen]: # ""
+[2013_Kanagaraj]: # ""
+[2012_Anadón]: # ""
+[2007_Graf]: # ""
 
 <!-- 0403p01 -->
-[2010_Krause]: . ""
+[2010_Krause]: # ""
 [2006_SumpterDavidJT]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1626537/ "Sumpter, D.J., 2005. The principles of collective animal behaviour. Philosophical transactions of the royal society B: Biological Sciences, 361(1465), pp.5-22."
 
 <!-- 0403p02 -->
-[2003_Krause_Couzin]: . ""
-[1992_Wissel_Huth]: . ""
-[2005_Kunz_Hemelrijk]: . ""
-[2002_Couzin]: . ""
+[2003_Krause_Couzin]: # ""
+[1992_Wissel_Huth]: # ""
+[2005_Kunz_Hemelrijk]: # ""
+[2002_Couzin]: # ""
 
 <!-- 0403p03 -->
-[1996_Gueron]: . ""
-[2004_Hoare]: . ""
+[1996_Gueron]: # ""
+[2004_Hoare]: # ""
 
 <!-- 05p03 -->
-[2008_Kanarek]: . ""
+[2008_Kanarek]: # ""
 
 <!-- 05p04 -->
-[1997_Stillman]: . ""
+[1997_Stillman]: # ""
 
 <!-- 05p05 -->
-[2006_Amano]: . ""
+[2006_Amano]: # ""
 
 <!-- 05p06 -->
-[2002_Harvey_Railsback]: . ""
+[2002_Harvey_Railsback]: # ""
 
 <!-- 05p08 -->
-[2002_Lima]: . ""
-[2010_Srinivasan]: . ""
-[2007_Peacor]: . ""
-[1997_Booth_Schmitz]: . ""
+[2002_Lima]: # ""
+[2010_Srinivasan]: # ""
+[2007_Peacor]: # ""
+[1997_Booth_Schmitz]: # ""
 
 <!-- 06p02 -->
-[2005_Stewart]: . ""
-[2015_Brouwer]: . ""
-[2014_Ye]: . ""
+[2005_Stewart]: # ""
+[2015_Brouwer]: # ""
+[2014_Ye]: # ""
