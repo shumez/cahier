@@ -3,7 +3,7 @@ Filename: 	190524_KopecAshleyM_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-24 19:46:1
-Modified: 	2019-05-24 20:20:36
+Modified: 	2019-06-07 17:34:36
 -----
 Copyright (c) 2019 shumez
 -->
@@ -87,8 +87,8 @@ Copyright (c) 2019 shumez
 [0301]: #0301_dopaminergic_regulation_of_social_behaviors
 [0302]: #0302_central_dopaminergic_regulation_of_immune_function
 [04]: #04_putting_the_pieces_together_adolescent_brain_behavioral_and_nuero-immune_development
-[05]: .
-[06]: .
+[05]: #05_concluding_remarks
+[06]: #
 
 
 <!-- ref -->
@@ -96,10 +96,6 @@ Copyright (c) 2019 shumez
 [Mendenley]:
 
 <!-- fig -->
-[fig01]: .
-
-
-[ref01]: .
 
 
 <style type="text/css">
