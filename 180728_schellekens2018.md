@@ -35,8 +35,6 @@
 
 <!-- -------------------------------------------- -->
 [orig]: https://www.sciencedirect.com/science/article/pii/S105381191830569X
-[mend]: .
-[figs]: .
 [fig01]: https://ars.els-cdn.com/content/image/1-s2.0-S105381191830569X-gr1.jpg
 [fig02]: https://ars.els-cdn.com/content/image/1-s2.0-S105381191830569X-gr2.jpg
 [fig03]: https://ars.els-cdn.com/content/image/1-s2.0-S105381191830569X-gr3.jpg
@@ -44,4 +42,3 @@
 [fig05]: https://ars.els-cdn.com/content/image/1-s2.0-S105381191830569X-gr5.jpg
 [fig06]: https://ars.els-cdn.com/content/image/1-s2.0-S105381191830569X-gr6.jpg
 [fig07]: https://ars.els-cdn.com/content/image/1-s2.0-S105381191830569X-gr7.jpg
-[ref01]: .
