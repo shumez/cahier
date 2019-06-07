@@ -3,7 +3,7 @@ Filename: 	190427_JaafraY_LaurentJL_2018.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-27 11:11:3
-Modified: 	2019-05-03 20:20:25
+Modified: 	2019-06-07 17:29:34
 -----
 Copyright (c) 2019 shumez
 -->
@@ -431,11 +431,8 @@ A. Krause (Eds.), Proceedings of the 35th International Conference on Machine Le
 <!-- -------------------------------------------- -->
 [orig]: https://arxiv.org/abs/1812.07995
 [mend]: https://www.mendeley.com/viewer/?fileId=6fab4680-d5f7-f11b-5ed6-0a796012b3df&documentId=d3a15cd2-6cf4-31b0-b72b-8ed6b580beb2
-[figs]: .
-[fig01]: .
-[ref01]: .
 
 [1962_WiesekT_HubelD]: https://physoc.onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.1962.sp006837 "Hubel, D. H., & Wiesel, T. N. (1962). Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. The Journal of physiology, 160(1), 106-154."
-[2012_HintonGE_SutskeverI_KrizhevskyA]: . ""
-[2015_GuX_WuH]: . ""
-[2016_CourvilleA_BengioY_GoodfellowI]: . ""
+[2012_HintonGE_SutskeverI_KrizhevskyA]: # ""
+[2015_GuX_WuH]: # ""
+[2016_CourvilleA_BengioY_GoodfellowI]: # ""
