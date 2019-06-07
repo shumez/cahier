@@ -3,7 +3,7 @@ Filename: 	190507_NelsonPeterT2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-07 20:31:9
-Modified: 	2019-05-15 12:18:30
+Modified: 	2019-06-07 17:31:25
 -----
 Copyright (c) 2019 shumez
 -->
@@ -41,7 +41,7 @@ Copyright (c) 2019 shumez
 
 ## 01. Introduction
 
-> Transactive response DNA binding protein of 43 kDa (TDP-43) proteinopathy in limbic brain structures is commonly observed in subjects past 80 years of age. This proteinopathy has been associated with substantial cognitive impairment that mimicked Alzheimer’s disease clinical syndrome in retrospective studies. Despite evidence from many sources [attest](. "証明する")ing to the public health impact of age-related TDP-43 proteinopathy, there is as yet no consensus-based [nomenclature](. "体系"). To address this problem, we propose new terminology: **limbic-predominant age-related TDP-43 encephalopathy** (LATE). Guidelines are suggested for the autopsy evaluation and staging of LATE neuropathological change (LATE-NC). We review the medical literature pertaining to LATE, including cognitive manifestations, neuroimaging, public health impact, and genetics. The importance of LATE as a contributing factor in neurodegeneration is stressed, as are the needs for specific LATE biomarker development, TDP-43 focused drug discovery, and eventual clinical trials. We conclude by highlighting important knowledge gaps and potential future directions for research on LATE. Summary points are presented in Box 1.
+> Transactive response DNA binding protein of 43 kDa (TDP-43) proteinopathy in limbic brain structures is commonly observed in subjects past 80 years of age. This proteinopathy has been associated with substantial cognitive impairment that mimicked Alzheimer’s disease clinical syndrome in retrospective studies. Despite evidence from many sources [attest](# "証明する")ing to the public health impact of age-related TDP-43 proteinopathy, there is as yet no consensus-based [nomenclature](# "体系"). To address this problem, we propose new terminology: **limbic-predominant age-related TDP-43 encephalopathy** (LATE). Guidelines are suggested for the autopsy evaluation and staging of LATE neuropathological change (LATE-NC). We review the medical literature pertaining to LATE, including cognitive manifestations, neuroimaging, public health impact, and genetics. The importance of LATE as a contributing factor in neurodegeneration is stressed, as are the needs for specific LATE biomarker development, TDP-43 focused drug discovery, and eventual clinical trials. We conclude by highlighting important knowledge gaps and potential future directions for research on LATE. Summary points are presented in Box 1.
 
 ### Box 1
 
@@ -87,7 +87,7 @@ advanced age
 * &uarr; TDP-43 proteinopathy / hippocampal sclerosis pathology / amnestic dementia 
 * &darr; severe ADNC
 
-> Following the detection of TDP-43 proteinopathy in FTLD-TDP and in the large majority of ALS cases (Mackenzie et al., 2007), **TDP-43 proteinopathy was also discovered in the brains of subjects over age 80 years without FTLD or ALS, but often with comorbid hippocampal sclerosis and/or ADNC** ([Amador-Ortiz et al., 2007a][2007_DicksonDW_AhmedZ_Amador-OrtizC], [b][2007_DicksonDW_LinWL_Amador-OrtizC]). In subjects with ADNC, LATE-NC represents a common [comorbid](. "併存する, 合併する") lesion that lowers the threshold for developing dementia ([Josephs et al., 2014b], [2015]). In retrospective studies, age-related TDP-43 proteinopathy has been associated with a progressive amnestic syndrome that mimicked the Alzheimer’s clinical syndrome ([Pao et al., 2011]; [Brenowitz et al., 2014]). TDP-43 proteinopathy, hippocampal sclerosis pathology, and the associated amnestic dementia increases with advanced age, while the prevalence of severe ADNC decreases in extreme old age ([Nelson et al., 2011a], [b], [2013]; [Brenowitz et al., 2014][2014_NelsonPT_MonsellSE_BrenowitzWD]). The presence of pathological TDP-43 in these cases suggests a novel disease mechanism in older adults. As there is currently no universally agreed upon terminology or staging system for common age-related TDP-43 proteinopathy, this condition is under-studied and not well recognized even among investigators in the field of dementia research. The promotion of research and increasing awareness of this disease are the primary motivations for developing the new term LATE, and for the recommendations that follow.
+> Following the detection of TDP-43 proteinopathy in FTLD-TDP and in the large majority of ALS cases (Mackenzie et al., 2007), **TDP-43 proteinopathy was also discovered in the brains of subjects over age 80 years without FTLD or ALS, but often with comorbid hippocampal sclerosis and/or ADNC** ([Amador-Ortiz et al., 2007a][2007_DicksonDW_AhmedZ_Amador-OrtizC], [b][2007_DicksonDW_LinWL_Amador-OrtizC]). In subjects with ADNC, LATE-NC represents a common [comorbid](# "併存する, 合併する") lesion that lowers the threshold for developing dementia ([Josephs et al., 2014b], [2015]). In retrospective studies, age-related TDP-43 proteinopathy has been associated with a progressive amnestic syndrome that mimicked the Alzheimer’s clinical syndrome ([Pao et al., 2011]; [Brenowitz et al., 2014]). TDP-43 proteinopathy, hippocampal sclerosis pathology, and the associated amnestic dementia increases with advanced age, while the prevalence of severe ADNC decreases in extreme old age ([Nelson et al., 2011a], [b], [2013]; [Brenowitz et al., 2014][2014_NelsonPT_MonsellSE_BrenowitzWD]). The presence of pathological TDP-43 in these cases suggests a novel disease mechanism in older adults. As there is currently no universally agreed upon terminology or staging system for common age-related TDP-43 proteinopathy, this condition is under-studied and not well recognized even among investigators in the field of dementia research. The promotion of research and increasing awareness of this disease are the primary motivations for developing the new term LATE, and for the recommendations that follow.
 
 ### 02.01. LATE neuropathological changes
 
@@ -175,7 +175,7 @@ TDP-43^+^/HS^–^ &rarr; TDP-43^+^/HS^+^
 
 ###### 02.02.P01
 
-> MRI studies have provided a complementary window into brain changes in LATE, highlighting brain atrophy both within and outside of the medial temporal lobes of brains with autopsy-verified LATE-NC. Prior studies featured research volunteers who underwent MRI with autopsy follow-up. Several of these studies focused on the subset of cases with hippocampal sclerosis (i.e. presumed severe LATE-NC), therefore, most of the published data were lacking information about less severely affected cases. With that [caveat](. "警告, 忠告") in mind, a common finding in MRI studies is that hippocampal atrophy is greater in cases with LATE-NC than in those with pure Alzheimer’s disease ([Jagust et al., 2008][2008_Jagust]; [Josephs et al., 2008][2008_Josephs], [2017a][2017_Josephs]; [Dawe et al., 2011][2011_Dawe]; [Kaur et al., 2014][2014_Kaur]; [Dallaire-Theroux et al., 2017][2017_Dallaire-Theroux]; [Hanko et al., 2019][2019_Hanko]). [Barkhof et al. (2007)][2007_Barkhof] found that many subjects with medial temporal atrophy lacked primary underlying ADNC. In this study cohort, the sensitivity and specificity of severe atrophy for ADNC was 63% and 69%, respectively, consistent with prior findings ([Jack et al., 2002][2002_Jack]). [Josephs et al. (2008)][2008_Josephs] reported that subjects with neuropathology consistent with LATE-NC tended to be older, with more cognitive impairment, and with more pronounced hippocampal atrophy than TDP-43− subjects. [Zarow et al. (2011)][2011_Zarow] also described atrophy and deformation of the hippocampus considerably greater in those with hippocampal sclerosis and LATE-NC than in those with only ADNC ([Zarow et al., 2011][2011_Zarow]). In hippocampal sclerosis associated with LATE-NC, hippocampal atrophy was often asymmetric, and it tended to progress in a rostral-caudal gradient in the hippocampus. Using post-mortem MRI, [Dawe et al. (2011)][2011_Dawe] reported stronger correlations between hippocampal atrophy and LATE-NC (with hippocampal sclerosis pathology) than between hippocampal atrophy and ADNC, and subjects with both ADNC and LATE-NC had greater hippocampal atrophy than those with only ADNC. A recent study found that the volume and shape of the amygdala is associated with underlying LATE-NC and that these structural changes are indicative of cognitive decline beyond what can be explained with other pathological indices ([Makkinejad et al., 2019][2019_Makkinejad]).
+> MRI studies have provided a complementary window into brain changes in LATE, highlighting brain atrophy both within and outside of the medial temporal lobes of brains with autopsy-verified LATE-NC. Prior studies featured research volunteers who underwent MRI with autopsy follow-up. Several of these studies focused on the subset of cases with hippocampal sclerosis (i.e. presumed severe LATE-NC), therefore, most of the published data were lacking information about less severely affected cases. With that [caveat](# "警告, 忠告") in mind, a common finding in MRI studies is that hippocampal atrophy is greater in cases with LATE-NC than in those with pure Alzheimer’s disease ([Jagust et al., 2008][2008_Jagust]; [Josephs et al., 2008][2008_Josephs], [2017a][2017_Josephs]; [Dawe et al., 2011][2011_Dawe]; [Kaur et al., 2014][2014_Kaur]; [Dallaire-Theroux et al., 2017][2017_Dallaire-Theroux]; [Hanko et al., 2019][2019_Hanko]). [Barkhof et al. (2007)][2007_Barkhof] found that many subjects with medial temporal atrophy lacked primary underlying ADNC. In this study cohort, the sensitivity and specificity of severe atrophy for ADNC was 63% and 69%, respectively, consistent with prior findings ([Jack et al., 2002][2002_Jack]). [Josephs et al. (2008)][2008_Josephs] reported that subjects with neuropathology consistent with LATE-NC tended to be older, with more cognitive impairment, and with more pronounced hippocampal atrophy than TDP-43− subjects. [Zarow et al. (2011)][2011_Zarow] also described atrophy and deformation of the hippocampus considerably greater in those with hippocampal sclerosis and LATE-NC than in those with only ADNC ([Zarow et al., 2011][2011_Zarow]). In hippocampal sclerosis associated with LATE-NC, hippocampal atrophy was often asymmetric, and it tended to progress in a rostral-caudal gradient in the hippocampus. Using post-mortem MRI, [Dawe et al. (2011)][2011_Dawe] reported stronger correlations between hippocampal atrophy and LATE-NC (with hippocampal sclerosis pathology) than between hippocampal atrophy and ADNC, and subjects with both ADNC and LATE-NC had greater hippocampal atrophy than those with only ADNC. A recent study found that the volume and shape of the amygdala is associated with underlying LATE-NC and that these structural changes are indicative of cognitive decline beyond what can be explained with other pathological indices ([Makkinejad et al., 2019][2019_Makkinejad]).
 
 
 ###### 02.02.P02
@@ -214,6 +214,8 @@ correponds to TDP-43 proteinopathy pattern
 	* mid fro g
 
 > It is recommended that TDP-43 immunohistochemistry be performed as part of the neuropathological evaluation in all older subjects. At a minimum, immunohistochemical staining for TDP-43 is recommended in three brain areas: amygdala, mid-level hippocampus, and middle frontal gyrus. We recommend evaluating these regions as they are commonly obtained at autopsy of aged subjects and capture presumed progression of LATE-NC in the brain. This sampling includes the brain area affected early in the disease course (amygdala, Stage 1), an intermediate stage where the pathological change is robustly associated with cognitive impairment (hippocampus, Stage 2), and a region affected at more advanced stages (middle frontal gyrus, Stage 3) ([Nag et al., 2018][2018_Nag]). Any detected TDP-43 proteinopathy is sufficient to define an anatomical region-based stage: for example, a minute amount of detected TDP-43 proteinopathy in the hippocampus indicates at least Stage 2. We emphasize that the proposed sampling for LATE-NC autopsy screening is a minimal evaluation, whereas more detailed sampling and staging should be considered for specific research settings (Josephs et al., 2014a, 2016; Uchino et al., 2015; Nag et al., 2017, 2018; Zhang et al., 2019). Figure 3B depicts staging schemes for LATE-NC, including sampling recommended for neuropathological evaluation of brain of older adults. This does not address regions that would be assessed in separate TDP-43 pathological staging schemes developed for ALS or FTLD-TDP ([Brettschneider et al., 2013][2013_Brettschneider]; [Fatima et al., 2015][2015_Fatima]; [Tan et al., 2015][2015_Tan]; [Verde et al., 2017][2017_Verde]; [Neumann and Mackenzie, 2019][2019_Mackenzie_Neumann]).
+
+###### 02.03.P02
 
 > Practical questions arise in relation to diagnostic ‘boundary zones’ between LATE-NC, FTLD-TDP, and ADNC. While both LATE-NC and FTLD-TDP may affect neocortical areas and may be comorbid with hippocampal sclerosis, LATE-NC usually has a later age of onset, an amnestic dementia, and limbic predominance of pathological change (Nelson et al., 2011b). On the other hand, recommendations for LATE-NC do not stipulate any age cut-offs, because the exact age ranges of disease susceptibility for FTLD-TDP or LATE-NC are not yet fully understood. For prior pathology-based comparisons between subtypes of TDP-43 proteinopathies (not related to age of onset), previous studies should be consulted (Amador-Ortiz et al., 2007a; Tan et al., 2015). More widespread and severe cortical atrophy is typically present in advanced FTLD-TDP than LATE-NC. There may indeed be features that could definitively distinguish LATE-NC cases (histopathologically or molecularly) from subtypes of FTLD-TDP (Arai et al., 2010; Hasegawa et al., 2011; Tsuji et al., 2012; Laferriere et al., 2019); however, more work is needed in this area. For now, definitive criteria to differentiate severe LATE-NC from FTLD-TDP await discovery of specific features that discriminate among various TDP-43 proteinopathies (Tan et al., 2017a).
 
@@ -345,35 +347,35 @@ correponds to TDP-43 proteinopathy pattern
 ## 
 
 <style type="text/css">
-	img{width: 50%; float: right;}
+	img.fig1{width: 50%; float: right;}
 </style>
 
 <!-- -------------------------------------------- -->
 <!-- ref -->
 [orig]: https://academic.oup.com/brain/advance-article/doi/10.1093/brain/awz099/5481202 ""
-[mend]: .
+[mend]: #
 
 <!-- 02p01 -->
-[2002_Korczyn]: . ""
-[2002_Zekry]: . ""
-[2006_Bennett]: . ""
-[2007_Attems_Jellinger]: . ""
-[2007_Schneider]: . ""
-[2014_Crary]: . ""
-[2014_Murray]: . ""
-[2014_Kovacs_Rahimi]: . ""
-[2016_James]: . ""
-[2001_]
-[2009_Brayne]: . ""
-[2013_Kovacs]: . ""
-[2014_Murray]: . ""
-[2014_Kovacs_Rahimi]: . ""
-[2016_White]: . ""
-[2017_Abner]: . ""
-[2017_Kapasi]: . ""
+[2002_Korczyn]: # ""
+[2002_Zekry]: # ""
+[2006_Bennett]: # ""
+[2007_Attems_Jellinger]: # ""
+[2007_Schneider]: # ""
+[2014_Crary]: # ""
+[2014_Murray]: # ""
+[2014_Kovacs_Rahimi]: # ""
+[2016_James]: # ""
+[2001_]: # ""
+[2009_Brayne]: # ""
+[2013_Kovacs]: # ""
+[2014_Murray]: # ""
+[2014_Kovacs_Rahimi]: # ""
+[2016_White]: # ""
+[2017_Abner]: # ""
+[2017_Kapasi]: # ""
 
 <!-- 02p02 -->
-[1994_Dickson]: . ""
+[1994_Dickson]: # ""
 [2006_Neumann]: https://www.neuronetwork.unibas.ch/events/documents/Naumann_et_al_2006.pdf "Neumann, M., Sampathu, D.M., Kwong, L.K., Truax, A.C., Micsenyi, M.C., Chou, T.T., Bruce, J., Schuck, T., Grossman, M., Clark, C.M. and McCluskey, L.F., 2006. Ubiquitinated TDP-43 in frontotemporal lobar degeneration and amyotrophic lateral sclerosis. Science, 314(5796), pp.130-133."
 
 
