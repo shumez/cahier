@@ -3,7 +3,7 @@ Filename: 	190517_LynnChristopherW_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-05-17 20:31:0
-Modified: 	2019-05-28 13:50:25
+Modified: 	2019-06-07 17:33:15
 -----
 Copyright (c) 2019 shumez
 -->
@@ -196,38 +196,34 @@ Lynn, C. W., & Bassett, D. S. (2019). The physics of brain network structure, fu
 [05]: #05_conclusions_and_future_directions_in_the_neurophysics_of_brain_networks
 
 <!-- fig -->
-[fig01]: .
 
 
 <!-- ref -->
-[1]: . "Scott, A. Neurophysics (Wiley, 1977)."
-[2]: . "Koch, C. & Poggio, T. A theoretical analysis of electrical properties of spines. Proc. R. Soc. Lond. B Biol. Sci. 218, 455–477 (1983)."
-[3]: .
-[4]: .
-[5]: .
-[6]: .
-[7]: .
-[8]: .
-[9]: .
-[10]: .
-[11]: .
+[1]: # "Scott, A. Neurophysics (Wiley, 1977)."
+[2]: # "Koch, C. & Poggio, T. A theoretical analysis of electrical properties of spines. Proc. R. Soc. Lond. B Biol. Sci. 218, 455–477 (1983)."
+[3]: #
+[4]: #
+[5]: #
+[6]: #
+[7]: #
+[8]: #
+[9]: #
+[10]: #
+[11]: #
 [12]: https://www.sciencedirect.com/science/article/pii/S0896627315008235 "Fries, P. Rhythms for cognition: communication through coherence. Neuron 88, 220–235 (2015)."
-[13]: .
-[14]: .
-[15]: .
-[]: . ""
-
+[13]: #
+[14]: #
+[15]: #
 
 
 <!-- terminology -->
-[feat]: . "偉業"
-[instantiate]: . "例示する"
-[stipulate]: . "規定する"
-[perturbative]: . "動揺, 混乱"
-[coinage]: . "硬貨"
-[buttress]: . "控え壁で支える, 支持する, 強化する"
-[dismantle]: . "分解する, 取り壊す"
-[]: . ""
+[feat]: # "偉業"
+[instantiate]: # "例示する"
+[stipulate]: # "規定する"
+[perturbative]: # "動揺, 混乱"
+[coinage]: # "硬貨"
+[buttress]: # "控え壁で支える, 支持する, 強化する"
+[dismantle]: # "分解する, 取り壊す"
 
 <style type="text/css">
 	img{width: 50%; float: right;}
