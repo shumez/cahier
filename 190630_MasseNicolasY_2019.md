@@ -3,7 +3,7 @@ Filename: 	190630_MasseNicolasY_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-06-30 15:35:8
-Modified: 	2019-07-07 13:31:9
+Modified: 	2019-07-07 15:27:19
 -----
 Copyright (c) 2019 shumez
 -->
@@ -21,7 +21,36 @@ Copyright (c) 2019 shumez
 
 ## Contents
 
-- 
+- [00. Summary][00]
+- [01. Introduction][01]
+- [02. Results][02]
+	- [02.01. Network model][0201]
+		- [Figure 1][fig01]
+	- [02.02. Maintaining information in short-term memory][0202]
+		- [Figure 2][fig02]
+		- [Figure 3][fig03]
+	- [02.03. Manipulating information][0203]
+	- [02.04. Manipulating information during the WM delay period][0204]
+		- [Figure 4][fig04]
+	- [02.05. Controlling the representation of information][0205]
+		- [Figure 5][fig05]
+	- [02.06. Attending to specific memoranda][0206]
+		- [Figure 6][fig06]
+	- [02.07. Manipulating information and persistent neuronal activity][0207]
+- [03. Discussion][03]
+	- [03.01. Variation in persistent neuronal activity in vivo][0301]
+		- [Figure 7][fig07]
+	- [03.02. Comparison to other artificial neural network architectures][0302]
+	- [03.03. Understanding strategies employed by artificial neural networks][0303]
+- [04. Methods][04]
+	- [04.01. Network models][0401]
+	- [04.02. Network training][0402]
+	- [04.03. Short-term synaptic plasticity][0403]
+	- [04.04. Population decoding][0404]
+	- [04.05. Measuring the contribution of neuronal activity and synaptic plasticity towards solving the task][0405]
+	- [04.06. Tuning similarity index][0406]
+	- [04.07. Category tuning index][0407]
+- [05. References][05]
 
 ## Summary
 
@@ -53,9 +82,9 @@ We constrained neurons in our network to be either excitatory or inhibitory30. T
 
 [![Figure.1][fig01]][fig01]
 
-Recurrent neural network design. (A) The core rate-based network model consisted of 36 motion direction tuned neurons that sent non-negative projections onto 100 recurrently connected neurons. Of these 100 neurons, 80 were excitatory (their output weights were non-negative) and 40 were inhibitory (their output weights were non-positive). The 80 excitatory neurons sent non-negative projections onto three decisions neurons. (B) For synapses that exhibited short-term synaptic depression (left panels), a 100 ms burst of presynaptic activity at 20 Hz (top panel) will increase the value representing the synaptic release probability (red trace, middle panel) and decrease the value representing the available neurotransmitter (blue trace). For these depressing synapses, the stronger and longer lasting decrease in release probability will lead to a decrease in synaptic efficacy (bottom panel) lasting thousands of milliseconds. For synapses that exhibited short-term synaptic depression (right panels), the same burst of presynaptic activity will lead to a stronger and longer lasting increase in release probability (middle panel), leading to an increase in synaptic efficacy lasting thousands of milliseconds.
+<small>Recurrent neural network design. (A) The core rate-based network model consisted of 36 motion direction tuned neurons that sent non-negative projections onto 100 recurrently connected neurons. Of these 100 neurons, 80 were excitatory (their output weights were non-negative) and 40 were inhibitory (their output weights were non-positive). The 80 excitatory neurons sent non-negative projections onto three decisions neurons. (B) For synapses that exhibited short-term synaptic depression (left panels), a 100 ms burst of presynaptic activity at 20 Hz (top panel) will increase the value representing the synaptic release probability (red trace, middle panel) and decrease the value representing the available neurotransmitter (blue trace). For these depressing synapses, the stronger and longer lasting decrease in release probability will lead to a decrease in synaptic efficacy (bottom panel) lasting thousands of milliseconds. For synapses that exhibited short-term synaptic depression (right panels), the same burst of presynaptic activity will lead to a stronger and longer lasting increase in release probability (middle panel), leading to an increase in synaptic efficacy lasting thousands of milliseconds.</small>
 
-###
+####
 
 The connection weights between all recurrently connected neurons, were dynamically modulated by short-term synaptic plasticity (STP, see Methods) using a previously proposed model18. In this model, synaptic efficacy is proportional to the product of two terms: one representing the amount of available transmitter, and another representing the release probability. Connection weights from half of the neurons were depressing, such that presynaptic activity strongly decreases the amount of available neurotransmitter but only weakly increases release probability, leading to a decrease in synaptic efficacy lasting thousands of milliseconds (Figure 1B, left panel). In contrast, connection weights from the other half of the neurons were facilitating, such that presynaptic activity weakly decreases the amount of available neurotransmitter and strongly increases the release probability, leading to an increase in synaptic efficacy lasting thousands of milliseconds (right panel). For computational efficiency, these values will be identical for all synapses sharing the same presynaptic neuron.
 
@@ -67,9 +96,9 @@ We first examined how networks endowed with STP maintain information in WM using
 
 [![Figure.2][fig02]][fig02]
 
-Neuronal and synaptic mnemonic encoding for the delayed match-to-sample task. (A) In the delayed match-to-sample (DMS) task, a 500 ms fixation period was followed by a 500 ms sample stimulus, which is represented as a coherent random dot motion pattern which could move in one of eight directions. This was followed by a 1000 ms delay period and finally a 500 ms test stimulus, which was also represented as motion in one of eight directions. The network was trained to indicate whether the motion directions of the sample and test stimuli matched. (B) The time course of the sample direction decoding accuracy, calculated using neuronal activity (green curves) or synaptic efficacy (magenta curves) are shown for all twenty networks that successfully solved the DMS task. The dashed vertical lines, from left to right, indicate the sample onset, offset, and end of the delay period. (C) Scatter plot showing the neuronal decoding accuracy measured at the end of the delay (x-axis) versus the behavioral accuracy (y-axis) for all 20 networks trained on this task (blue circles), the behavioral accuracy for the same 20 networks after neuronal activity was shuffled right before test onset (red circles) or synaptic efficacies were shuffled right before test onset (cyan circles). Thus, for each blue circle, there is a corresponding red and cyan circle with matching neuronal decoding accuracy. The dashed vertical line indicates chance level decoding accuracy.
+<small>Neuronal and synaptic mnemonic encoding for the delayed match-to-sample task. (A) In the delayed match-to-sample (DMS) task, a 500 ms fixation period was followed by a 500 ms sample stimulus, which is represented as a coherent random dot motion pattern which could move in one of eight directions. This was followed by a 1000 ms delay period and finally a 500 ms test stimulus, which was also represented as motion in one of eight directions. The network was trained to indicate whether the motion directions of the sample and test stimuli matched. (B) The time course of the sample direction decoding accuracy, calculated using neuronal activity (green curves) or synaptic efficacy (magenta curves) are shown for all twenty networks that successfully solved the DMS task. The dashed vertical lines, from left to right, indicate the sample onset, offset, and end of the delay period. (C) Scatter plot showing the neuronal decoding accuracy measured at the end of the delay (x-axis) versus the behavioral accuracy (y-axis) for all 20 networks trained on this task (blue circles), the behavioral accuracy for the same 20 networks after neuronal activity was shuffled right before test onset (red circles) or synaptic efficacies were shuffled right before test onset (cyan circles). Thus, for each blue circle, there is a corresponding red and cyan circle with matching neuronal decoding accuracy. The dashed vertical line indicates chance level decoding accuracy.</small>
 
-### 
+#### 
 
 To measure how information was maintained, we linearly decoded the sample direction using support vector machines (SVM) that were trained and tested at 10 ms intervals, from 1) the population activity of the 100 recurrent neurons, and from 2) the 100 unique synaptic efficacy values dynamically modulated by STP. Classifiers were individually trained and tested at each 10 ms time step. If during the delay period we could decode sample direction from the synaptic efficacies, but not neuronal activity, it would indicate that STP allows for activity-silent maintenance of information.
 
@@ -87,9 +116,9 @@ Neuronal decoding accuracy calculated at the end of the delay was distributed be
 
 [![Figure.3][fig03]][fig03]
 
-Understanding how networks solve the delayed match-to-rotated sample (DMRS) task. (A) The DMRS task is similar to the DMS task (Figure 2A), except that the network was trained to indicate whether the test motion direction was rotated 90° clockwise from the sample motion direction. (B) The time course of the sample direction decoding accuracy, calculated using neuronal activity (green curves) or synaptic efficacy (magenta curves) are shown for all twenty networks that successfully solved the DMRS task. The dashed vertical lines, from left to right, indicate the sample onset, offset, and end of the delay period. (C) Scatter plot showing the neuronal decoding accuracy measured at the end of the delay (x-axis) versus the behavioral accuracy (y-axis) for all 20 networks trained on this task (blue circles), the behavioral accuracy for the same 20 networks after neuronal activity was shuffled right before test onset (red circles) or synaptic efficacies were shuffled right before test onset (cyan circles). (D) The neuronal sample tuning curves were calculated for four groups of neurons (excitatory neurons with facilitating synapses, blue; excitatory neurons with depressing synapses, red; inhibitory neurons with facilitating synapses, green; inhibitory neurons with depressing synapses, orange) from all 20 networks that solved the task. Neuronal activity was averaged across the entire sample period, and the tuning curves were centered around the sample direction that generated the maximum response (i.e. the preferred direction). Error bars (which are small and difficult to see) indicate one SEM. (E) Same as (D), except that neuronal activity at the end of the delay period was used to calculate the tuning curves. In order to compare how neural activity evoked during the sample evolves across the delay period, tuning curves were aligned to the preferred directions calculated in (D). (F) Same as (D), except that synaptic efficacies at the end of the sample period were used to calculate the tuning curves. As above, the preferred directions are the same as those used in (D). (G) Same as (D), except that synaptic efficacies at the end of the delay period were used. (H) Task accuracy after shuffling synaptic efficacies at the end of the sample period for each of the four groups of neurons. (I) Scatter plot showing the neuronal decoding accuracy measured at the end of the delay period (x-axis) against the task accuracy after shuffling the synaptic efficacies of inhibitory neurons with depressing synapses at the end of the sample period (y-axis). Each dot represents the results of one of the 20 networks. (J) Tuning curves showing the activity received from the neurons in the input layer, which was calculated by multiplying the motion direction tuning of the neurons in the input layer with the input-to-recurrent weight matrix. Results were averaged across the 5 networks with the greatest neuronal decoding accuracy during the last 100 ms of the delay period. The four curves thus indicate the mean amount of input each group of recurrent neurons (excitatory or inhibitory, facilitating or depressing) receives from the input layer for each direction. As above, the preferred directions are the same as those used in (D). (K) Same as (J), except showing the input tuning curves averaged across the 5 networks with the lowest neuronal decoding accuracy during the last 100 ms of the delay period.
+<small>Understanding how networks solve the delayed match-to-rotated sample (DMRS) task. (A) The DMRS task is similar to the DMS task (Figure 2A), except that the network was trained to indicate whether the test motion direction was rotated 90° clockwise from the sample motion direction. (B) The time course of the sample direction decoding accuracy, calculated using neuronal activity (green curves) or synaptic efficacy (magenta curves) are shown for all twenty networks that successfully solved the DMRS task. The dashed vertical lines, from left to right, indicate the sample onset, offset, and end of the delay period. (C) Scatter plot showing the neuronal decoding accuracy measured at the end of the delay (x-axis) versus the behavioral accuracy (y-axis) for all 20 networks trained on this task (blue circles), the behavioral accuracy for the same 20 networks after neuronal activity was shuffled right before test onset (red circles) or synaptic efficacies were shuffled right before test onset (cyan circles). (D) The neuronal sample tuning curves were calculated for four groups of neurons (excitatory neurons with facilitating synapses, blue; excitatory neurons with depressing synapses, red; inhibitory neurons with facilitating synapses, green; inhibitory neurons with depressing synapses, orange) from all 20 networks that solved the task. Neuronal activity was averaged across the entire sample period, and the tuning curves were centered around the sample direction that generated the maximum response (i.e. the preferred direction). Error bars (which are small and difficult to see) indicate one SEM. (E) Same as (D), except that neuronal activity at the end of the delay period was used to calculate the tuning curves. In order to compare how neural activity evoked during the sample evolves across the delay period, tuning curves were aligned to the preferred directions calculated in (D). (F) Same as (D), except that synaptic efficacies at the end of the sample period were used to calculate the tuning curves. As above, the preferred directions are the same as those used in (D). (G) Same as (D), except that synaptic efficacies at the end of the delay period were used. (H) Task accuracy after shuffling synaptic efficacies at the end of the sample period for each of the four groups of neurons. (I) Scatter plot showing the neuronal decoding accuracy measured at the end of the delay period (x-axis) against the task accuracy after shuffling the synaptic efficacies of inhibitory neurons with depressing synapses at the end of the sample period (y-axis). Each dot represents the results of one of the 20 networks. (J) Tuning curves showing the activity received from the neurons in the input layer, which was calculated by multiplying the motion direction tuning of the neurons in the input layer with the input-to-recurrent weight matrix. Results were averaged across the 5 networks with the greatest neuronal decoding accuracy during the last 100 ms of the delay period. The four curves thus indicate the mean amount of input each group of recurrent neurons (excitatory or inhibitory, facilitating or depressing) receives from the input layer for each direction. As above, the preferred directions are the same as those used in (D). (K) Same as (J), except showing the input tuning curves averaged across the 5 networks with the lowest neuronal decoding accuracy during the last 100 ms of the delay period.</small>
 
-### 
+#### 
 
 For 14 out of the 15 networks that solved the task using activity-silent WM (in which neuronal decoding accuracy at the end of the delay was not significantly different than chance at the P>0.05 level), shuffling neuronal activity had no significant impact on behavior (P>0.05, bootstrap), and shuffling synaptic efficacies decreased behavioral accuracy to values not significantly greater than chance (P>0.05, bootstrap). Even more drastic perturbations to neuronal activity, such as setting activity for all recurrently connected neurons to zero for the last 100ms of the delay period, only had a marginal effect on performance (Figure S1), confirming that information maintained in synaptic efficacies, and not neuronal activity, was used to solve the DMS task. Thus, STP allows networks to silently maintain information for the DMS task.
 
@@ -123,9 +152,9 @@ We considered whether STP can play a more active role manipulating information i
 
 [![Figure.4][fig04]][fig04]
 
-Neuronal and synaptic mnemonic encoding for tasks that involve manipulating the contents of working memory. (A) This task was similar to the DMS and DMRS tasks, except that a rule cue from 500 to 750 ms into the delay period indicated to the network whether to perform the DMS or the DMRS task. (B) Similar to Figure 2B, except showing the decoding results for DMS trials for networks trained to solve the delayed rule task. The dashed vertical lines, from left to right, indicate the sample onset, offset, the rule cue onset, and end of the delay period. (B) Same as (A), except showing the decoding results for DMRS trials (in which matching sample and test stimuli are rotated by 90°).
+<small>Neuronal and synaptic mnemonic encoding for tasks that involve manipulating the contents of working memory. (A) This task was similar to the DMS and DMRS tasks, except that a rule cue from 500 to 750 ms into the delay period indicated to the network whether to perform the DMS or the DMRS task. (B) Similar to Figure 2B, except showing the decoding results for DMS trials for networks trained to solve the delayed rule task. The dashed vertical lines, from left to right, indicate the sample onset, offset, the rule cue onset, and end of the delay period. (B) Same as (A), except showing the decoding results for DMRS trials (in which matching sample and test stimuli are rotated by 90°).</small>
 
-###
+####
 
 We found that none of the 20 networks silently-maintained information for either trial type as the sample neuronal decoding accuracy never decreased to chance levels (P > 0.05, bootstrap) during the delay for either DMS (green curves, Figure 4B) or DMRS trials (Figure 4D). Thus, these networks manipulate information in WM (at least) partly using persistent neuronal activity.
 
@@ -141,9 +170,9 @@ Although STP did not silently manipulate information during the tasks considered
 
 [![Figure.5][fig05]][fig05]
 
-Neuronal and synaptic mnemonic encoding for tasks that require controlling how information is represented. (A) In the A-B-B-A and A-B-C-A task, the network was presented with a 400 ms motion direction stimulus, followed by three 400 ms motion direction test stimuli, in which all stimuli were separated by a 400 ms delay. The network was trained to indicate whether each test stimulus matched the motion direction of the sample stimulus. For test stimuli two and three in the A-B-B-A task, there was a 50% chance that a non-matching test stimulus would have the motion direction as the previous non-matching test stimulus. For the A-B-C-A task, non-matching test stimuli never matched any previous test stimuli. (B) Similar to Figure 2B, the time course of the sample direction decoding accuracy, calculated using neuronal activity (green curve) or synaptic efficacy (magenta curve) are shown for all 20 networks trained on the A-B-C-A task. The dashed lines indicate, from left to right, the sample onset, the sample offset, and the test onset and offset for the three sequential test stimuli. (C) Similar to (B), except showing the decoding accuracy of the first test stimulus. (D) The time course of the tuning similarity index (the weighted dot-product between the preferred sample motion direction and the preferred first test motion direction averaged across all synaptic efficacies), averaged across all 20 networks. (E-G) Similar to (B-D), except for the A-B-B-A task. (H) The mean tuning similarity index is shown for the A-B-B-A task, after suppressing neuronal activity for 200 ms before the first test onset, from four different groups of neurons (excitatory neurons with facilitating synapses, blue curve; excitatory neurons with depressing synapses, red curve; inhibitory neurons with facilitating synapses, green curve; inhibitory neurons with depressing synapses, cyan curve), and for the case when activity was not suppressed (black curve). (I) Behavioral task accuracy for the cases when no activity was suppressed (black bar), and after suppressing activity from the four groups of neurons described in (H).
+<small>Neuronal and synaptic mnemonic encoding for tasks that require controlling how information is represented. (A) In the A-B-B-A and A-B-C-A task, the network was presented with a 400 ms motion direction stimulus, followed by three 400 ms motion direction test stimuli, in which all stimuli were separated by a 400 ms delay. The network was trained to indicate whether each test stimulus matched the motion direction of the sample stimulus. For test stimuli two and three in the A-B-B-A task, there was a 50% chance that a non-matching test stimulus would have the motion direction as the previous non-matching test stimulus. For the A-B-C-A task, non-matching test stimuli never matched any previous test stimuli. (B) Similar to Figure 2B, the time course of the sample direction decoding accuracy, calculated using neuronal activity (green curve) or synaptic efficacy (magenta curve) are shown for all 20 networks trained on the A-B-C-A task. The dashed lines indicate, from left to right, the sample onset, the sample offset, and the test onset and offset for the three sequential test stimuli. (C) Similar to (B), except showing the decoding accuracy of the first test stimulus. (D) The time course of the tuning similarity index (the weighted dot-product between the preferred sample motion direction and the preferred first test motion direction averaged across all synaptic efficacies), averaged across all 20 networks. (E-G) Similar to (B-D), except for the A-B-B-A task. (H) The mean tuning similarity index is shown for the A-B-B-A task, after suppressing neuronal activity for 200 ms before the first test onset, from four different groups of neurons (excitatory neurons with facilitating synapses, blue curve; excitatory neurons with depressing synapses, red curve; inhibitory neurons with facilitating synapses, green curve; inhibitory neurons with depressing synapses, cyan curve), and for the case when activity was not suppressed (black curve). (I) Behavioral task accuracy for the cases when no activity was suppressed (black bar), and after suppressing activity from the four groups of neurons described in (H).</small>
 
-### 
+#### 
 
 As a control, we also trained networks on an A-B-C-A version of the task, which was similar to the A-B-B-A task, except that non-matching test stimuli were never repeated during a single trial, so that the network is not forced to represent sample and test stimuli in a different manner.
 
@@ -171,9 +200,9 @@ Recent studies suggest that silently-maintained information can be reactivated e
 
 [![Figure.6][fig06]][fig06]
 
-Neuronal and synaptic mnemonic encoding of multiple stimuli. (A) In the dual DMS task, two sample stimuli were simultaneously presented for 500 ms. This was followed by a 1000 ms delay period in which a cue appeared halfway through, and then two simultaneous test stimuli for 500 ms. The cue indicated which of the two sample/test pairs were task-relevant. Another 1000 ms delay and 500 ms test period was then repeated, in which a second cue again indicated which of the two sample/test pairs was task-relevant. (B) Neuronal decoding accuracy for the attended (blue curve) and unattended (red) stimuli, and the synaptic decoding accuracy for the attended (black) and unattended (yellow) stimuli, are shown from trial start through the first test period (left panel), the second delay and test periods (right panel). (C) Scatter plot showing the neuronal decoding accuracy, measured from 100 to 0 ms before the second cue (x-axis) against the neuronal decoding accuracy, measured from 400 to 500 ms after second cue (y-axis). Blue dots represent stimuli that were unattended after the first cue, and attended after the second cue, and red dots represent stimuli that were not attended to after the first and second cues. (D) The neuronal (green) and synaptic (magenta) rule decoding accuracy. The dashed lines indicate the decoding accuracy of the first cue, and the solid lines indicate the decoding accuracy of the second cue.
+<small>Neuronal and synaptic mnemonic encoding of multiple stimuli. (A) In the dual DMS task, two sample stimuli were simultaneously presented for 500 ms. This was followed by a 1000 ms delay period in which a cue appeared halfway through, and then two simultaneous test stimuli for 500 ms. The cue indicated which of the two sample/test pairs were task-relevant. Another 1000 ms delay and 500 ms test period was then repeated, in which a second cue again indicated which of the two sample/test pairs was task-relevant. (B) Neuronal decoding accuracy for the attended (blue curve) and unattended (red) stimuli, and the synaptic decoding accuracy for the attended (black) and unattended (yellow) stimuli, are shown from trial start through the first test period (left panel), the second delay and test periods (right panel). (C) Scatter plot showing the neuronal decoding accuracy, measured from 100 to 0 ms before the second cue (x-axis) against the neuronal decoding accuracy, measured from 400 to 500 ms after second cue (y-axis). Blue dots represent stimuli that were unattended after the first cue, and attended after the second cue, and red dots represent stimuli that were not attended to after the first and second cues. (D) The neuronal (green) and synaptic (magenta) rule decoding accuracy. The dashed lines indicate the decoding accuracy of the first cue, and the solid lines indicate the decoding accuracy of the second cue.</small>
 
-### 
+#### 
 
 Across the 20 networks, the mean sample decoding accuracy using neuronal activity was significantly greater when the sample was attended (blue curve) compared to unattended (red curve), during the last 100 ms of the first and second delay periods (first delay: Figure 6B, left panel, attended = 0.455, unattended = 0.354, P < 0.001, paired, two-sided t-test; second delay: right panel, attended = 0.335, unattended = 0.211, P < 10−5) Sample decoding accuracy using synaptic efficacies was near perfect (~1.0) for both the attended (black curves) and unattended (yellow curves) conditions. Thus, the attended memoranda were more strongly represented in neural activity compared to the unattended memoranda.
 
@@ -209,7 +238,7 @@ In summary, these studies suggest that tasks that require greater manipulation o
 
 [![Figure][fig07]][fig07]
 
-The relationship between the manipulation required by the task and the level of stimulus-selective persistent neuronal activity. Scatter plot shows the level of stimulus-selective persistent neuronal activity, measured as the neuronal decoding accuracy during the last 100 ms of the delay period (x-axis), versus the level of manipulation, which was equal to 1 minus the tuning similarity between the neuronal tuning during the first 100 ms of the sample period, and the synaptic tuning during the last 100 ms of the delay period (y-axis). Each dot represents the average values across 20 networks trained on one specific task, or the across one trial type from one specific task (i.e. the DMS and DMRS trials from the delayed rule task, and the attended and unattended trials from the dual-sample delayed matching task). Errors bars indicate one SEM. Dashed vertical line indicates chance level decoding.
+<small>The relationship between the manipulation required by the task and the level of stimulus-selective persistent neuronal activity. Scatter plot shows the level of stimulus-selective persistent neuronal activity, measured as the neuronal decoding accuracy during the last 100 ms of the delay period (x-axis), versus the level of manipulation, which was equal to 1 minus the tuning similarity between the neuronal tuning during the first 100 ms of the sample period, and the synaptic tuning during the last 100 ms of the delay period (y-axis). Each dot represents the average values across 20 networks trained on one specific task, or the across one trial type from one specific task (i.e. the DMS and DMRS trials from the delayed rule task, and the attended and unattended trials from the dual-sample delayed matching task). Errors bars indicate one SEM. Dashed vertical line indicates chance level decoding.</small>
 
 ### Comparison to other artificial neural network architectures
 
@@ -225,12 +254,184 @@ A key differentiating feature of RNNs compared to biological networks is that al
 
 While modelling studies cannot directly replace experimental work, they can be highly advantageous when obtaining the necessary experimental data is not feasible. Such was the case with our study, in which current technology does not allow us to directly measure the information maintained in synaptic efficacies or their contribution towards the behavioral decision. Thus, these modelling studies can serve as an excellent complement to experimental work, allowing researchers to rapidly generate novel hypothesis regarding cortical function that can later be tested when technology better allows for experimental verification. Lastly, the discovery of novel mechanisms found in silico can be fed back into the design of network models, potentially accelerating the development of machine learning algorithms and architectures. We believe that this synergy between experimental neuroscience and neural network modelling will only strengthen in the future.
 
+## Methods
+
+Neural networks were trained and simulated using the Python machine learning framework TensorFlow49. The code used to train, simulate and analyze network activity is available at https://github.com/nmasse/Short-term-plasticity-RNN. All parameters used to define the network architecture and training are given in Table 1.
+
+###### Table 1
+
+[![Table.1][tbl01]][tbl01]
+
+### Network models
+
+All networks consisted of 36 or 48 input neurons (whose firing rates are represented as u(t) that projected onto 100 recurrently connected neurons (whose firing rates are represented as r(t)), which in turn projected onto 3 output neurons (whose firing rates are represented as z(t)) (Figure 2A).
+
+The activity of the recurrent neurons was modelled to follow the dynamical system48:
+
+\[ \tau \frac{dr}{dt} = - r + f(W^{rec} r + W^{in} u + b^{rec} + \sqrt{2\tau} \sigma_{rec} \zeta) \]
+
+where τ is the neuron’s time constant, f (·) is the activation function, Wrec and Win are the synaptic weights between recurrent neurons, and between input and recurrent neurons, respectively, b is a bias term, ζ is independent Gaussian white noise with zero mean and unit variance applied to all recurrent neurons, and σrec is the strength of the noise. To ensure that neuron’s firing rates were non-negative and non-saturating, we chose the rectified linear function as our activation function: f (x) = max(0, x)
+
+The recurrent neurons project linearly to the output neurons. The activity of the output neurons, z, was then normalized by a softmax function such that their total activity at any given time point was one:
+
+\[ z = g(W^{out} r + b^{out}) \]
+
+where Wout are the synaptic weights between the recurrent and output neurons, and g is the softmax function:
+
+\[ g(x_i) = \frac{\exp(x_i)}{\sum_j{\exp(x_j)}} \]
+
+To simulate the network, we used a first-order Euler approximation with time step Δt:
+
+\[ r_t = (1 - \alpha) r_{t-1} + \alpha f(W^{rec} r_{t-1} + W^{in} u_t + b + \sqrt{\frac{2}{\alpha}} \sigma_{rec} N(0,1)) \]
+
+where α = Δt/τ and N(0.1) indicates the standard normal distribution.
+
+To maintain separate populations of excitatory and inhibitory neurons, we decomposed the recurrent weight matrix, Wrec as the product between a matrix for which all entries are non-negative, Wrec,+ whose values were trained, and a fixed diagonal matrix, D, composed of 1s and −1s, corresponding to excitatory and inhibitory neurons, respectively30:
+
+\[ W^{rec} = W^{rec, +} D \]
+
+\[ 
+	D = \begin{bmatrix}
+		1 & & \\
+		& \ddots & \\
+		& & -1 \\
+	\end{bmatrix} 
+\]
+
+Initial connection weight values were randomly sampled from a Gamma distribution with shape parameter of 0.25 and scale parameter of 130. We note that training networks to accurately solve the tasks appeared somewhat faster when initializing connection weights from a gamma distribution compared to a uniform distribution (data not shown). Initial bias values were set to 0.
+
+Networks consisted of 36 motion direction tuned input neurons, and for the rule switching tasks (i.e. DMS+DMRS and dualDMS tasks), an additional 12 rule tuned neurons. The tuning of the motion direction selective neurons followed a Von Mises’ distribution, such that the activity of the input neuron i at time t was
+
+\[ u_t^i = A \exp(\kappa \cos{(\theta - \theta_{pre\, f})}) + \sqrt{\frac{2}{\alpha}} \sigma_{in} N(0,1) \]
+
+where θ is the direction of the stimulus, Embedded Image is the preferred direction of input neuron i, k was set to 2, and A was set to 4/exp(k) when a stimulus present (i.e. during the sample and test periods), and was set to zero when no stimulus was present (i.e. during the fixation and delay periods). For the dualDMS task, 18 motion direction tuned input neurons represented the first stimulus position, and the second represented the second stimulus position.
+
+The 12 rule tuned neurons for the DMS+DMRS and dualDMS tasks had binary tuning, in which their activity was set to 2 (plus the Gaussian noise term) for their preferred rule cue, and 0 (plus the Gaussian noise term) for all other times. The number of rule tuned neurons was arbitrarily chosen, and has little impact on network training.
+
+### Network training
+
+RNNs were trained based on techniques previously described30,48. Specifically, the goal of training was to minimize 1) the cross-entropy between the output activity and the target output, and 2) the mean L2-norm of the recurrent neurons’ spike rate. The target output was a length 3 one-hot vector, in which the first element was equal to one for all times except the test period, the second element was one when the test stimulus matched the sample, and the third element was one when the test stimulus did not match the sample. Specifically, the loss function at time t during trial i is
+
+\[ L_{i, t} = - \sigma_{n=1}^{N_{out}}{m^i(t) z_n^{\text{target}, i}}(t) \log{z_n^i}(t) + \frac{\beta}{N_{rec}} \sum_{n=1}^{N_{rec}}{r_n^2(t)} \]
+
+where β controls how much to penalize neuronal activity of the recurrent neurons, and mi(t) is a mask function, with values of zero or one, that determine which portions of the trial to include in the loss function. To give the network adequate time to form a match or non-match decision, we set the mask function to zero for the first 50 ms of the test period, and one for all other times. The total loss function is then
+
+\[ L = \frac{1}{N_{\text{trials}} N_{\text{time}}} \sum_i^{N_{\text{trials}}} \sum_t^{N_{\text{time}}} L_{i, t} \]
+
+During training, we adjusted all parameters (Win,Wrec,+,Wout,brec,bout) using the Adam50 version of stochastic gradient descent. The decay rate of the 1st and 2nd moments were set to their default values (0.9 and 0.999, respectively).
+
+### Short-term synaptic plasticity
+
+The synaptic efficacy between all recurrently connected neurons was dynamically modulated through short-term synaptic plasticity (STP). For half of the recurrent neurons (40 excitatory and 10 inhibitory), all projecting synapses were facilitating, and for the other half of recurrent neurons, all projecting synapses were depressing. Following the conventions of Mongillo et al.18, we modelled STP as the interaction between two values: x, representing the fraction of neurotransmitter available, and u, representing the calcium concentration in the presynaptic terminal. Presynaptic activity acts to increase the calcium concentration inside the presynaptic terminal, increasing synaptic efficacy. However, presynaptic activity decreases the fraction of neurotransmitter available, leading to decreasing efficacy. These two values evolve according to:
+
+\[ \begin{align*}
+	\frac{dx(t)}{dt} &= \frac{1 - x(t)}{\tau_x} - u(t) x(t) r(t) \\
+	\frac{du(t)}{dt} &= \frac{U - u(t)}{\tau_u} + U(1 - u(t)) r(t)
+\end{align*} \]
+
+where r(t) is the presynaptic activity at time t, τx is the neurotransmitter recovery time constant, and τu is the calcium concentration time constant. The amount of input the postsynaptic neuron receives through this one synapses at time t is then
+
+\[ I(t) = W x(t) u(t) r(t) \]
+
+where W is the synaptic efficacy before STP is applied. For depressing synapses, the neurotransmitter recovery time constant was much longer compared to the calcium concentration time constant, whereas the opposite was true for facilitating synapses.
+
+### Population decoding
+
+Similar to our previous studies10,16, we quantified the strength of stimulus encoding by measuring how accurately we could decode the motion direction using multiclass support vector machines (SVMs). In this approach, we trained linear, multiclass SVMs to classify the motion direction using the neuronal activity of the 100 recurrent neurons, or the synaptic efficacies from the same 100 recurrent neurons, at each time point. The synaptic efficacy values were the product x(t)u(t) where x(t) and u(t) are the time varying values representing the amount of neurotransmitter available, and the calcium concentration, respectively, as described above.
+
+We measured the classification accuracy using cross-validation, in which we randomly selected 75% of trials for training the decoder and the remaining 25% for testing the decoder. For each of the eight motion directions, we randomly sampled, with replacement, 20 trials to train the decoder (from the 75% of trials set aside for training), and 20 trials to test the decoder (from the 25% of trials set aside for testing). From the 160 trials in the test set (20 time 8 directions), the accuracy was the fraction of trials in which the predicted motion direction matched the actual motion direction.
+
+We then repeated this sampling procedure 100 times to create a decoder accuracy distribution for each time point. The difference was deemed significantly greater than chance if 98 values were greater than chance (equivalent to P < 0.05 for a two-sided test).
+
+For each network, we calculated decoding accuracies using a batch of 1024 trials in which the test motion directions were randomly sampled independently of the sample motion direction. This was in contrast to how we trained the network and measured behavioral accuracy, in which there was always a 50% chance that a test stimulus would match the sample. We note that the pattern of neural and synaptic activity generated by a sample stimulus will be similar to the pattern generated by a matching test stimulus. Thus, if matching test stimuli occur more frequently than chance, our sample decoding accuracy during and after the test stimuli would be artificially elevated.
+
+### Measuring the contribution of neuronal activity and synaptic plasticity towards solving the task
+
+To measure how network models used information maintained in neuronal activity and in dynamic synaptic efficacies to solve the task, we used a shuffling procedure as follows. At the time point right before test onset (or right before the third test onset for the A-B-C-A/A-B-B-A tasks), we either 1) did not shuffle any activity, 2) shuffled the neuronal activity between trials, or 3) shuffled the synaptic efficacies between trials. We shuffled between trials as opposed to between neurons because neurons can have different baseline activity levels, and shuffling this activity can significantly perturb the network and degrade performance, even if no information is maintained in their activity. We then simulated the network activity for the remainder of the trial using the saved input activity, and measured the performance accuracy by comparing the activity of the three output neurons to the target output activity during the test period. We performed this random shuffling 100 times, and measured the mean performance accuracy for all three conditions. The rationale behind this analysis is that if the network was exclusively using information maintained in neuronal activity to solve the task, then shuffling neuronal activity between trials should devastate performance, while shuffling synaptic efficacies should have little effect. Similarly, if the network was exclusively using information maintained in synaptic efficacies to solve the task, then shuffling synaptic efficacies between trials should devastate performance, while shuffling neuronal activity should have little effect. If the network was using information maintained in both neuronal activity and synaptic efficacies, then shuffling either should lead to significant decreases in performance.
+
+### Tuning similarity index
+
+We measured the similarity between sample and test stimuli encoding in the A-B-C-A and A-B-B-A tasks (Figure 5) using a similarity index we previously employed to study the relation between functional clustering and mnemonic encoding10. To calculate this index, we first modelled the synaptic efficacy for all neurons as a linear function of the sample or test motion direction, represented by the unit vector d:
+
+\[ z_i(t) = dH_i(t) + \epsilon_i(t) \]
+
+where \(\epsilon_i(t)\) is a Gaussian noise term and the vector Hi(t) relates the stimulus direction to the synaptic efficacy.
+
+The angle of Hi(t) is the preferred direction of the neuron at time t, and its magnitude indicates the change in synaptic efficacy from baseline when the stimulus matches the preferred direction of the synapse. Thus, the preferred direction of a synapse, represented as a unit vector, is
+
+\[ PD_i(t) = \frac{H_i(t)}{\| H_i(t) \|} \]
+
+We can calculate how well this linear model fit the data for each synapse i and time point t indicated by wi(t), by comparing the variance in the residuals with the variance in the synaptic efficacy:
+
+\[ w_i(t) = 1 - \frac{var(\hat{z_i}(t) - z_i(t))}{var(z_i(t))} \]
+
+where the fitted synaptic efficacy is determined by the linear model: 
+
+\[ \hat{z_i}(t) = \text{baseline} + dH_i(t) \]
+
+For each synapses, we calculated these values for both the sample and first test motion direction, and then calculated the tuning similarity as the dot-product between their preferred sample and test motion directions directions, weighted by the geometric mean of their normalized linear model fits:
+
+\[ s_i(t) = \sqrt{w_i^{\text{sample}}(t) w_i^{\text{test}}(t)} PD_i^{\text{sample}}(t) PD_i^{\text{test}}(t) \]
+
+Finally, we calculated the similarity tuning index as the sum of the similarity scores for all synapses, divided by the sum of the geometric means of their respective linear model fits:
+
+\[ \text{similarity}(t) = \frac{\sum_i{s_i(t)}}{\sum_i{\sqrt{w_i^{\text{sample}}(t) w_i^{\text{test}}(t)}}} \]
+
+For the analysis examining whether preferred sample motion directions rotate during the DMRS task (Figure S2), we calculated how preferred sample motion directions changed across time based on the calculations above. To do so, we first represented the selectivity and preferred sample direction of neuronal activity or synaptic efficacies in complex form:
+
+\[ z_i(t) = \sqrt{w_i(t)} \exp{(i PD_i(t))} \]
+
+We then calculated the weighted change in preferred sample directions between synapses at different times:
+
+\[ \Delta PD_i^{\text{synaptic-synaptic}}(t1, t2) = z_i^{\text{synaptic}}(t1) \text{conj}(z_i^{\text{synaptic}}(t2)) \]
+
+or the weighted change in preferred sample directions between neurons and their associated synapses at different times:
+
+\[ \Delta PD_i^{\text{neuronal-synaptic}}(t1, t2) = z_i^{\text{neuronal}}(t1) \text{conj}(z_i^{\text{synaptic}}(t2)) \]
+
+We then calculated the weighted histogram by binning the angular differences (angle(ΔPD)) weighted by their absolute value (abs(ΔPD))
+
+When calculating the tuning similarity index for Figure 7, we note that the delay period and the number of test stimuli differed between tasks. Thus, to calculate the metric in a standard way across all tasks, we tested all networks with a sample stimulus lasting 500 ms followed by a 1000 ms delay.
+
+### Category tuning index
+
+The category tuning index (CTI) measured the difference in synaptic efficacy (averaged across all trials for each direction) for each neuron between pairs of directions in different categories (a between category difference or BCD) and the difference in activity between pairs of directions in the same category (a within category difference or WCD)51. The CTI was defined as the difference between BCD and WCD divided by their sum. Values of the index could vary from +1 (which indicates strong binary-like differences in activity to directions in the two categories) to −1 (which indicates large activity differences between directions in the same category, no difference between categories). A CTI value of 0 indicates the same difference in firing rate between and within categories.
+
+## References
+
+
+
 ##
 <!-- -------------------------------------------- -->
 
 <!-- toc -->
+[00]: #
 [01]: #
-[0101]: #
+
+[02]: #
+[0201]: #
+[0202]: #
+[0203]: #
+[0204]: #
+[0205]: #
+[0206]: #
+[0207]: #
+
+[03]: #
+[0301]: #
+[0302]: #
+[0303]: #
+
+[04]: #
+[0401]: #
+[0402]: #
+[0403]: #
+[0404]: #
+[0405]: #
+[0406]: #
+[0407]: #
+
+[05]: #
 
 <!-- ref -->
 [Original]: 
@@ -244,6 +445,9 @@ While modelling studies cannot directly replace experimental work, they can be h
 [fig04]: https://www.biorxiv.org/content/biorxiv/early/2018/04/22/305714/F4.medium.gif
 [fig05]: https://www.biorxiv.org/content/biorxiv/early/2018/04/22/305714/F5.medium.gif
 [fig06]: https://www.biorxiv.org/content/biorxiv/early/2018/04/22/305714/F6.medium.gif
+[fig07]: https://www.biorxiv.org/content/biorxiv/early/2018/04/22/305714/F7.medium.gif
+
+[tbl01]: https://www.biorxiv.org/content/biorxiv/early/2018/04/22/305714/T1.medium.gif
 
 <style type="text/css">
 	img{width: 50%; float: right;}
