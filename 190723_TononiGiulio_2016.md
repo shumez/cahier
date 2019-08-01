@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-01 17:20:0
+Modified: 	2019-08-01 17:36:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -133,7 +133,7 @@ Experimental evidence currently suggests that the [neural correlates of consciou
 
 ### 03.01. Elements of the PSC
 
-What is the spatial scale of the neural elements that support consciousness: synapses, neurons, neuronal groups, local fields or perhaps all of these? According to IIT, the neural elements of the PSC are those, and only those, that support a maximum of cause– effect power, as determined from the intrinsic perspective of the system itself. Importantly, and contrary to common reductionist assumptions17, cause–effect power can be higher at a macro-level than at a micro-level18. For example, a system of neuron-like micro-elements may have less cause–effect power than the same system coarse-grained at the macro-level of neuronal groups (FIG. 2a). In general, whether the macro or micro grain size has higher cause–effect power depends on how intra- and inter-group connections are organized and the amount of indeterminism (noise) and degeneracy (multiple ways of obtaining the same effect18).
+What is the spatial scale of the neural elements that support consciousness: synapses, neurons, neuronal groups, local fields or perhaps all of these? According to IIT, the neural elements of the PSC are those, and only those, that support a maximum of cause– effect power, as determined from the intrinsic perspective of the system itself. Importantly, and contrary to common reductionist assumptions^[17]^, cause–effect power can be higher at a macro-level than at a micro-level^[18]^. For example, a system of neuron-like micro-elements may have less cause–effect power than the same system coarse-grained at the macro-level of neuronal groups ([FIG. 2a][figure_2]). In general, whether the macro or micro grain size has higher cause–effect power depends on how intra- and inter-group connections are organized and the amount of indeterminism (noise) and degeneracy (multiple ways of obtaining the same effect^[18]^).
 
 An exhaustive evaluation of cause– effect power at multiple levels is only possible in small simulated networks^[19]^. In a real network^[20]^, we could start by assessing the cause–effect repertoire of individual neurons. For example, if a neuron is firing a burst of spikes, its cause repertoire is the probability distribution of past network states that would have caused it to burst (for example, firing patterns of its afferent neurons within the previous 100 ms). Similarly, its effect repertoire is the probability distribution of future network states given that the neuron is bursting. Experimentally, we could obtain an estimate of such cause– effect repertoires by stimulating one or more neurons optogenetically while simultaneously recording the firing activity of a population of neurons via two-photon calcium imaging (keeping the background conditions constant, such as the level of arousal and sensory input) ([FIG. 2a][figure_2]). Next, we would need to test for the irreducibility of the cause–effect repertoires, which can be achieved by noising connections (that is, enforcing firing at chance levels) across a partition of the network. Doing so would establish which subset of incoming connections makes the most irreducible difference (\(\phi^{\max}\)) to the firing of the observed neuron1 (and this could be carried out analogously for outgoing connections). A similar procedure should then be repeated for subsets of two neurons, three neurons, and so on, because combinations of neurons can also have irreducible cause–effect repertoires (defined as higher order mechanisms). Such experiments would provide an estimate of maximally irreducible cause–effect repertoires at the level of neurons.
 
@@ -285,6 +285,10 @@ Importantly, the more convincingly IIT can be validated under conditions in whic
 [14]: 
 [15]: 
 [16]: 
+[17]: http://www.sfu.ca/~jillmc/Kim1992.pdf "Kim, Jaegwon. "Multiple realization and the metaphysics of reduction." Philosophy and phenomenological research 52, no. 1 (1992): 1-26."
+[18]: https://www.pnas.org/content/pnas/110/49/19790.full.pdf "Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. "Quantifying causal emergence shows that macro can beat micro." Proceedings of the National Academy of Sciences 110, no. 49 (2013): 19790-19795."
+[19]:  ""
+[20]:  ""
 
 <!-- fig -->
 [fig01]: https://media.springernature.com/m685/nature-assets/nrn/journal/v17/n7/images/nrn.2016.44-f1.jpg
