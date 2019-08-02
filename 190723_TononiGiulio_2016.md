@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-02 16:25:34
+Modified: 	2019-08-02 16:34:42
 -----
 Copyright (c) 2019 shumez
 -->
@@ -71,13 +71,13 @@ To answer these questions, the empirical study of consciousness should be comple
 	The set of cause–effect repertoires specified by all the mechanisms of a system in its current state.
 - **[Complex]**  
 	A set of elements in a state that specifies a conceptual structure corresponding to a maximum of integrated information (\(\Phi^{\max}\)). A complex is thus a physical substrate of consciousness.
-- **[Concepts]**  
+- **[Concepts][concept]**  
 	The cause–effect repertoires specified by a mechanism that is maximally irreducible (\(\phi^{\max}\)).
 - **[Conceptual structure]**  
 	The set of all concepts specified by a system of elements in a state with their respective \(\phi^{\max}\) values, which can be plotted as a set of points in cause–effect space.
 - **[Content-specific NCC]**  
 	Neural elements, the activity of which determines a particular content of experience
-- **[Elements]**  
+- **[Elements][element]**  
 	The minimum constituents of a system that have at least two different states (for example, being on or off), inputs that can affect those states and outputs that depend on them.
 - **[Full NCC]**  
 	The neural elements constituting the physical substrate of consciousness, irrespective of its specific content.
@@ -85,15 +85,15 @@ To answer these questions, the empirical study of consciousness should be comple
 	(Denoted \(\Phi\)). Information that is specified by a system that is irreducible to that specified by its parts. It is calculated as the distance between the conceptual structure specified by the intact system and that specified by its minimum information partition.
 - **[Mechanism]**  
 	Any subset of elements within a system that has cause–effect power on it (that is, that constrains its cause–effect space).
-- **[Neural correlates of consciousness]**  
+- **[Neural correlates of consciousness][NCC]**  
 	(NCC). The minimum neuronal mechanisms jointly sufficient for any one specific conscious experience.
-- **[Postulates]**  
+- **[Postulates][Postulate]**  
 	Properties of experience that are derived from the axioms of integrated information theory and that must be satisfied by the physical substrate of consciousness — namely, to be a maximum of irreducible, specific, compositional, intrinsic cause–effect power (intrinsic cause–effect power for short).
-- **[Purviews]**  
+- **[Purviews][purview]**  
 	The subsets of elements of a complex, the past and future states of which are constrained by a mechanism specifying a concept.
 - **[Qualia]**  
 	The qualitative feeling of phenomenal distinctions within an experience (for example, seeing a colour, hearing a sound or feeling a pain).
-- **[Relations]**  
+- **[Relations][Relation]**  
 	Maximally irreducible overlaps among the purviews of two or more concepts
 
 
