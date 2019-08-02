@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-02 16:53:59
+Modified: 	2019-08-02 17:19:32
 -----
 Copyright (c) 2019 shumez
 -->
@@ -121,6 +121,21 @@ A set of elements in a state that satisfies all the postulates of IIT constitute
 
 
 ## 03. The PSC within the brain
+
+- NCC located in cortico-thalamic system 
+- NOT known
+	- which areas / layers / neuronal populations
+	- whether units are neuron / groups of neurons
+	- which aspects of activity
+	- neural substrate of consci is anatomically fixed / can shrink
+- IIT
+	- [content-specific NCC]:  
+		in paticular state (activity pattern)
+	- [full NCC]:  
+		irrespcetive of particular state
+	- [background condition]:  
+		factors enable consci
+
 
 Experimental evidence currently suggests that the [neural correlates of consciousness (NCC)][NCC] are likely to be located in certain parts of the cortico-thalamic system^[5]^, but it is not known specifically which cortical areas, layers or neuronal populations are involved, whether the relevant units are neurons or groups of neurons, and which aspects of their activity matter^[5]^. It is also not known whether the neural substrate of consciousness is anatomically fixed or can shrink, expand and move. IIT offers theoretical clarity on the empirical notion of the NCC^[5]^. Specifically, it states that the **[content-specific NCC]** correspond to the neural elements of the PSC in a particular state (activity pattern), which specify a particular phenomenal content; the **[full NCC]** correspond to the neural elements constituting the PSC irrespective of their particular state; the [background conditions][background condition] are factors that enable consciousness, such as neuromodulators and external inputs that maintain adequate excitability, which are kept fixed when evaluating the \(\Phi\) value of the PSC. Most importantly, the axioms and postulates of IIT can be used to provide a single, general principle for identifying the PSC in the brain — namely that the PSC must correspond to a complex of neural elements with maximum intrinsic cause–effect power.
 
@@ -273,7 +288,7 @@ Importantly, the more convincingly IIT can be validated under conditions in whic
 [2]: #
 [3]: #
 [4]: #
-[5]: #
+[5]: http://www.crm.cat/en/Activities/Curs_2017-2018/Documents/Consciousness1.pdf "Koch, Christof, Marcello Massimini, Melanie Boly, and Giulio Tononi. "Neural correlates of consciousness: progress and problems." Nature Reviews Neuroscience 17, no. 5 (2016): 307."
 [6]: #
 [7]: #
 [8]: #
