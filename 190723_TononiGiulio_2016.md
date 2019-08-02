@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-02 17:19:32
+Modified: 	2019-08-02 18:07:30
 -----
 Copyright (c) 2019 shumez
 -->
@@ -106,6 +106,9 @@ The first axiom of IIT states that experience exists intrinsically. As recognize
 The axiom of composition states that experience is structured, being composed of several phenomenal distinctions that exist within it. For example, within an experience, I may distinguish a piano, a blue colour, a book, countless spatial locations, and so on ([FIG. 1][figure_1]). Based on this axiom, IIT postulates that the [elements][element] that constitute the PSC must also have cause–effect power within the PSC, either alone or in combination (composing first-order and higher-order mechanisms, respectively).
 
 The axiom of information states that experience is specific, being composed of a particular set of phenomenal distinctions (**[qualia]**), which make it what it is and different from other experiences. In the example shown in [FIG. 1][figure_1], the content of my current experience might be composed of seeing a book (rather than seeing no book), which is blue (rather than not blue), and so on for all other possible contents of consciousness. The corresponding postulate states that the PSC must specify a cause–effect structure of a specific form, which makes it different from other possible forms. A cause–effect structure is defined as the set of [cause–effect repertoires][cause–effect repertoire] specified by all the mechanisms of a system. A cause–effect repertoire specifies how a [mechanism] in its current state affects the probability distribution of past and future states of the system.
+
+- [integrated information] (\(\Phi\)):  
+	- info 
 
 The axiom of integration states that experience is unitary, meaning that it is composed of a set of phenomenal distinctions, bound together in various ways, that is [irreducible] to non-interdependent subsets. For example, I experience a whole visual scene and that experience cannot be subdivided into independent experiences of the left and right sides of the visual field. In other words, the content of an experience (information) is integrated within a unitary consciousness. The corresponding postulate states that the cause–effect structure specified by the PSC must also be unitary — that is, it must be irreducible to the cause–effect structure specified by non-interdependent subsystems. Note that, from the intrinsic perspective of the system, integration requires that every part of the system has both causes and effects within the rest of the system, which implies bidirectional interactions. The irreducibility of a conceptual structure is measured as **[integrated information]** (denoted \(\Phi\), the minimum distance between an intact and a partitioned cause–effect structure). The integration postulate also requires the irreducibility of each cause–effect repertoire (denoted \(\phi\), the minimum distance between an intact and a partitioned cause–effect repertoire) and the irreducibility of [relations][relation] among overlapping cause–effect repertoires.
 
