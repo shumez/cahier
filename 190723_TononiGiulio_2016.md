@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-02 16:34:42
+Modified: 	2019-08-02 16:53:59
 -----
 Copyright (c) 2019 shumez
 -->
@@ -61,7 +61,7 @@ To answer these questions, the empirical study of consciousness should be comple
 	A condition in which a person has a neurological deficit, but is unaware of it.
 - **[Axioms][axiom]**  
 	Properties that are self-evident and essential; in integrated information theory, those that are true of every possible experience — namely, intrinsic existence, composition, information, integration and exclusion.
-- **[Background conditions]**  
+- **[Background conditions][background condition]**  
 	Factors that enable consciousness, such as neuromodulators and external inputs that maintain adequate excitability.
 - **[Cause–effect repertoire]**  
 	The probability distribution of potential past and future states of a system that is specified by a mechanism in its current state.
