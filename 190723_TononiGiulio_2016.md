@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-01 17:36:22
+Modified: 	2019-08-02 16:25:34
 -----
 Copyright (c) 2019 shumez
 -->
@@ -55,45 +55,45 @@ To answer these questions, the empirical study of consciousness should be comple
 
 ###### Glossary
 
-- [Achromatopsia]  
+- **[Achromatopsia]**  
 	A condition in which a person is unable to perceive colours.
-- [Anosognosia]  
+- **[Anosognosia]**  
 	A condition in which a person has a neurological deficit, but is unaware of it.
-- [Axioms][axiom]  
+- **[Axioms][axiom]**  
 	Properties that are self-evident and essential; in integrated information theory, those that are true of every possible experience — namely, intrinsic existence, composition, information, integration and exclusion.
-- [Background conditions]  
+- **[Background conditions]**  
 	Factors that enable consciousness, such as neuromodulators and external inputs that maintain adequate excitability.
-- [Cause–effect repertoire]  
+- **[Cause–effect repertoire]**  
 	The probability distribution of potential past and future states of a system that is specified by a mechanism in its current state.
-- [Cause–effect space]  
+- **[Cause–effect space]**  
 	A space with each axis representing the probability of each possible past and future state of a system.
-- [Cause–effect structure]  
+- **[Cause–effect structure]**  
 	The set of cause–effect repertoires specified by all the mechanisms of a system in its current state.
-- [Complex]  
+- **[Complex]**  
 	A set of elements in a state that specifies a conceptual structure corresponding to a maximum of integrated information (\(\Phi^{\max}\)). A complex is thus a physical substrate of consciousness.
-- [Concepts]  
+- **[Concepts]**  
 	The cause–effect repertoires specified by a mechanism that is maximally irreducible (\(\phi^{\max}\)).
-- [Conceptual structure]  
+- **[Conceptual structure]**  
 	The set of all concepts specified by a system of elements in a state with their respective \(\phi^{\max}\) values, which can be plotted as a set of points in cause–effect space.
-- [Content-specific NCC]  
+- **[Content-specific NCC]**  
 	Neural elements, the activity of which determines a particular content of experience
-- [Elements]  
+- **[Elements]**  
 	The minimum constituents of a system that have at least two different states (for example, being on or off), inputs that can affect those states and outputs that depend on them.
-- [Full NCC]  
+- **[Full NCC]**  
 	The neural elements constituting the physical substrate of consciousness, irrespective of its specific content.
-- [Integrated information]  
+- **[Integrated information]**  
 	(Denoted \(\Phi\)). Information that is specified by a system that is irreducible to that specified by its parts. It is calculated as the distance between the conceptual structure specified by the intact system and that specified by its minimum information partition.
-- [Mechanism]  
+- **[Mechanism]**  
 	Any subset of elements within a system that has cause–effect power on it (that is, that constrains its cause–effect space).
-- [Neural correlates of consciousness]  
+- **[Neural correlates of consciousness]**  
 	(NCC). The minimum neuronal mechanisms jointly sufficient for any one specific conscious experience.
-- [Postulates]  
+- **[Postulates]**  
 	Properties of experience that are derived from the axioms of integrated information theory and that must be satisfied by the physical substrate of consciousness — namely, to be a maximum of irreducible, specific, compositional, intrinsic cause–effect power (intrinsic cause–effect power for short).
-- [Purviews]  
+- **[Purviews]**  
 	The subsets of elements of a complex, the past and future states of which are constrained by a mechanism specifying a concept.
-- [Qualia]  
+- **[Qualia]**  
 	The qualitative feeling of phenomenal distinctions within an experience (for example, seeing a colour, hearing a sound or feeling a pain).
-- [Relations]  
+- **[Relations]**  
 	Maximally irreducible overlaps among the purviews of two or more concepts
 
 
