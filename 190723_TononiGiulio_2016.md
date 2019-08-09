@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-09 16:42:44
+Modified: 	2019-08-09 17:10:38
 -----
 Copyright (c) 2019 shumez
 -->
@@ -105,9 +105,24 @@ To answer these questions, the empirical study of consciousness should be comple
 
 ## 02. From phenomenology to physics
 
+###### 
+
+every EX
+
+- intrinsically
+- structured
+- specific
+- unitary
+- definite
+
+
 The axioms of IIT state that every experience exists intrinsically and is structured, specific, unitary and definite. IIT then postulates that, for each essential property of experience, there must be a corresponding causal property of the PSC. The postulates of IIT state that the PSC must have intrinsic cause–effect power; its parts must also have cause–effect power within the PSC and they must specify a [cause–effect structure] that is specific, unitary and definite. Below, we discuss the axioms and postulates of IIT (see Supplementary information [S1][sup01],[S2][sup02] (figure, box)) and describe the fundamental identity — between an experience and a [conceptual structure] — that it proposes ([FIG. 1][figure_1]).
 
+######
+
 The first axiom of IIT states that experience exists intrinsically. As recognized by Descartes^[13]^, my own experience is the only thing whose existence is immediately and absolutely evident, and it exists for myself, from my own intrinsic perspective. The corresponding postulate states that the PSC must also exist intrinsically. For something to exist in a physical sense, it must have cause–effect power — that is, it must be possible to make a difference to it (that is, change its state) and it must be able to make a difference to something. Moreover, the PSC must exist intrinsically — that is, it must have cause– effect power for itself, from its own intrinsic perspective. A neuron in the brain, for example, satisfies the criterion for existence because it has two or more internal states (such as active and inactive) that can be affected by inputs (causes) and its output can make a difference to other neurons (effects). A minimal system consisting of two interconnected neurons satisfies the criterion of intrinsic existence because, through their reciprocal interactions, the system can make a difference to itself.
+
+######
 
 The axiom of composition states that experience is structured, being composed of several phenomenal distinctions that exist within it. For example, within an experience, I may distinguish a piano, a blue colour, a book, countless spatial locations, and so on ([FIG. 1][figure_1]). Based on this axiom, IIT postulates that the [elements][element] that constitute the PSC must also have cause–effect power within the PSC, either alone or in combination (composing first-order and higher-order mechanisms, respectively).
 
