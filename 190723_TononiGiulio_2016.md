@@ -3,7 +3,7 @@ Filename: 	190723_TononiGiulio_2016.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-07-23 17:46:2
-Modified: 	2019-08-02 18:07:30
+Modified: 	2019-08-09 16:42:44
 -----
 Copyright (c) 2019 shumez
 -->
@@ -44,16 +44,22 @@ In this Opinion article, we discuss how integrated information theory accounts f
 
 ## 01. Introduction
 
+###### consci is subjective EX
+
 Consciousness is subjective experience — ‘what it is like’, for example, to perceive a scene, to endure pain, to entertain a thought or to reflect on the experience itself ^[1],[2],[3]^. When consciousness fades, as it does in dreamless sleep, from the intrinsic perspective of the experiencing subject, the entire world vanishes.
 
+###### Qs about consci
+
 Consciousness depends on the integrity of certain brain regions and the particular content of an experience depends on the activity of neurons in parts of the cerebral cortex^[4]^. However, despite increasingly refined clinical and experimental studies, a proper understanding of the relationship between consciousness and the brain has yet to be established^[5],[6]^. For example, it is not known why the cortex supports consciousness when the cerebellum does not, despite having four times as many neurons^[7],[8]^, or why consciousness fades during deep sleep while the cerebral cortex remains active. There are also many other difficult questions about consciousness. Are patients with a functional island of cortex surrounded by widespread damage conscious, and if so, of what? Are newborn infants conscious? Are animals that display complex behaviours, but have brains very different from humans, conscious6? Can intelligent machines be conscious^[9]^?
+
+###### hard problem & IIT
 
 start from phenomenal properties of experience, or axioms and inder postulates 
 
 To answer these questions, the empirical study of consciousness should be complemented by a theoretical approach. The reason why some neural mechanisms, but not others, should be associated with consciousness has been called ‘[the hard problem]’ because it seems to [defy] the possibility of a scientific explanation^[10]^. In this Opinion article, we provide an overview of the **[integrated information theory (IIT)][IIT]** of consciousness, which has been developed over the past few years^[1],[2],[3],[11],[12]^. IIT addresses the hard problem in a new way. It does not start from the brain and ask how it could give rise to experience; instead, it starts from the essential phenomenal properties of experience, or **[axioms][axiom]**, and infers **[postulates][postulate]** about the characteristics that are required of its physical substrate. Moreover, IIT presents a mathematical framework for evaluating the quality and quantity of consciousness^[1],[2],[3],[9]^. We begin by providing a summary of the axioms and corresponding postulates of IIT and show how they can be used, in principle, to identify the **[physical substrate of consciousness (PSC)][PSC]**. We then discuss how IIT explains in a [parsimonious] manner a variety of facts about the relationship between consciousness and the brain, leads to testable predictions, and allows inferences and extrapolations about consciousness.
 
 
-###### Glossary
+#### Glossary
 
 - **[Achromatopsia]**  
 	A condition in which a person is unable to perceive colours.
