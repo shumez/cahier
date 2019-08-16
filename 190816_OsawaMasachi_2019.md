@@ -3,7 +3,7 @@ Filename: 	190816_OsawaMasachi_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-08-16 14:29:0
-Modified: 	2019-08-16 15:54:0
+Modified: 	2019-08-16 15:55:9
 -----
 Copyright (c) 2019 shumez
 -->
@@ -52,6 +52,8 @@ Copyright (c) 2019 shumez
 
 ##### stratification
 
+##### 01.01.01.04. 
+
 ### 01.02. 社会契約の思想社会学前夜
 
 #### 01.02.01. 自然法の理論 グロティウスとパスカル
@@ -90,7 +92,7 @@ Copyright (c) 2019 shumez
 [01010101]: #zoon_politikon
 [01010102]: #philia
 [01010103]: #stratification
-[01010104]: #
+[01010104]: #010104
 [0102]: #0102
 [010201]: #010201
 [01020101]: #natural_law
