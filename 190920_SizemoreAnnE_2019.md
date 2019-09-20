@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-20 19:46:54
+Modified: 	2019-09-20 20:32:10
 -----
 Copyright (c) 2019 shumez
 -->
@@ -63,8 +63,33 @@ Copyright (c) 2019 shumez
 
 ###### 02 ¶01
 
+###### 02 ¶02
+
 
 ## 03. Pieces and parts of the simplicical complex
+
+###### 03 ¶01
+
+**simplicial complex**
+
+unit of \(k + 1\) nodes is \(k\)-simplex
+
+\(k\)-simplex  
+nodes \(\{v_0, \cdots, v_k\}\)
+
+rule:  
+if \(s\) is simplex in \(K\) and \(s' \subseteq s\), then \(s' \in K\)
+
+\(k\)-skeleton (\(X^k\)): collection of all cimplices w dim at most \(k\)
+
+\(k\)-cycle: looped patterns of \(k\)-simplices
+
+###### 03 ¶02
+
+
+
+
+
 ###### Figure 2
 [![fig02][fig02]][fig02]
 ### 03.01. Chain groups and boudaries
