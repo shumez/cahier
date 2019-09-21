@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-21 10:19:8
+Modified: 	2019-09-21 10:47:5
 -----
 Copyright (c) 2019 shumez
 -->
@@ -98,6 +98,22 @@ where \(\{v_i, v_j\}\) is face of \(\{v_i, v_j, v_k\}\)
 [![fig02][fig02]][fig02]
 
 ### 03.01. Chain groups and boudaries
+
+###### 03.01 ¶01
+
+cavities w/i simplicial complexes as akin to bubbles under water
+
+###### 03.01 ¶02
+
+\(\text{#nodes} \times \text{#edges}\) binary mat (\(\partial_1\))
+
+first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
+
+###### 03.01. ¶03
+
+
+
+
 
 ###### Figure 3
 [![fig03][fig03]][fig03]
