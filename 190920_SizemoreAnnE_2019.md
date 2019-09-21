@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-21 10:47:5
+Modified: 	2019-09-21 16:58:22
 -----
 Copyright (c) 2019 shumez
 -->
@@ -103,16 +103,43 @@ where \(\{v_i, v_j\}\) is face of \(\{v_i, v_j, v_k\}\)
 
 cavities w/i simplicial complexes as akin to bubbles under water
 
+#### Box 1. From data to simplicial complex
+
+###### box1 ¶01
+<!-- There are multiple -->
+
+**clique complex**
+
+###### box1 ¶02
+<!-- A second interesting -->
+
+###### box1 ¶03
+<!-- If the data -->
+
+
 ###### 03.01 ¶02
+<!-- Let’s begin with -->
 
 \(\text{#nodes} \times \text{#edges}\) binary mat (\(\partial_1\))
 
 first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
 
-###### 03.01. ¶03
+###### 03.01 ¶03
+<!-- This matrix houses -->
+
+\(\partial_1(C_1) \subseteq C_0 \)
+###### 03.01 ¶04
+<!-- Now we again -->
 
 
-
+\[ 
+	\cdots \overset{\partial_{k+3}}{\longrightarrow} 
+	C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} 
+	C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} 
+	C_{k} \overset{\partial_{k}}{\longrightarrow} 
+	C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} 
+	C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots
+\]
 
 
 ###### Figure 3
