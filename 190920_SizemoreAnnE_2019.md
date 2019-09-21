@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-20 20:32:10
+Modified: 	2019-09-21 10:19:8
 -----
 Copyright (c) 2019 shumez
 -->
@@ -86,13 +86,19 @@ if \(s\) is simplex in \(K\) and \(s' \subseteq s\), then \(s' \in K\)
 
 ###### 03 ¶02
 
+simplex dist
 
+###### 03 ¶03
 
-
+**face**: subset of a simplex  
+e.g., if \(\{v_1, v_2, v_3\}\) is 2-simplex, it contains 1-simplex \(\{v_1, v_2\}\),  
+where \(\{v_i, v_j\}\) is face of \(\{v_i, v_j, v_k\}\) 
 
 ###### Figure 2
 [![fig02][fig02]][fig02]
+
 ### 03.01. Chain groups and boudaries
+
 ###### Figure 3
 [![fig03][fig03]][fig03]
 ###### Figure 4
