@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-21 16:58:22
+Modified: 	2019-09-23 11:27:35
 -----
 Copyright (c) 2019 shumez
 -->
@@ -128,18 +128,12 @@ first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
 <!-- This matrix houses -->
 
 \(\partial_1(C_1) \subseteq C_0 \)
+
 ###### 03.01 ¶04
 <!-- Now we again -->
 
 
-\[ 
-	\cdots \overset{\partial_{k+3}}{\longrightarrow} 
-	C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} 
-	C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} 
-	C_{k} \overset{\partial_{k}}{\longrightarrow} 
-	C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} 
-	C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots
-\]
+\[  \cdots \overset{\partial_{k+3}}{\longrightarrow} C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} C_{k} \overset{\partial_{k}}{\longrightarrow} C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots \]
 
 
 ###### Figure 3
@@ -170,6 +164,8 @@ first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
 [Original]: 
 [Mendenley]:
 [ref01]: .
+
+[simplicial homology]: https://en.wikipedia.org/wiki/Simplicial_homology
 
 <!-- fig -->
 [fig01]: https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/netn/2019/netn.2019.3.issue-3/netn_a_00073/20190710/images/large/00073f01c.jpeg
