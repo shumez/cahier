@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-23 15:36:48
+Modified: 	2019-09-23 15:42:26
 -----
 Copyright (c) 2019 shumez
 -->
@@ -164,11 +164,22 @@ chain group \(C_k\), boudary operator \(\partial_k\),
 
 \[  \cdots \overset{\partial_{k+3}}{\longrightarrow} C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} C_{k} \overset{\partial_{k}}{\longrightarrow} C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots \]
 
-
 ###### Figure 4
 [![fig04][fig04]][fig04]
 
+
 ### 03.02. Homological algebra
+
+###### 03.02 ¶01
+<!-- Our goal is -->
+
+\(k\)-cycle subspace:  
+\(Z_k = \text{ker} \partial_k\) 
+
+
+
+
+
 ## 04. Homology from complex to complex: persistebt homology
 ### 04.01. Filtrations
 ###### Figure 5
