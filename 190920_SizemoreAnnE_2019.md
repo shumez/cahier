@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-23 11:27:35
+Modified: 	2019-09-23 13:53:36
 -----
 Copyright (c) 2019 shumez
 -->
@@ -100,6 +100,7 @@ where \(\{v_i, v_j\}\) is face of \(\{v_i, v_j, v_k\}\)
 ### 03.01. Chain groups and boudaries
 
 ###### 03.01 ¶01
+<!-- We imagine cavities -->
 
 cavities w/i simplicial complexes as akin to bubbles under water
 
@@ -108,13 +109,21 @@ cavities w/i simplicial complexes as akin to bubbles under water
 ###### box1 ¶01
 <!-- There are multiple -->
 
-**clique complex**
+**clique complex** (**flag complex**) :  
+assign \(k\)-simplex to each \((k+1)\)-clique 
 
 ###### box1 ¶02
 <!-- A second interesting -->
 
+nerve complex  
+\(\text{#simplices} \times \text{#vertices}\) mat  
+\(\{v_i, v_j, v_k\}\)
+
 ###### box1 ¶03
 <!-- If the data -->
+
+**Vietoris-Rips complex**  
+\(\text{pairwise distance} < \epsilon\)
 
 
 ###### 03.01 ¶02
@@ -175,6 +184,6 @@ first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
 [fig05]: https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/netn/2019/netn.2019.3.issue-3/netn_a_00073/20190710/images/large/00073f05c.jpeg
 [fig06]: https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/netn/2019/netn.2019.3.issue-3/netn_a_00073/20190710/images/large/00073f06c.jpeg
 
-<style type="text/css">
-	img{width: 50%; float: right;}
-</style>
+<!-- <style type="text/css"> 
+	img{width: 50%; }/**float: left;}
+</style>-->
