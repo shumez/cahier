@@ -692,7 +692,7 @@ Filename:   190920_SizemoreAnnE_2019.md
 Project:    /Users/shume/Documents/Cahier
 Author:     shumez <https://github.com/shumez>
 Created:    2019-09-20 15:14:4
-Modified:   2019-09-21 16:58:22
+Modified:   2019-09-23 13:55:55
 -----
 Copyright (c) 2019 shumez
 -->
@@ -710,8 +710,9 @@ Copyright (c) 2019 shumez
 </ul>
 </li>
 <li><a href="#02_when_should_we_use_topological_data_analysis">02. When should we use topological data analysis?</a></li>
-<li>[03. Pieces and parts of the simplicical complex][03]<ul>
-<li>[03.01. Chain groups and boudaries][0301]</li>
+<li><a href="#03_pieces_and_parts_of_the_simplicical_complex">03. Pieces and parts of the simplicical complex</a><ul>
+<li><a href="#box_1_from_data_to_simplicial_complex">Box 1. From data to simplicial complex</a></li>
+<li><a href="#0301_chain_groups_and_boudaries">03.01. Chain groups and boudaries</a></li>
 <li>[03.02. Homological algebra][0302]</li>
 </ul>
 </li>
@@ -765,18 +766,28 @@ where <script type="math/tex">\{v_i, v_j\}</script> is face of <script type="mat
 <p><a href="https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/netn/2019/netn.2019.3.issue-3/netn_a_00073/20190710/images/large/00073f02c.jpeg"><img alt="fig02" src="https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/netn/2019/netn.2019.3.issue-3/netn_a_00073/20190710/images/large/00073f02c.jpeg" /></a></p>
 <h3 id="0301_chain_groups_and_boudaries">03.01. Chain groups and boudaries<a class="headerlink" href="#0301_chain_groups_and_boudaries" title="Permanent link">¶</a></h3>
 <h6 id="0301_01">03.01 ¶01<a class="headerlink" href="#0301_01" title="Permanent link">¶</a></h6>
+<!-- We imagine cavities -->
+
 <p>cavities w/i simplicial complexes as akin to bubbles under water</p>
 <h4 id="box_1_from_data_to_simplicial_complex">Box 1. From data to simplicial complex<a class="headerlink" href="#box_1_from_data_to_simplicial_complex" title="Permanent link">¶</a></h4>
 <h6 id="box1_01">box1 ¶01<a class="headerlink" href="#box1_01" title="Permanent link">¶</a></h6>
 <!-- There are multiple -->
 
-<p><strong>clique complex</strong></p>
+<p><strong>clique complex</strong> (<strong>flag complex</strong>) :<br />
+assign <script type="math/tex">k</script>-simplex to each <script type="math/tex">(k+1)</script>-clique </p>
 <h6 id="box1_02">box1 ¶02<a class="headerlink" href="#box1_02" title="Permanent link">¶</a></h6>
 <!-- A second interesting -->
 
+<p>nerve complex<br />
+<script type="math/tex">\text{#simplices} \times \text{#vertices}</script> mat<br />
+<script type="math/tex">\{v_i, v_j, v_k\}</script>
+</p>
 <h6 id="box1_03">box1 ¶03<a class="headerlink" href="#box1_03" title="Permanent link">¶</a></h6>
 <!-- If the data -->
 
+<p><strong>Vietoris-Rips complex</strong><br />
+<script type="math/tex">\text{pairwise distance} < \epsilon</script>
+</p>
 <h6 id="0301_02">03.01 ¶02<a class="headerlink" href="#0301_02" title="Permanent link">¶</a></h6>
 <!-- Let’s begin with -->
 
@@ -793,14 +804,7 @@ where <script type="math/tex">\{v_i, v_j\}</script> is face of <script type="mat
 <!-- Now we again -->
 
 <p>
-<script type="math/tex; mode=display"> 
-    \cdots \overset{\partial_{k+3}}{\longrightarrow} 
-    C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} 
-    C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} 
-    C_{k} \overset{\partial_{k}}{\longrightarrow} 
-    C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} 
-    C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots
-</script>
+<script type="math/tex; mode=display">  \cdots \overset{\partial_{k+3}}{\longrightarrow} C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} C_{k} \overset{\partial_{k}}{\longrightarrow} C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots </script>
 </p>
 <h6 id="figure_3">Figure 3<a class="headerlink" href="#figure_3" title="Permanent link">¶</a></h6>
 <p><a href="https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/netn/2019/netn.2019.3.issue-3/netn_a_00073/20190710/images/large/00073f03c.jpeg"><img alt="fig03" src="https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/netn/2019/netn.2019.3.issue-3/netn_a_00073/20190710/images/large/00073f03c.jpeg" /></a></p>
@@ -825,9 +829,9 @@ where <script type="math/tex">\{v_i, v_j\}</script> is face of <script type="mat
 
 <!-- fig -->
 
-<style type="text/css">
-    img{width: 50%; float: right;}
-</style>
+<!-- <style type="text/css"> 
+    img{width: 50%; }/**float: left;}
+</style>-->
               
             </div>
           </div>
