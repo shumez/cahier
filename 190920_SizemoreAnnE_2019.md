@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-23 15:35:57
+Modified: 	2019-09-23 15:36:48
 -----
 Copyright (c) 2019 shumez
 -->
@@ -126,6 +126,8 @@ nerve complex
 **Vietoris-Rips complex**  
 \(\text{pairwise distance} < \epsilon\)
 
+###### Figure 3
+[![fig03][fig03]][fig03]
 
 ###### 03.01 ¶02
 <!-- Let’s begin with -->
@@ -163,10 +165,9 @@ chain group \(C_k\), boudary operator \(\partial_k\),
 \[  \cdots \overset{\partial_{k+3}}{\longrightarrow} C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} C_{k} \overset{\partial_{k}}{\longrightarrow} C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots \]
 
 
-###### Figure 3
-[![fig03][fig03]][fig03]
 ###### Figure 4
 [![fig04][fig04]][fig04]
+
 ### 03.02. Homological algebra
 ## 04. Homology from complex to complex: persistebt homology
 ### 04.01. Filtrations
