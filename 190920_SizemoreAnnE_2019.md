@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-23 15:42:26
+Modified: 	2019-09-23 15:58:56
 -----
 Copyright (c) 2019 shumez
 -->
@@ -176,6 +176,11 @@ chain group \(C_k\), boudary operator \(\partial_k\),
 \(k\)-cycle subspace:  
 \(Z_k = \text{ker} \partial_k\) 
 
+\(k\)-boudary subspace: \(B_k\)  
+subspace of \(Z_k\)
+
+###### 03.02 ¶02
+<!-- To appreciate this -->
 
 
 
