@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-23 13:55:55
+Modified: 	2019-09-23 15:35:57
 -----
 Copyright (c) 2019 shumez
 -->
@@ -139,9 +139,26 @@ first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
 
 \(\partial_1(C_1) \subseteq C_0 \)
 
+**boundary**
+
 ###### 03.01 ¶04
 <!-- Now we again -->
 
+let \(C_k\) (the \(k^{\text{th}}\)) 
+
+boundary map \(\partial_k\)  
+\(\text{dim}(C_{k-1}) \times \text{dim}(C_k)\) binary mat
+
+- boudary of \(1\)-chain: sum of vertices
+- boudary of \(2\)-chain: sum of edges
+- boudary of \(3\)-chain: shell-forming sum of \(2\)-simplices 
+
+chain group \(C_k\), boudary operator \(\partial_k\),   
+\(\partial_k: C_k \rightarrow C_{k-1}\)
+
+
+###### 03.01 ¶05
+<!-- To summarize: we -->
 
 \[  \cdots \overset{\partial_{k+3}}{\longrightarrow} C_{k+2} \overset{\partial_{k+2}}{\longrightarrow} C_{k+1} \overset{\partial_{k+1}}{\longrightarrow} C_{k} \overset{\partial_{k}}{\longrightarrow} C_{k-1} \overset{\partial_{k-1}}{\longrightarrow} C_{k-2} \overset{\partial_{k-2}}{\longrightarrow} \cdots \]
 
