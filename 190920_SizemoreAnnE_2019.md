@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-23 13:53:36
+Modified: 	2019-09-23 13:55:55
 -----
 Copyright (c) 2019 shumez
 -->
@@ -23,6 +23,7 @@ Copyright (c) 2019 shumez
 	- [Figure 1][figure1]
 - [02. When should we use topological data analysis?][02]
 - [03. Pieces and parts of the simplicical complex][03]
+	- [Box 1. From data to simplicial complex][box01]
 	- [03.01. Chain groups and boudaries][0301]
 	- [03.02. Homological algebra][0302]
 - [04. Homology from complex to complex: persistebt homology][04]
@@ -168,6 +169,9 @@ first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
 [01]: #01_intro
 [figure1]: #figure1
 [02]: #02_when_should_we_use_topological_data_analysis
+[03]: #03_pieces_and_parts_of_the_simplicical_complex
+[box01]: #box_1_from_data_to_simplicial_complex
+[0301]: #0301_chain_groups_and_boudaries
 
 <!-- ref -->
 [Original]: 
