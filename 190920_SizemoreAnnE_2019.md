@@ -3,7 +3,7 @@ Filename: 	190920_SizemoreAnnE_2019.md
 Project: 	/Users/shume/Documents/Cahier
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-09-20 15:14:4
-Modified: 	2019-09-24 16:19:30
+Modified: 	2019-09-24 16:34:8
 -----
 Copyright (c) 2019 shumez
 -->
@@ -141,8 +141,8 @@ first / zeroth **chain group**s (\(C_1\), \(C_0\)), 1- / 0-chains
 
 **boudary operator**
 
-\(\ker{(L)} = \{ v \in V | L(v) = 0 \}\)
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/KerIm_2015Joz_L2.png/346px-KerIm_2015Joz_L2.png)
+> \(\ker{(L)} = \{ v \in V | L(v) = 0 \}\)
+> ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/KerIm_2015Joz_L2.png/346px-KerIm_2015Joz_L2.png)
 
 \(\partial_1(C_1) \subseteq C_0 \)
 
@@ -179,7 +179,7 @@ chain group \(C_k\), boudary operator \(\partial_k\),
 <!-- Our goal is -->
 
 \(k\)-cycle subspace:  
-\(Z_k = \text{ker} \partial_k\) 
+\(Z_k = \ker{\partial_k}\) 
 
 \(k\)-boudary subspace: \(B_k\)  
 subspace of \(Z_k\)
